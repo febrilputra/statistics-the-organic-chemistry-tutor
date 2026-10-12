@@ -41,6 +41,10 @@ $$P(a \le X \le b) = F(b) - F(a) = (1 - e^{-\lambda b}) - (1 - e^{-\lambda a}) =
 
 Picture: the region left of $b$ minus the region left of $a$ leaves the region between $a$ and $b$.
 
+![Uniform and exponential PDFs with shaded areas next to their CDF curves](figures/pdf_vs_cdf.png)
+
+Left column: the PDF, whose shaded area is a probability. Right column: the CDF, whose height at x is the area to the left of x. The area between 4 and 7 under the exponential PDF (0.2027) equals the jump F(7) â F(4) on its CDF.
+
 ---
 
 ## Reminders for continuous distributions

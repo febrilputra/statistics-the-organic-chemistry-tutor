@@ -15,6 +15,10 @@
   (counted)      (measured)
 ```
 
+![Tree of data types: quantitative splits into discrete and continuous, plus qualitative](figures/types_of_data.png)
+
+The same tree as above, with an example in each box.
+
 ---
 
 ## Quantitative data - numbers

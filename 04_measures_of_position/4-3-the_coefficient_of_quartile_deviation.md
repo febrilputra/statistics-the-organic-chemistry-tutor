@@ -37,6 +37,10 @@ $$\text{QD} = \frac{21}{2} = 10.5$$
 **(c) Coefficient of quartile deviation**
 $$\text{CQD} = \frac{35 - 14}{35 + 14} = \frac{21}{49} \approx 0.429$$
 
+![Number line showing Q1, Q3, the IQR and the quartile deviation](figures/quartile_deviation.png)
+
+The IQR is the width of the middle half of the data (35 - 14 = 21). The quartile deviation is half of that (10.5). The coefficient of quartile deviation divides the IQR by Q3 + Q1, which removes the units.
+
 ---
 
 ## Key takeaways

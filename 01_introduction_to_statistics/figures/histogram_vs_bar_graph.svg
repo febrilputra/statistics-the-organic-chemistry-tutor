@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222222">Test scores of 15 students: histogram vs bar graph</text>
+<text x="280" y="62" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Histogram</text>
+<text x="280" y="80" text-anchor="middle" font-size="12.5" fill="#555555">numeric classes, bars touch</text>
+<text x="82" y="364" text-anchor="end" font-size="11" fill="#555555">0</text>
+<line x1="90" y1="321.428571428571" x2="470" y2="321.428571428571" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="325.428571428571" text-anchor="end" font-size="11" fill="#555555">1</text>
+<line x1="90" y1="282.857142857143" x2="470" y2="282.857142857143" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="286.857142857143" text-anchor="end" font-size="11" fill="#555555">2</text>
+<line x1="90" y1="244.285714285714" x2="470" y2="244.285714285714" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="248.285714285714" text-anchor="end" font-size="11" fill="#555555">3</text>
+<line x1="90" y1="205.714285714286" x2="470" y2="205.714285714286" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="209.714285714286" text-anchor="end" font-size="11" fill="#555555">4</text>
+<line x1="90" y1="167.142857142857" x2="470" y2="167.142857142857" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="171.142857142857" text-anchor="end" font-size="11" fill="#555555">5</text>
+<line x1="90" y1="128.571428571429" x2="470" y2="128.571428571429" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="132.571428571429" text-anchor="end" font-size="11" fill="#555555">6</text>
+<line x1="90" y1="90" x2="470" y2="90" stroke="#E3E3E3" stroke-width="1"/>
+<text x="82" y="94" text-anchor="end" font-size="11" fill="#555555">7</text>
+<line x1="90" y1="90" x2="90" y2="360" stroke="#555555" stroke-width="1.2"/>
+<line x1="90" y1="360" x2="470" y2="360" stroke="#555555" stroke-width="1.2"/>
+<text x="56" y="225" text-anchor="middle" font-size="12" fill="#555555" transform="rotate(-90 56 225)">Frequency (number of students)</text>
+<rect x="90.0" y="282.9" width="95.0" height="77.1" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="137.5" y="275.9" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">2</text>
+<rect x="185.0" y="205.7" width="95.0" height="154.3" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="232.5" y="198.7" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">4</text>
+<rect x="280.0" y="128.6" width="95.0" height="231.4" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="327.5" y="121.6" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">6</text>
+<rect x="375.0" y="244.3" width="95.0" height="115.7" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="422.5" y="237.3" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">3</text>
+<line x1="90.0" y1="360" x2="90.0" y2="365" stroke="#555555" stroke-width="1"/>
+<text x="90.0" y="379" text-anchor="middle" font-size="12" fill="#555555">60</text>
+<line x1="185.0" y1="360" x2="185.0" y2="365" stroke="#555555" stroke-width="1"/>
+<text x="185.0" y="379" text-anchor="middle" font-size="12" fill="#555555">70</text>
+<line x1="280.0" y1="360" x2="280.0" y2="365" stroke="#555555" stroke-width="1"/>
+<text x="280.0" y="379" text-anchor="middle" font-size="12" fill="#555555">80</text>
+<line x1="375.0" y1="360" x2="375.0" y2="365" stroke="#555555" stroke-width="1"/>
+<text x="375.0" y="379" text-anchor="middle" font-size="12" fill="#555555">90</text>
+<line x1="470.0" y1="360" x2="470.0" y2="365" stroke="#555555" stroke-width="1"/>
+<text x="470.0" y="379" text-anchor="middle" font-size="12" fill="#555555">100</text>
+<line x1="137.5" y1="386" x2="137.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="166.0" y1="386" x2="166.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="204.0" y1="386" x2="204.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="242.0" y1="386" x2="242.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="261.0" y1="386" x2="261.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="270.5" y1="386" x2="270.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="299.0" y1="386" x2="299.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="308.5" y1="386" x2="308.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="318.0" y1="386" x2="318.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="327.5" y1="386" x2="327.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="346.5" y1="386" x2="346.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="356.0" y1="386" x2="356.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="375.0" y1="386" x2="375.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="403.5" y1="386" x2="403.5" y2="394" stroke="#D55E00" stroke-width="2"/>
+<line x1="451.0" y1="386" x2="451.0" y2="394" stroke="#D55E00" stroke-width="2"/>
+<text x="280.0" y="414" text-anchor="middle" font-size="12" fill="#555555">Test score (orange ticks = the 15 individual scores)</text>
+<text x="770" y="62" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Bar graph</text>
+<text x="770" y="80" text-anchor="middle" font-size="12.5" fill="#555555">separate categories, gaps between bars</text>
+<text x="582" y="364" text-anchor="end" font-size="11" fill="#555555">0</text>
+<line x1="590" y1="321.428571428571" x2="950" y2="321.428571428571" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="325.428571428571" text-anchor="end" font-size="11" fill="#555555">1</text>
+<line x1="590" y1="282.857142857143" x2="950" y2="282.857142857143" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="286.857142857143" text-anchor="end" font-size="11" fill="#555555">2</text>
+<line x1="590" y1="244.285714285714" x2="950" y2="244.285714285714" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="248.285714285714" text-anchor="end" font-size="11" fill="#555555">3</text>
+<line x1="590" y1="205.714285714286" x2="950" y2="205.714285714286" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="209.714285714286" text-anchor="end" font-size="11" fill="#555555">4</text>
+<line x1="590" y1="167.142857142857" x2="950" y2="167.142857142857" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="171.142857142857" text-anchor="end" font-size="11" fill="#555555">5</text>
+<line x1="590" y1="128.571428571429" x2="950" y2="128.571428571429" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="132.571428571429" text-anchor="end" font-size="11" fill="#555555">6</text>
+<line x1="590" y1="90" x2="950" y2="90" stroke="#E3E3E3" stroke-width="1"/>
+<text x="582" y="94" text-anchor="end" font-size="11" fill="#555555">7</text>
+<line x1="590" y1="90" x2="590" y2="360" stroke="#555555" stroke-width="1.2"/>
+<line x1="590" y1="360" x2="950" y2="360" stroke="#555555" stroke-width="1.2"/>
+<text x="556" y="225" text-anchor="middle" font-size="12" fill="#555555" transform="rotate(-90 556 225)">Frequency (number of students)</text>
+<rect x="608.0" y="282.9" width="54.0" height="77.1" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="635.0" y="275.9" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">2</text>
+<text x="635.0" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">D</text>
+<text x="635.0" y="394" text-anchor="middle" font-size="11" fill="#555555">(60-69)</text>
+<rect x="698.0" y="205.7" width="54.0" height="154.3" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="725.0" y="198.7" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">4</text>
+<text x="725.0" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">C</text>
+<text x="725.0" y="394" text-anchor="middle" font-size="11" fill="#555555">(70-79)</text>
+<rect x="788.0" y="128.6" width="54.0" height="231.4" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="815.0" y="121.6" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">6</text>
+<text x="815.0" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">B</text>
+<text x="815.0" y="394" text-anchor="middle" font-size="11" fill="#555555">(80-89)</text>
+<rect x="878.0" y="244.3" width="54.0" height="115.7" fill="#4C8BC4" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="905.0" y="237.3" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">3</text>
+<text x="905.0" y="379" text-anchor="middle" font-size="13" font-weight="bold" fill="#222222">A</text>
+<text x="905.0" y="394" text-anchor="middle" font-size="11" fill="#555555">(90-100)</text>
+<text x="770.0" y="414" text-anchor="middle" font-size="12" fill="#555555">Letter grade</text>
+<text x="500" y="454" text-anchor="middle" font-size="12" fill="#555555">Scores: 65, 68 | 72, 76, 78, 79 | 82, 83, 84, 85, 87, 88 | 90, 93, 98. Classes 60-69, 70-79, 80-89, 90-100.</text>
+</svg>

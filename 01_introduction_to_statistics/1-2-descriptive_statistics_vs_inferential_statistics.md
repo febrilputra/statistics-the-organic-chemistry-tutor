@@ -57,6 +57,10 @@ City XYZ has **100,000** residents. We want to know what share of them prefer bl
    → This is a conclusion about people we did not ask: **inferential statistics**.
 4. A **confidence interval** is also inferential: "We are 95% confident that 20% ± 2% of residents prefer blue cars."
 
+![A population of dots, a sample of 100 with 20 blue, and boxes for descriptive and inferential statements](figures/descriptive_vs_inferential.png)
+
+Describing the 100 people we surveyed is descriptive statistics. Using them to say something about all 100,000 residents is inferential statistics.
+
 ### A bigger sample gives a better estimate
 
 Suppose we survey **1,000** people instead and **21%** say yes. The margin of error shrinks to about **±1%**. A larger sample gives a more precise picture of the population.

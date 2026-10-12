@@ -25,6 +25,10 @@ Data: 12, 7, 14, 5, 7, 11, 9 → sorted: 5, 7, 7, **9**, 11, 12, 14
 - Mode: **7** (the only value that appears twice)
 - Range: $14 - 5 = 9$
 
+![Dot plots of the four examples with mean, median, mode and range](figures/mean_median_mode_examples.png)
+
+All four examples on number lines. In Example 2 every value appears once, so there is no mode. In Example 4 the large values (36, 38, 48) pull the mean (22.9) well to the right of the median (18).
+
 ## Example 2 - odd $n$, no mode
 
 Data: 6, 14, 8, 5, 3, 11, 9 → sorted: 3, 5, 6, **8**, 9, 11, 14

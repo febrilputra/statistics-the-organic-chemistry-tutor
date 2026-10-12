@@ -22,6 +22,10 @@ A reference sheet of the basic formulas used at the start of a statistics course
 
 > **Quartile conventions differ.** The video's $Q_1 = 5$ and $Q_3 = 9$ come from **including** the median 7 in both halves (2 3 5 **5** 7 and 7 8 **9** 10 12). The Lesson 1.1 method **excludes** the median, giving halves 2 3 5 5 and 8 9 10 12, so $Q_1 = 4$ and $Q_3 = 9.5$. Use whichever method your course uses, and use it consistently.
 
+![Dot plot of the example data with median, mean, mode, range and both quartile conventions](figures/summary_numbers.png)
+
+The example data as a dot plot with the median (7), mode (5), mean (6.78) and range (10) marked. The two bars at the bottom show why quartiles can differ between textbooks: keeping the median in both halves gives Q1 = 5 and Q3 = 9, while leaving it out gives Q1 = 4 and Q3 = 9.5.
+
 ---
 
 ## 2. Arithmetic (sample) mean

@@ -51,6 +51,10 @@ $P(A \mid B) = 0.40$ but $P(A) = 0.30$. They are not equal, so the events are **
 **(d) Are the events mutually exclusive?**
 $P(A \text{ and } B) = 0.28 \ne 0$, so they are **not mutually exclusive**: she can take both.
 
+![Venn diagram with probabilities and an area diagram of Sarah's course choices](figures/addition_multiplication_rules.png)
+
+Left: the four regions add up to 1 (0.02 + 0.28 + 0.42 + 0.28). Right: the same probabilities as areas. Within the biology column, algebra fills 40%, which is higher than the overall 30% (red line), so the events are not independent.
+
 ---
 
 ## Key takeaways

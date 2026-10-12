@@ -58,6 +58,10 @@ $$P(A \mid C) = \frac{30}{80} = \frac38 = 0.375$$
 
 > $P(C \mid A) \ne P(A \mid C)$. The order matters, because the denominator is the "given" group.
 
+![Venn diagrams of algebra and chemistry students with the given group shaded](figures/conditional_venn.png)
+
+The given group shrinks the sample space. P(chemistry | algebra) only looks at the 150 algebra students, and P(algebra | chemistry) only at the 80 chemistry students, so the same overlap of 30 gives two different answers.
+
 ---
 
 ## Example 3 - contingency table (birds in a zoo)
@@ -87,6 +91,10 @@ $$\frac{20}{30} = \frac23 \approx 0.667$$
 $$\frac{10}{110} = \frac{1}{11} \approx 0.091 = 9.1\%$$
 
 > **Correction:** the video says 99.1% when converting this answer. $1/11 \approx 0.091$, which is **9.1%**.
+
+![Three copies of the bird table, each highlighting a different numerator and denominator](figures/contingency_conditional.png)
+
+The numerator is always one cell. What changes is the denominator: the grand total for a joint probability, or one row or column total for a conditional probability.
 
 ---
 

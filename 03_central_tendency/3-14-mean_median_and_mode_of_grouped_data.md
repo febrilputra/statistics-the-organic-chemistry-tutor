@@ -39,6 +39,10 @@ This is reasonable: the most common class is 70-79, and the estimate lands there
 
 **Median:** half of 38 is 19. The cumulative counts reach 14 by the end of 60-69 and 23 by the end of 70-79. The 70-79 class holds students 15-23, which includes 19, so the median class is **70-79**.
 
+![Histograms of the grouped examples with the estimated mean, modal class and median class marked](figures/grouped_mean_median_mode.png)
+
+The estimated mean (red triangle) is computed from class midpoints. In both examples the class with the highest bar (the modal class) also contains the middle value (the median class).
+
 ---
 
 ## Example 2 - student weights (lb)

@@ -54,6 +54,10 @@ $$t = \frac{82 - 84 - 0}{\sqrt{0.384 + 0.24083}} = \frac{-2}{0.79046} \approx -2
 
 $-2.53 < -2.0595$, which is in the rejection region. **Reject $H_0$.** At the 5% level there is a significant difference between the two teachers' class means.
 
+![Mean plus or minus SD bars for both pairs of groups, and the t and z test curves](figures/difference_of_two_means.png)
+
+Top: the two samples in each example. Bottom: the difference in means divided by its standard error. In both examples the statistic lands in the left rejection region, so the means differ significantly.
+
 ---
 
 ## Example 2 - two oil refineries (z-test)

@@ -70,6 +70,10 @@ $$\text{CV}_B = \frac{11.10}{77.8} \times 100\% \approx 14.3\%$$
 
 **Conclusion:** test B's scores vary much more relative to their mean (14.3% vs 4.7%).
 
+![Dot plots of test A and test B with mean plus-or-minus one standard deviation bands](figures/coefficient_of_variation.png)
+
+Test B's scores are far more spread out. Its band (mean +- s) is almost three times as wide, and relative to its mean its spread is 14.3% versus 4.7% for test A.
+
 ---
 
 ## Key takeaways

@@ -28,6 +28,10 @@ $$\text{score} = 87 \pm 10$$
 
 Check: $87 - 10 = 77$ and $87 + 10 = 97$, so every score lies inside this interval.
 
+![Data with the mean plus-or-minus uncertainty interval shaded](figures/mean_plus_minus_uncertainty.png)
+
+The interval mean +- (half the range) covers nearly all of the data. For the velocities, rounding the uncertainty to 5 leaves the largest value, 55, just outside the interval.
+
 ---
 
 ## Example 2 - velocity measured once per second

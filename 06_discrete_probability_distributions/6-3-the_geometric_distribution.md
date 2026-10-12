@@ -100,6 +100,10 @@ $$= 1 - P(X \le 20) - P(X > 45) = (0.98)^{20} - (0.98)^{45} \approx 0.6676 - 0.4
 
 > **Shortcut:** $P(a \le X \le b) = q^{a-1} - q^{b}$. Check: (d) is $q^{14} - q^{30}$ ✓ and (e) is $q^{20} - q^{45}$ ✓. Make sure no trial is counted twice or left out.
 
+![Geometric probability bars for the die and tire examples](figures/geometric_distributions.png)
+
+Left: the first six on roll 4 needs three failures (grey) and then a success. Right: for the tires, the range 15 to 30 (orange) is whatever is left after removing X â¤ 14 and X > 30, which is q^14 â q^30.
+
 ---
 
 ## Key takeaways

@@ -10,6 +10,10 @@
 
 Weighing all 100,000 residents is impractical, so we weigh a sample of 100 and use its average to **estimate** the average weight of the whole city.
 
+![A large population of dots with a small sample highlighted](figures/population_and_sample.png)
+
+The population is everyone (grey dots); the sample is the small group actually measured (orange). The sample mean x-bar is used to estimate the population mean mu.
+
 ---
 
 ## Formulas

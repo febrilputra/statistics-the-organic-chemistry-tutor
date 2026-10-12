@@ -39,6 +39,10 @@ Sorted: 3, 5, **6**, 8, 10, **11**, 12, 14, **15**, 18, 26 ($n = 11$)
 
 26 looks large, but it is inside $[-7.5, 28.5]$, so it is **not an outlier**. A value of 29 would have been one.
 
+![Box plots of both examples with the 1.5 IQR fences](figures/iqr_and_outliers.png)
+
+The box spans the IQR (the middle 50% of the data) and the dashed fences sit 1.5 IQR beyond each end of it. In Example 1 every value, including 26, is inside the fences. In Example 2, 54 is past the upper fence of 52.5, so it is drawn as a separate outlier point.
+
 ---
 
 ## Example 2 - even $n$, one outlier

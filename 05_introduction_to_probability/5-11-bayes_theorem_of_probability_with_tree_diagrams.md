@@ -83,6 +83,10 @@ $$P(C \mid +) = \frac{1140}{1140 + 528} = \frac{1140}{1668} \approx 0.683 \;✓$
 
 The choice of 10,000 doesn't matter, because only the ratio counts.
 
+![Bayes tree for the screening test and bars of 10,000 men and of the positive tests](figures/bayes_tree_and_counts.png)
+
+Out of 10,000 men, 1,668 test positive, but only 1,140 of them have cancer. Restricting to the positive tests gives P(C | +) = 1,140 / 1,668 â 0.683.
+
 ---
 
 ## Key takeaways

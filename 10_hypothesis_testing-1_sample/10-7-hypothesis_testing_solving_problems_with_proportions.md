@@ -31,6 +31,10 @@ $$z = \frac{0.65 - 0.70}{\sqrt{\dfrac{0.70 \times 0.30}{200}}} = \frac{-0.05}{\s
 
 $-1.96 < -1.54 < 1.96$, which is in the fail-to-reject region. **Fail to reject $H_0$.** At the 5% level there is not enough evidence that the proportion differs from 70%.
 
+![Two proportion tests: z = â1.54 inside the middle region and z = 2.58 in the right tail](figures/proportion_tests.png)
+
+Example 1 stays in the fail-to-reject region. Example 2 is right-tailed, so all 10% of Î± sits in one tail and the critical value is 1.28. The dashed 1.645 is the value you would get by wrongly splitting Î± between two tails.
+
 ---
 
 ## Example 2 - right-tailed (vehicle ownership)

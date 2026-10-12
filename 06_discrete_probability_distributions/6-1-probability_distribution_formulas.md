@@ -5,6 +5,10 @@
 
 A reference sheet for the distributions in Chapters 6 and 7. Throughout, $p$ = probability of success and $q = 1 - p$ = probability of failure.
 
+![Example graphs of the binomial, geometric, Poisson, uniform and exponential distributions](figures/distribution_shapes.png)
+
+What each distribution looks like. The three discrete ones (top) give probability as the height of a bar at a whole number. The two continuous ones (bottom) give probability as the area under the curve, and the total area is always 1. The dashed lines mark each mean.
+
 ---
 
 ## 1. Binomial distribution

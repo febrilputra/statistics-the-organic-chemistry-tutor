@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">The four means of 10 and 20, and why average speed is a harmonic mean</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Left: H &lt;= G &lt;= A &lt;= R.  Right: time spent at each speed decides the average (400 mi each way).</text>
+<text x="260.0" y="118.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">a = 10, b = 20</text>
+<circle cx="93.3" cy="220.0" r="6.0" stroke="none" fill="#222222"/>
+<circle cx="426.7" cy="220.0" r="6.0" stroke="none" fill="#222222"/>
+<line x1="204.4" y1="220.0" x2="204.4" y2="142.0" stroke="#7B4FA0" stroke-width="2.5" fill="none"/>
+<circle cx="204.4" cy="142.0" r="5.0" stroke="none" fill="#7B4FA0"/>
+<text x="212.4" y="146.0" font-size="12" fill="#7B4FA0" text-anchor="start" font-weight="bold">H 13.33 (harmonic)</text>
+<line x1="231.4" y1="220.0" x2="231.4" y2="163.0" stroke="#009E73" stroke-width="2.5" fill="none"/>
+<circle cx="231.4" cy="163.0" r="5.0" stroke="none" fill="#009E73"/>
+<text x="239.4" y="167.0" font-size="12" fill="#009E73" text-anchor="start" font-weight="bold">G 14.14 (geometric)</text>
+<line x1="260.0" y1="220.0" x2="260.0" y2="184.0" stroke="#0072B2" stroke-width="2.5" fill="none"/>
+<circle cx="260.0" cy="184.0" r="5.0" stroke="none" fill="#0072B2"/>
+<text x="268.0" y="188.0" font-size="12" fill="#0072B2" text-anchor="start" font-weight="bold">A 15.00 (arithmetic)</text>
+<line x1="287.0" y1="220.0" x2="287.0" y2="205.0" stroke="#D55E00" stroke-width="2.5" fill="none"/>
+<circle cx="287.0" cy="205.0" r="5.0" stroke="none" fill="#D55E00"/>
+<text x="295.0" y="209.0" font-size="12" fill="#D55E00" text-anchor="start" font-weight="bold">R 15.81 (root mean square)</text>
+<line x1="60.0" y1="220.0" x2="460.0" y2="220.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="93.3" y1="220.0" x2="93.3" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="93.3" y="239.0" font-size="12" fill="#555555" text-anchor="middle">10</text>
+<line x1="160.0" y1="220.0" x2="160.0" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="160.0" y="239.0" font-size="12" fill="#555555" text-anchor="middle">12</text>
+<line x1="226.7" y1="220.0" x2="226.7" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="226.7" y="239.0" font-size="12" fill="#555555" text-anchor="middle">14</text>
+<line x1="293.3" y1="220.0" x2="293.3" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="293.3" y="239.0" font-size="12" fill="#555555" text-anchor="middle">16</text>
+<line x1="360.0" y1="220.0" x2="360.0" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="360.0" y="239.0" font-size="12" fill="#555555" text-anchor="middle">18</text>
+<line x1="426.7" y1="220.0" x2="426.7" y2="225.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="426.7" y="239.0" font-size="12" fill="#555555" text-anchor="middle">20</text>
+<text x="260.0" y="290.0" font-size="13" fill="#555555" text-anchor="middle">G = sqrt(A x H) = sqrt(15 x 13.33) = 14.14</text>
+<text x="770.0" y="118.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Speed over the 13-hour trip</text>
+<rect x="590.0" y="176.0" width="138.5" height="184.0" stroke="#1F4E79" stroke-width="1.3" fill="#56B4E9"/>
+<rect x="728.5" y="245.0" width="221.5" height="115.0" stroke="#1F4E79" stroke-width="1.3" fill="#56B4E9"/>
+<text x="659.2" y="196.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">80 mph for 5 h</text>
+<text x="839.2" y="265.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">50 mph for 8 h</text>
+<line x1="590.0" y1="218.5" x2="950.0" y2="218.5" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<line x1="590.0" y1="210.5" x2="950.0" y2="210.5" stroke="#888888" stroke-width="2" stroke-dasharray="6,4" fill="none"/>
+<text x="944.0" y="236.5" font-size="12" fill="#C0392B" text-anchor="end" font-weight="bold">true average 61.5</text>
+<text x="944.0" y="204.5" font-size="12" fill="#888888" text-anchor="end">arithmetic mean 65 (wrong)</text>
+<line x1="590.0" y1="360.0" x2="950.0" y2="360.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="590.0" y1="130.0" x2="590.0" y2="360.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="590.0" y1="360.0" x2="590.0" y2="365.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="590.0" y="379.0" font-size="12" fill="#555555" text-anchor="middle">0</text>
+<line x1="728.5" y1="360.0" x2="728.5" y2="365.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="728.5" y="379.0" font-size="12" fill="#555555" text-anchor="middle">5</text>
+<line x1="950.0" y1="360.0" x2="950.0" y2="365.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="950.0" y="379.0" font-size="12" fill="#555555" text-anchor="middle">13</text>
+<line x1="585.0" y1="360.0" x2="590.0" y2="360.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="364.0" font-size="12" fill="#555555" text-anchor="end">0</text>
+<line x1="585.0" y1="314.0" x2="590.0" y2="314.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="318.0" font-size="12" fill="#555555" text-anchor="end">20</text>
+<line x1="585.0" y1="268.0" x2="590.0" y2="268.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="272.0" font-size="12" fill="#555555" text-anchor="end">40</text>
+<line x1="585.0" y1="245.0" x2="590.0" y2="245.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="249.0" font-size="12" fill="#555555" text-anchor="end">50</text>
+<line x1="585.0" y1="222.0" x2="590.0" y2="222.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="226.0" font-size="12" fill="#555555" text-anchor="end">60</text>
+<line x1="585.0" y1="176.0" x2="590.0" y2="176.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="180.0" font-size="12" fill="#555555" text-anchor="end">80</text>
+<line x1="585.0" y1="130.0" x2="590.0" y2="130.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="582.0" y="134.0" font-size="12" fill="#555555" text-anchor="end">100</text>
+<text x="770.0" y="402.0" font-size="13" fill="#555555" text-anchor="middle">Hours</text>
+<text x="550.0" y="245.0" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 550.0 245.0)">Speed (mph)</text>
+</svg>

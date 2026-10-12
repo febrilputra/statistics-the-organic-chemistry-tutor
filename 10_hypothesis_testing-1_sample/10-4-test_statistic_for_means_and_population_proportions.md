@@ -11,6 +11,10 @@
 
 *Example:* $H_0: \mu = 50$ vs $H_a: \mu \ne 50$ at 95% has critical values $\pm 1.96$. A calculated $z_c$ beyond 1.96 (or below −1.96) means reject.
 
+![Two normal curves with critical values Â±1.96, one test statistic in the middle and one in the right tail](figures/decision_rule.png)
+
+Compute the test statistic, then see which region it lands in. Between â1.96 and 1.96, fail to reject H0. Beyond either critical value, reject H0.
+
 ---
 
 ## Test statistic for a mean

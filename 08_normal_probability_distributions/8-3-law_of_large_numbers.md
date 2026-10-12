@@ -22,6 +22,10 @@ The theoretical probability of heads is $P(H) = \tfrac12 = 0.5$. A few trials ca
 
 As the number of flips grows, the observed proportion **approaches 0.5**.
 
+![Running proportion of heads over 1,000 flips, and sample mean weights by sample size](figures/law_of_large_numbers.png)
+
+Left: three simulated runs of 1,000 coin flips. Each wanders early on, then all three close in on 0.5. Right: the sample mean weights from the lesson, which jump around for small samples and settle near 161-162 lb.
+
 ---
 
 ## Example 2 - estimating an average weight

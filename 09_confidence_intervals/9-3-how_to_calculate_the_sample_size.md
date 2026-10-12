@@ -46,6 +46,10 @@ $$n = \frac{(1.96)^2(0.5)(0.5)}{(0.05)^2} = \frac{0.9604}{0.0025} = 384.16 \;\Ri
 
 Round **up**: 384 students would not quite reach the 5% margin.
 
+![Curve of required sample size against margin of error, and the parabola p-hat times one minus p-hat](figures/sample_size.png)
+
+Left: the required n grows fast as the margin of error shrinks, and Example 1's E = 5.367 corresponds to n = 30. Right: pÌ(1 â pÌ) is largest at pÌ = 0.5, so using 0.5 when nothing is known gives the safest (largest) sample size.
+
 ---
 
 ## Key takeaways

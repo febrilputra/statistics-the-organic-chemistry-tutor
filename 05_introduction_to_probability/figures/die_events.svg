@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">One die: which outcomes are favorable?</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Orange faces are the favorable outcomes. P(event) = favorable ÷ 6.</text>
+<text x="60.0" y="118.0" font-size="15" fill="#222222" text-anchor="start">(a) a 2</text>
+<rect x="360.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="381.0" y="120.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">1</text>
+<rect x="414.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="435.0" y="120.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="468.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="489.0" y="120.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">3</text>
+<rect x="522.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="543.0" y="120.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">4</text>
+<rect x="576.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="597.0" y="120.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">5</text>
+<rect x="630.0" y="92.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="651.0" y="120.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">6</text>
+<text x="720.0" y="119.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">1/6 ≈ 16.7%</text>
+<text x="60.0" y="174.0" font-size="15" fill="#222222" text-anchor="start">(b) a 3 or a 5</text>
+<rect x="360.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="381.0" y="176.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">1</text>
+<rect x="414.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="435.0" y="176.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">2</text>
+<rect x="468.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="489.0" y="176.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="522.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="543.0" y="176.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">4</text>
+<rect x="576.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="597.0" y="176.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="630.0" y="148.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="651.0" y="176.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">6</text>
+<text x="720.0" y="175.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">2/6 ≈ 33.3%</text>
+<text x="60.0" y="230.0" font-size="15" fill="#222222" text-anchor="start">(c) at most 4  (x ≤ 4)</text>
+<rect x="360.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="381.0" y="232.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<rect x="414.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="435.0" y="232.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="468.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="489.0" y="232.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="522.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="543.0" y="232.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="576.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="597.0" y="232.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">5</text>
+<rect x="630.0" y="204.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="651.0" y="232.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">6</text>
+<text x="720.0" y="231.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">4/6 ≈ 66.7%</text>
+<text x="60.0" y="286.0" font-size="15" fill="#222222" text-anchor="start">(d) greater than 3  (x &gt; 3)</text>
+<rect x="360.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="381.0" y="288.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">1</text>
+<rect x="414.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="435.0" y="288.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">2</text>
+<rect x="468.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="489.0" y="288.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">3</text>
+<rect x="522.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="543.0" y="288.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="576.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="597.0" y="288.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="630.0" y="260.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="651.0" y="288.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<text x="720.0" y="287.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">3/6 = 50%</text>
+<text x="60.0" y="342.0" font-size="15" fill="#222222" text-anchor="start">(e) at most 5  (x ≤ 5)</text>
+<rect x="360.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="381.0" y="344.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<rect x="414.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="435.0" y="344.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="468.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="489.0" y="344.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="522.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="543.0" y="344.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="576.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#D55E00" stroke-width="2.2" fill="#F4B183"/>
+<text x="597.0" y="344.0" font-size="18" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="630.0" y="316.0" width="42.0" height="42.0" rx="7" stroke="#AAAAAA" stroke-width="1.2" fill="#ffffff"/>
+<text x="651.0" y="344.0" font-size="18" fill="#888888" text-anchor="middle" font-weight="bold">6</text>
+<text x="720.0" y="343.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">5/6 ≈ 83.3%</text>
+</svg>

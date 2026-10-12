@@ -61,6 +61,10 @@ Plot the means of many samples to get the **sampling distribution of the mean**,
 
 A smaller SE means the sample means cluster more tightly around $\mu$, so any one sample mean is a **more accurate** estimate.
 
+![Five ages with s and SE bars, and sampling distributions for n = 25 and n = 100](figures/standard_error.png)
+
+Left: the SD describes how spread out the five ages are, while the SE describes how much the mean of five ages would vary. Right: going from n = 25 to n = 100 halves the SE, so the curve of sample means gets twice as narrow.
+
 ---
 
 ## Key takeaways

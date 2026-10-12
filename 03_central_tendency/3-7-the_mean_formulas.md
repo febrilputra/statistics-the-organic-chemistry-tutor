@@ -98,6 +98,10 @@ The arithmetic mean (65 mph) is **wrong** here. The car spends **more time** at 
 
 > When **equal distances** are covered at different speeds, the average speed is the **harmonic mean** of the speeds.
 
+![The four means of 10 and 20 on a number line, and the speed-time chart for the car trip](figures/four_means_and_average_speed.png)
+
+Left: for 10 and 20 the four means always come in the order H, G, A, R. Right: on the round trip the car spends 8 hours at 50 mph but only 5 hours at 80 mph, so the true average speed (61.5 mph, a harmonic mean) is below the plain average of 65.
+
 ---
 
 ## 5. Root mean square (RMS)

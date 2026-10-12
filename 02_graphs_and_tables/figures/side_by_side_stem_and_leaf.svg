@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="420" viewBox="0 0 940 420" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="470.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Side-by-side stem-and-leaf plots compare two groups</text>
+<text x="470.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Counts per stem drawn as back-to-back bars (same idea as the leaves on each side of the stem).</text>
+<text x="240.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Ages (example 1)</text>
+<text x="140.0" y="358.0" font-size="13" fill="#D55E00" text-anchor="middle" font-weight="bold">Females &lt;-</text>
+<text x="340.0" y="358.0" font-size="13" fill="#0072B2" text-anchor="middle" font-weight="bold">-&gt; Males</text>
+<rect x="188.0" y="124.0" width="30.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="124.0" width="30.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="143.3" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<text x="182.0" y="143.3" font-size="12" fill="#222222" text-anchor="end">1</text>
+<text x="298.0" y="143.3" font-size="12" fill="#222222" text-anchor="start">1</text>
+<rect x="128.0" y="160.7" width="90.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="160.7" width="90.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="180.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<text x="122.0" y="180.0" font-size="12" fill="#222222" text-anchor="end">3</text>
+<text x="358.0" y="180.0" font-size="12" fill="#222222" text-anchor="start">3</text>
+<rect x="158.0" y="197.3" width="60.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="197.3" width="90.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="216.7" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<text x="152.0" y="216.7" font-size="12" fill="#222222" text-anchor="end">2</text>
+<text x="358.0" y="216.7" font-size="12" fill="#222222" text-anchor="start">3</text>
+<rect x="158.0" y="234.0" width="60.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="234.0" width="30.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="253.3" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<text x="152.0" y="253.3" font-size="12" fill="#222222" text-anchor="end">2</text>
+<text x="298.0" y="253.3" font-size="12" fill="#222222" text-anchor="start">1</text>
+<rect x="188.0" y="270.7" width="30.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="270.7" width="30.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="290.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<text x="182.0" y="290.0" font-size="12" fill="#222222" text-anchor="end">1</text>
+<text x="298.0" y="290.0" font-size="12" fill="#222222" text-anchor="start">1</text>
+<rect x="188.0" y="307.3" width="30.0" height="28.7" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="262.0" y="307.3" width="30.0" height="28.7" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="240.0" y="326.7" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<text x="182.0" y="326.7" font-size="12" fill="#222222" text-anchor="end">1</text>
+<text x="298.0" y="326.7" font-size="12" fill="#222222" text-anchor="start">1</text>
+<text x="700.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Heights in inches (example 2)</text>
+<text x="600.0" y="358.0" font-size="13" fill="#D55E00" text-anchor="middle" font-weight="bold">Girls &lt;-</text>
+<text x="800.0" y="358.0" font-size="13" fill="#0072B2" text-anchor="middle" font-weight="bold">-&gt; Boys</text>
+<rect x="648.0" y="124.0" width="30.0" height="47.0" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="722.0" y="124.0" width="30.0" height="47.0" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="700.0" y="152.5" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<text x="642.0" y="152.5" font-size="12" fill="#222222" text-anchor="end">1</text>
+<text x="758.0" y="152.5" font-size="12" fill="#222222" text-anchor="start">1</text>
+<rect x="588.0" y="179.0" width="90.0" height="47.0" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="722.0" y="179.0" width="60.0" height="47.0" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="700.0" y="207.5" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<text x="582.0" y="207.5" font-size="12" fill="#222222" text-anchor="end">3</text>
+<text x="788.0" y="207.5" font-size="12" fill="#222222" text-anchor="start">2</text>
+<rect x="528.0" y="234.0" width="150.0" height="47.0" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="722.0" y="234.0" width="120.0" height="47.0" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="700.0" y="262.5" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<text x="522.0" y="262.5" font-size="12" fill="#222222" text-anchor="end">5</text>
+<text x="848.0" y="262.5" font-size="12" fill="#222222" text-anchor="start">4</text>
+<rect x="648.0" y="289.0" width="30.0" height="47.0" stroke="none" fill="#D55E00" fill-opacity="0.75"/>
+<rect x="722.0" y="289.0" width="90.0" height="47.0" stroke="none" fill="#0072B2" fill-opacity="0.75"/>
+<text x="700.0" y="317.5" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<text x="642.0" y="317.5" font-size="12" fill="#222222" text-anchor="end">1</text>
+<text x="818.0" y="317.5" font-size="12" fill="#222222" text-anchor="start">3</text>
+</svg>

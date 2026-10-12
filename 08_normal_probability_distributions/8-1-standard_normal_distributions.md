@@ -77,6 +77,10 @@ Mark the axis: 50, 58, 66, **74**, 82, 90, 98 (from $-3\sigma$ to $+3\sigma$).
 | (d) % at least 66 | 34 + 34 + 13.5 + 2.35 + 0.15 | **84%** |
 | (e) **How many** scored more than 98? | 0.15% | $0.0015 \times 2000 = $ **3 students** |
 
+![Bell curve of test scores with the eight empirical-rule regions and the 68, 95 and 99.7 percent brackets](figures/empirical_rule.png)
+
+The empirical rule on the test-score example (Î¼ = 74, Ï = 8). Each question in Example 2 adds up the regions it covers.
+
 ---
 
 ## Using z-tables
@@ -125,6 +129,10 @@ The middle 30% leaves 15% on each side of the mean, so it runs from the **35th**
 $$x_2 = 100 + 0.385(15) \approx 105.8, \qquad x_1 = 100 - 0.385(15) \approx 94.2$$
 
 The middle 30% of IQs lie between about **94.2 and 105.8**.
+
+![Six normal curves shading the IQ questions and the tire approximation](figures/normal_probability_examples.png)
+
+Each IQ question as a shaded area. A left area comes straight from the z-table, a right area is 1 minus it, and a middle area is the difference of two left areas. For percentiles, start from the area and work back to x. In (f) the normal curve closely follows the exact binomial bars.
 
 ---
 

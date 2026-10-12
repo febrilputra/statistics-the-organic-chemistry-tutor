@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Types of data</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Numbers you count are discrete, numbers you measure are continuous, and descriptions in words are qualitative.</text>
+<polyline points="500.0,140.0 500.0,160.0 300.0,160.0 300.0,180.0" stroke="#555555" stroke-width="2" fill="none"/>
+<polyline points="500.0,140.0 500.0,160.0 730.0,160.0 730.0,180.0" stroke="#555555" stroke-width="2" fill="none"/>
+<polyline points="300.0,236.0 300.0,268.0 165.0,268.0 165.0,300.0" stroke="#555555" stroke-width="2" fill="none"/>
+<polyline points="300.0,236.0 300.0,268.0 445.0,268.0 445.0,300.0" stroke="#555555" stroke-width="2" fill="none"/>
+<polyline points="730.0,236.0 730.0,268.0 730.0,268.0 730.0,300.0" stroke="#555555" stroke-width="2" fill="none"/>
+<rect x="420.0" y="90.0" width="160.0" height="50.0" rx="10" stroke="#222222" stroke-width="2" fill="#F2F2F2"/>
+<text x="500.0" y="121.0" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">Data</text>
+<rect x="170.0" y="180.0" width="260.0" height="56.0" rx="10" stroke="#0072B2" stroke-width="2" fill="#E8F1F9"/>
+<text x="300.0" y="202.0" font-size="15" fill="#0072B2" text-anchor="middle" font-weight="bold">Quantitative</text>
+<text x="300.0" y="226.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">numbers</text>
+<rect x="600.0" y="180.0" width="260.0" height="56.0" rx="10" stroke="#7B4FA0" stroke-width="2" fill="#F3ECF8"/>
+<text x="730.0" y="202.0" font-size="15" fill="#7B4FA0" text-anchor="middle" font-weight="bold">Qualitative</text>
+<text x="730.0" y="226.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">words, descriptions</text>
+<rect x="40.0" y="300.0" width="250.0" height="130.0" rx="10" stroke="#0072B2" stroke-width="2" fill="#FFFFFF"/>
+<text x="165.0" y="326.0" font-size="15" fill="#0072B2" text-anchor="middle" font-weight="bold">Discrete: counted</text>
+<text x="165.0" y="350.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">whole numbers only</text>
+<text x="165.0" y="370.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">7 dogs, 8 cats</text>
+<text x="165.0" y="390.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">(7.5 dogs is impossible)</text>
+<rect x="320.0" y="300.0" width="250.0" height="130.0" rx="10" stroke="#0072B2" stroke-width="2" fill="#FFFFFF"/>
+<text x="445.0" y="326.0" font-size="15" fill="#0072B2" text-anchor="middle" font-weight="bold">Continuous: measured</text>
+<text x="445.0" y="350.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">any value in a range</text>
+<text x="445.0" y="370.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">height 5.983 ft, 5.56 m</text>
+<text x="445.0" y="390.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">speed, weight, time, temp.</text>
+<rect x="600.0" y="300.0" width="260.0" height="130.0" rx="10" stroke="#7B4FA0" stroke-width="2" fill="#FFFFFF"/>
+<text x="730.0" y="326.0" font-size="15" fill="#7B4FA0" text-anchor="middle" font-weight="bold">Observed with the senses</text>
+<text x="730.0" y="350.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">black fur (sight)</text>
+<text x="730.0" y="370.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">rough texture (touch)</text>
+<text x="730.0" y="390.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal">tastes good, sounds loud</text>
+</svg>

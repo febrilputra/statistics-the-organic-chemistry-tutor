@@ -62,6 +62,10 @@ The data contains these values and counts:
   - Check by writing it out: 3 3 4 4 4 5 5 5 **5** 5 5 7 8 8 8 8 8
 - **Mean:** $\bar x = \dfrac{95}{17} \approx 5.59$
 
+![Bar charts of the two frequency tables with the mode, median and mean marked](figures/frequency_bar_charts.png)
+
+Each frequency table drawn as a bar chart. The tallest bar (orange) is the mode, the solid blue line is the median and the dashed red line is the mean. In Example 1 the mode and the median are both 5. In Example 2 the mode is 9 while the median is 6, which shows that the three measures of center can disagree.
+
 ---
 
 ## Example 2 (practice)

@@ -35,6 +35,10 @@ $$E(X) = 500(0.20) + (-100)(0.80) = 100 - 80 = \$20 \text{ per game}$$
 
 (The probability of losing comes from the complement: $1 - 0.20 = 0.80$.)
 
+![Rectangles of width probability and height value for both expected value examples](figures/expected_value_area.png)
+
+Each outcome becomes a rectangle with area x times p. Positive areas (green) minus negative areas (red) give E(X). The dashed line at E(X) is the average height over the whole width.
+
 ---
 
 ## Example 2 - profit per laptop

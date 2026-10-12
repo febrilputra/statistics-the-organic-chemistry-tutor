@@ -41,13 +41,9 @@ For example, the 20k-40k class contains 32k, 25k, 39k, 26k and 25k, so its frequ
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Frequency | 0 | 5 | 4 | 4 | 5 | 2 | 0 |
 
-```mermaid
-xychart-beta
-    title "Income frequency polygon"
-    x-axis "Income (thousands of dollars)" ["10", "30", "50", "70", "90", "110", "130"]
-    y-axis "Frequency" 0 --> 6
-    line [0, 5, 4, 4, 5, 2, 0]
-```
+![Frequency polygon of the incomes drawn over the matching histogram](figures/frequency_polygon.png)
+
+Each point sits at a class **midpoint**, at the height of that class's bar. The two hollow points at 10k and 130k have frequency 0 and bring the polygon down to the axis at both ends.
 
 ---
 

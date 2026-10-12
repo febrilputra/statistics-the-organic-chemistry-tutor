@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Reading deciles from the cumulative relative frequency</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Top: the step graph of the CRF. Bottom: the 20 sorted values in pairs; each gap between pairs is a decile.</text>
+<line x1="90.0" y1="335.0" x2="930.0" y2="335.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="90.0" y1="266.4" x2="930.0" y2="266.4" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="90.0" y1="243.6" x2="930.0" y2="243.6" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="90.0" y1="197.9" x2="930.0" y2="197.9" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="90.0" y1="175.0" x2="930.0" y2="175.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="90.0" y1="106.4" x2="930.0" y2="106.4" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<polyline points="90.0,335.0 160.0,335.0 160.0,312.1 230.0,312.1 230.0,266.4 300.0,266.4 300.0,232.1 440.0,232.1 440.0,209.3 510.0,209.3 510.0,197.9 650.0,197.9 650.0,140.7 720.0,140.7 720.0,117.9 860.0,117.9 860.0,106.4 930.0,106.4" stroke="#0072B2" stroke-width="3" fill="none"/>
+<line x1="90.0" y1="243.6" x2="300.0" y2="243.6" stroke="#D55E00" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<line x1="300.0" y1="243.6" x2="300.0" y2="335.0" stroke="#D55E00" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<circle cx="300.0" cy="243.6" r="5.0" stroke="none" fill="#D55E00"/>
+<text x="306.0" y="323.6" font-size="12" fill="#D55E00" text-anchor="start" font-weight="bold">D4 = 4</text>
+<line x1="90.0" y1="175.0" x2="650.0" y2="175.0" stroke="#D55E00" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<line x1="650.0" y1="175.0" x2="650.0" y2="335.0" stroke="#D55E00" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<circle cx="650.0" cy="175.0" r="5.0" stroke="none" fill="#D55E00"/>
+<text x="656.0" y="323.6" font-size="12" fill="#D55E00" text-anchor="start" font-weight="bold">D7 = 9</text>
+<line x1="90.0" y1="266.4" x2="265.0" y2="266.4" stroke="#7B4FA0" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<line x1="265.0" y1="266.4" x2="265.0" y2="335.0" stroke="#7B4FA0" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<circle cx="265.0" cy="266.4" r="5.0" stroke="none" fill="#7B4FA0"/>
+<text x="259.0" y="323.6" font-size="12" fill="#7B4FA0" text-anchor="end" font-weight="bold">D3 = 3.5</text>
+<line x1="90.0" y1="197.9" x2="580.0" y2="197.9" stroke="#7B4FA0" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<line x1="580.0" y1="197.9" x2="580.0" y2="335.0" stroke="#7B4FA0" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<circle cx="580.0" cy="197.9" r="5.0" stroke="none" fill="#7B4FA0"/>
+<text x="586.0" y="323.6" font-size="12" fill="#7B4FA0" text-anchor="start" font-weight="bold">D6 = 8</text>
+<line x1="90.0" y1="335.0" x2="930.0" y2="335.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="90.0" y1="95.0" x2="90.0" y2="335.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="160.0" y1="335.0" x2="160.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="160.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">2</text>
+<line x1="230.0" y1="335.0" x2="230.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="230.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">3</text>
+<line x1="300.0" y1="335.0" x2="300.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="300.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">4</text>
+<line x1="370.0" y1="335.0" x2="370.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="370.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">5</text>
+<line x1="440.0" y1="335.0" x2="440.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="440.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">6</text>
+<line x1="510.0" y1="335.0" x2="510.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="510.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">7</text>
+<line x1="580.0" y1="335.0" x2="580.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="580.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">8</text>
+<line x1="650.0" y1="335.0" x2="650.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="650.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">9</text>
+<line x1="720.0" y1="335.0" x2="720.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="720.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">10</text>
+<line x1="790.0" y1="335.0" x2="790.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="790.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">11</text>
+<line x1="860.0" y1="335.0" x2="860.0" y2="340.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="860.0" y="354.0" font-size="11" fill="#555555" text-anchor="middle">12</text>
+<line x1="85.0" y1="335.0" x2="90.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="339.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="85.0" y1="266.4" x2="90.0" y2="266.4" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="270.4" font-size="11" fill="#555555" text-anchor="end">0.30 (D3)</text>
+<line x1="85.0" y1="243.6" x2="90.0" y2="243.6" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="247.6" font-size="11" fill="#555555" text-anchor="end">0.40 (D4)</text>
+<line x1="85.0" y1="197.9" x2="90.0" y2="197.9" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="201.9" font-size="11" fill="#555555" text-anchor="end">0.60 (D6)</text>
+<line x1="85.0" y1="175.0" x2="90.0" y2="175.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="179.0" font-size="11" fill="#555555" text-anchor="end">0.70 (D7)</text>
+<line x1="85.0" y1="106.4" x2="90.0" y2="106.4" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="82.0" y="110.4" font-size="11" fill="#555555" text-anchor="end">1.00</text>
+<text x="510.0" y="377.0" font-size="13" fill="#555555" text-anchor="middle">Value</text>
+<rect x="110.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="128.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="150.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="168.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<line x1="189.0" y1="440.0" x2="189.0" y2="494.0" stroke="#888888" stroke-width="1.2" fill="none"/>
+<text x="189.0" y="512.0" font-size="12" fill="#555555" text-anchor="middle" font-weight="normal">D1</text>
+<rect x="193.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="211.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="233.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="251.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<line x1="272.0" y1="440.0" x2="272.0" y2="494.0" stroke="#888888" stroke-width="1.2" fill="none"/>
+<text x="272.0" y="512.0" font-size="12" fill="#555555" text-anchor="middle" font-weight="normal">D2</text>
+<rect x="276.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="294.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="316.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="334.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<line x1="355.0" y1="440.0" x2="355.0" y2="494.0" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="355.0" y="512.0" font-size="12" fill="#C0392B" text-anchor="middle" font-weight="bold">D3</text>
+<rect x="359.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="377.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="399.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="417.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<line x1="438.0" y1="440.0" x2="438.0" y2="494.0" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="438.0" y="512.0" font-size="12" fill="#C0392B" text-anchor="middle" font-weight="bold">D4</text>
+<rect x="442.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="460.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="482.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="500.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<line x1="521.0" y1="440.0" x2="521.0" y2="494.0" stroke="#888888" stroke-width="1.2" fill="none"/>
+<text x="521.0" y="512.0" font-size="12" fill="#555555" text-anchor="middle" font-weight="normal">D5</text>
+<rect x="525.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="543.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="565.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="583.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<line x1="604.0" y1="440.0" x2="604.0" y2="494.0" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="604.0" y="512.0" font-size="12" fill="#C0392B" text-anchor="middle" font-weight="bold">D6</text>
+<rect x="608.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="626.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="648.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="666.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<line x1="687.0" y1="440.0" x2="687.0" y2="494.0" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="687.0" y="512.0" font-size="12" fill="#C0392B" text-anchor="middle" font-weight="bold">D7</text>
+<rect x="691.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="709.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="731.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="749.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<line x1="770.0" y1="440.0" x2="770.0" y2="494.0" stroke="#888888" stroke-width="1.2" fill="none"/>
+<text x="770.0" y="512.0" font-size="12" fill="#555555" text-anchor="middle" font-weight="normal">D8</text>
+<rect x="774.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="792.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="814.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="832.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<line x1="853.0" y1="440.0" x2="853.0" y2="494.0" stroke="#888888" stroke-width="1.2" fill="none"/>
+<text x="853.0" y="512.0" font-size="12" fill="#555555" text-anchor="middle" font-weight="normal">D9</text>
+<rect x="857.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="875.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="897.0" y="450.0" width="36.0" height="34.0" rx="3" stroke="#1F4E79" stroke-width="1" fill="#DCE8F4"/>
+<text x="915.0" y="473.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">12</text>
+<text x="500.0" y="425.0" font-size="12" fill="#555555" text-anchor="middle">D3 falls between a 3 and a 4 (3.5); D4 between two 4s (4); D6 between a 7 and a 9 (8); D7 between two 9s (9).</text>
+</svg>

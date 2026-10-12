@@ -63,6 +63,10 @@ Check by listing: $B \cup C = \{1, 6, 7, 8, 9\}$ has 5 elements → $\tfrac59$ �
        A           B                      B only  B∩C  C only
 ```
 
+![Venn diagrams of A and B (separate) and B and C (overlapping) with the unions shaded](figures/venn_union.png)
+
+In the left diagram the circles don't touch, so P(A or B) is just 4/9 + 3/9. In the right diagram 7 and 8 sit in both circles. Adding 3/9 and 4/9 would count them twice, so P(B and C) = 2/9 is subtracted once.
+
 > **Word cue:** "**or**" → **addition** rule. "**and**" → **multiplication** rule.
 
 ---

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Discrete vs continuous data</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Counted values sit at separate points with gaps between them. Measured values can be anything along a connected line.</text>
+<line x1="80.0" y1="330.0" x2="440.0" y2="330.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="267.1" x2="440.0" y2="267.1" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="204.3" x2="440.0" y2="204.3" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="141.4" x2="440.0" y2="141.4" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="260.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Discrete (counted): cats per house</text>
+<line x1="121.5" y1="330.0" x2="121.5" y2="141.4" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="121.5" cy="141.4" r="7.0" stroke="none" fill="#0072B2"/>
+<line x1="190.8" y1="330.0" x2="190.8" y2="188.6" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="190.8" cy="188.6" r="7.0" stroke="none" fill="#0072B2"/>
+<line x1="260.0" y1="330.0" x2="260.0" y2="251.4" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="260.0" cy="251.4" r="7.0" stroke="none" fill="#0072B2"/>
+<line x1="329.2" y1="330.0" x2="329.2" y2="298.6" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="329.2" cy="298.6" r="7.0" stroke="none" fill="#0072B2"/>
+<line x1="398.5" y1="330.0" x2="398.5" y2="314.3" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="398.5" cy="314.3" r="7.0" stroke="none" fill="#0072B2"/>
+<text x="294.6" y="157.1" font-size="13" fill="#555555" text-anchor="middle"><tspan x="294.6" dy="0.0">no house has 1.5 cats:</tspan><tspan x="294.6" dy="16.2">nothing between the points</tspan></text>
+<line x1="80.0" y1="330.0" x2="440.0" y2="330.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="80.0" y1="110.0" x2="80.0" y2="330.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="121.5" y1="330.0" x2="121.5" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="121.5" y="349.0" font-size="12" fill="#555555" text-anchor="middle">0</text>
+<line x1="190.8" y1="330.0" x2="190.8" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="190.8" y="349.0" font-size="12" fill="#555555" text-anchor="middle">1</text>
+<line x1="260.0" y1="330.0" x2="260.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="260.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">2</text>
+<line x1="329.2" y1="330.0" x2="329.2" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="329.2" y="349.0" font-size="12" fill="#555555" text-anchor="middle">3</text>
+<line x1="398.5" y1="330.0" x2="398.5" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="398.5" y="349.0" font-size="12" fill="#555555" text-anchor="middle">4</text>
+<line x1="75.0" y1="330.0" x2="80.0" y2="330.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="334.0" font-size="12" fill="#555555" text-anchor="end">0</text>
+<line x1="75.0" y1="267.1" x2="80.0" y2="267.1" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="271.1" font-size="12" fill="#555555" text-anchor="end">4</text>
+<line x1="75.0" y1="204.3" x2="80.0" y2="204.3" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="208.3" font-size="12" fill="#555555" text-anchor="end">8</text>
+<line x1="75.0" y1="141.4" x2="80.0" y2="141.4" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="145.4" font-size="12" fill="#555555" text-anchor="end">12</text>
+<text x="260.0" y="368.0" font-size="13" fill="#555555" text-anchor="middle">cats</text>
+<text x="34.0" y="220.0" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 34.0 220.0)">number of houses</text>
+<line x1="580.0" y1="330.0" x2="940.0" y2="330.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="580.0" y1="268.9" x2="940.0" y2="268.9" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="580.0" y1="207.8" x2="940.0" y2="207.8" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="580.0" y1="146.7" x2="940.0" y2="146.7" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="760.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Continuous (measured): body temperature</text>
+<polyline points="580.0,261.8 581.8,262.4 583.6,263.0 585.4,263.7 587.2,264.4 589.0,265.1 590.9,265.9 592.7,266.8 594.5,267.6 596.3,268.5 598.1,269.5 599.9,270.5 601.7,271.5 603.5,272.5 605.3,273.5 607.1,274.6 608.9,275.6 610.8,276.6 612.6,277.7 614.4,278.7 616.2,279.7 618.0,280.6 619.8,281.6 621.6,282.4 623.4,283.2 625.2,284.0 627.0,284.6 628.8,285.2 630.7,285.7 632.5,286.2 634.3,286.5 636.1,286.7 637.9,286.9 639.7,286.9 641.5,286.8 643.3,286.6 645.1,286.3 646.9,286.0 648.7,285.5 650.6,284.9 652.4,284.3 654.2,283.5 656.0,282.7 657.8,281.8 659.6,280.8 661.4,279.8 663.2,278.7 665.0,277.6 666.8,276.4 668.6,275.2 670.5,273.9 672.3,272.7 674.1,271.4 675.9,270.1 677.7,268.8 679.5,267.5 681.3,266.2 683.1,264.9 684.9,263.7 686.7,262.4 688.5,261.1 690.4,259.9 692.2,258.6 694.0,257.4 695.8,256.2 697.6,254.9 699.4,253.7 701.2,252.5 703.0,251.3 704.8,250.1 706.6,248.9 708.4,247.7 710.3,246.4 712.1,245.2 713.9,243.9 715.7,242.6 717.5,241.3 719.3,239.9 721.1,238.5 722.9,237.1 724.7,235.6 726.5,234.1 728.3,232.6 730.2,231.0 732.0,229.4 733.8,227.7 735.6,226.0 737.4,224.3 739.2,222.4 741.0,220.6 742.8,218.7 744.6,216.7 746.4,214.8 748.2,212.7 750.1,210.7 751.9,208.5 753.7,206.4 755.5,204.2 757.3,202.0 759.1,199.8 760.9,197.6 762.7,195.3 764.5,193.0 766.3,190.8 768.1,188.5 769.9,186.2 771.8,183.9 773.6,181.7 775.4,179.5 777.2,177.3 779.0,175.1 780.8,173.0 782.6,170.9 784.4,168.8 786.2,166.9 788.0,164.9 789.8,163.1 791.7,161.3 793.5,159.6 795.3,158.0 797.1,156.5 798.9,155.0 800.7,153.7 802.5,152.5 804.3,151.4 806.1,150.4 807.9,149.5 809.7,148.7 811.6,148.1 813.4,147.5 815.2,147.1 817.0,146.8 818.8,146.7 820.6,146.7 822.4,146.8 824.2,147.0 826.0,147.4 827.8,147.9 829.6,148.5 831.5,149.2 833.3,150.1 835.1,151.0 836.9,152.1 838.7,153.3 840.5,154.6 842.3,156.0 844.1,157.5 845.9,159.1 847.7,160.7 849.5,162.5 851.4,164.3 853.2,166.2 855.0,168.2 856.8,170.2 858.6,172.3 860.4,174.4 862.2,176.5 864.0,178.7 865.8,180.9 867.6,183.2 869.4,185.4 871.3,187.7 873.1,190.0 874.9,192.3 876.7,194.5 878.5,196.8 880.3,199.0 882.1,201.3 883.9,203.5 885.7,205.6 887.5,207.8 889.3,209.9 891.2,211.9 893.0,214.0 894.8,216.0 896.6,217.9 898.4,219.8 900.2,221.6 902.0,223.4 903.8,225.1 905.6,226.8 907.4,228.4 909.2,230.0 911.1,231.5 912.9,232.9 914.7,234.3 916.5,235.6 918.3,236.9 920.1,238.1 921.9,239.3 923.7,240.4 925.5,241.5 927.3,242.5 929.1,243.4 931.0,244.3 932.8,245.2 934.6,246.0 936.4,246.8 938.2,247.5 940.0,248.2" stroke="#009E73" stroke-width="3" fill="none"/>
+<circle cx="719.5" cy="239.8" r="5.0" stroke="none" fill="#D55E00"/>
+<text x="707.5" y="227.8" font-size="12.5" fill="#D55E00" text-anchor="end" font-weight="bold">97.74 °F</text>
+<circle cx="823.0" cy="146.8" r="5.0" stroke="none" fill="#D55E00"/>
+<text x="811.0" y="134.8" font-size="12.5" fill="#D55E00" text-anchor="end" font-weight="bold">98.50 °F</text>
+<line x1="580.0" y1="330.0" x2="940.0" y2="330.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="580.0" y1="110.0" x2="580.0" y2="330.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="580.0" y1="330.0" x2="580.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="580.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">0</text>
+<line x1="670.0" y1="330.0" x2="670.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="670.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">6</text>
+<line x1="760.0" y1="330.0" x2="760.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="760.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">12</text>
+<line x1="850.0" y1="330.0" x2="850.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="850.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">18</text>
+<line x1="940.0" y1="330.0" x2="940.0" y2="335.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="940.0" y="349.0" font-size="12" fill="#555555" text-anchor="middle">24</text>
+<line x1="575.0" y1="330.0" x2="580.0" y2="330.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="572.0" y="334.0" font-size="12" fill="#555555" text-anchor="end">97</text>
+<line x1="575.0" y1="268.9" x2="580.0" y2="268.9" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="572.0" y="272.9" font-size="12" fill="#555555" text-anchor="end">97.5</text>
+<line x1="575.0" y1="207.8" x2="580.0" y2="207.8" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="572.0" y="211.8" font-size="12" fill="#555555" text-anchor="end">98</text>
+<line x1="575.0" y1="146.7" x2="580.0" y2="146.7" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="572.0" y="150.7" font-size="12" fill="#555555" text-anchor="end">98.5</text>
+<text x="760.0" y="368.0" font-size="13" fill="#555555" text-anchor="middle">hour of the day</text>
+<text x="528.0" y="220.0" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 528.0 220.0)">°F</text>
+<text x="260.0" y="410.0" font-size="14" fill="#0072B2" text-anchor="middle" font-weight="bold">Separate points, gaps between them</text>
+<text x="760.0" y="410.0" font-size="14" fill="#009E73" text-anchor="middle" font-weight="bold">One connected curve, any value in between</text>
+</svg>

@@ -7,6 +7,10 @@ Data can be measured on four **scales of measurement**. Each scale adds one more
 
 **Nominal → Ordinal → Interval → Ratio**
 
+![Four panels: color counts, race places against times, a temperature line, and exam score bars](figures/scales_of_measurement.png)
+
+One example per scale, from the lesson. Each panel shows the property that scale adds: nothing beyond labels (nominal), order (ordinal), equal differences (interval), and a true zero (ratio).
+
 ---
 
 ## 1. Nominal scale - names and labels

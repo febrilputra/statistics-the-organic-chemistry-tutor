@@ -46,6 +46,10 @@ After one green marble is removed, there are **5 green** out of **24**.
 - In (b), $P(\text{green on draw 2}) = \tfrac{6}{25}$, which is exactly $P(\text{green})$ on its own. The first draw had no effect.
 - In (c), $P(\text{red on draw 2}) = \tfrac{8}{24}$ instead of $\tfrac{8}{25}$. The first draw changed it.
 
+![Bags of marbles before and after the first draw, with and without replacement](figures/with_without_replacement.png)
+
+With replacement the second bag is identical to the first, so the draws are independent. Without replacement one marble is missing, so the second probability uses 24 marbles.
+
 ---
 
 ## Key takeaways

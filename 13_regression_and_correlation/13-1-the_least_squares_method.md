@@ -57,6 +57,10 @@ $$\boxed{y \approx 2.41x - 0.83}$$
 
 The predictions are very close to the data, so the line fits well.
 
+![Scatter plot of the seven points with the least squares line and a table of residuals](figures/least_squares_line.png)
+
+The least squares line passes very close to every point. The residuals (actual minus predicted) are all small, and their squares add up to about 0.17, which is the smallest possible for any straight line.
+
 ---
 
 ## Doing it in Excel

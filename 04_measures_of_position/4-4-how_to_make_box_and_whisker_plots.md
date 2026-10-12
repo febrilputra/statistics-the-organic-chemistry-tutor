@@ -71,6 +71,10 @@ Sorted ($n = 14$): 15, 18, 20, **22**, 25, 29, 32 ‖ 34, 38, 41, **43**, 46, 54
              min=15  Q1=22    Q2=33    Q3=43     max=54              outlier=76
 ```
 
+![Box plots of both worked examples with their data](figures/box_plot_examples.png)
+
+Both examples drawn to scale with the data above each box. In Example 2, 76 is beyond the upper fence of 74.5, so the right whisker stops at the largest non-outlier (54) and 76 is drawn as its own point.
+
 ---
 
 ## Key takeaways

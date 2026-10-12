@@ -72,6 +72,10 @@ Axis marks: 54, 61, 68, **75**, 82, 89, 96 (from $-3\sigma$ to $+3\sigma$).
 - Integral from 96 to 1,000 (effectively ∞): $0.0013499 \approx 0.135\%$ ✓
 - Number of students: $0.0013499 \times 800 \approx 1.08 \to$ **about 1 student**
 
+![Normal curve with precise empirical-rule percentages, the plus or minus 2 sigma area, and a zoom on the right tail](figures/normal_precise_and_tail.png)
+
+Top: the more precise region percentages. Bottom right: integrating only up to 100 captures the orange part (0.00117) but misses the purple part beyond 100. Integrating to infinity gives the full 0.00135.
+
 ---
 
 ## Key takeaways

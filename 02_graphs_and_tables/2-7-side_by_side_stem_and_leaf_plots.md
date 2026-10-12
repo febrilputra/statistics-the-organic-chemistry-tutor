@@ -34,6 +34,10 @@ Key: `8 | 1 |` = 18 (female); `| 1 | 9` = 19 (male).
 
 On the female side the smallest leaf sits **next to** the stem. For the 20s, the leaves read `8 7 5`, which means 25, 27, 28.
 
+![Back-to-back bar charts of the leaf counts for both examples](figures/side_by_side_stem_and_leaf.png)
+
+The number of leaves on each side of each stem, drawn as back-to-back bars. The heights example makes the comparison easy to see: the girls cluster in the 50s while the boys spread further into the 60s.
+
 ---
 
 ## Example 2 - heights (inches) of girls and boys

@@ -60,6 +60,10 @@ $$s^2 = \frac{4^2 + 2^2 + 0^2 + 2^2 + 4^2}{4} = \frac{40}{4} = 10$$
 
 Set 2's variance is four times larger, because its points sit farther from the mean.
 
+![Squared deviations drawn as squares for two data sets with the same mean](figures/variance_as_squares.png)
+
+Each squared deviation is drawn as an actual square with side |x - 8|. Doubling the distances in Set 2 makes every square four times bigger, so the variance rises from 2.5 to 10.
+
 ---
 
 ## Key takeaways

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Test-score histogram (17 students) and reading answers from it</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Bars touch because the classes are consecutive ranges. The long tail is on the left: the data are skewed left.</text>
+<line x1="340.0" y1="310.0" x2="760.0" y2="310.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="275.0" x2="760.0" y2="275.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="240.0" x2="760.0" y2="240.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="205.0" x2="760.0" y2="205.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="170.0" x2="760.0" y2="170.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="135.0" x2="760.0" y2="135.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="340.0" y1="100.0" x2="760.0" y2="100.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<rect x="340.0" y="275.0" width="70.0" height="35.0" stroke="#1F4E79" stroke-width="1.3" fill="#4C8BC4"/>
+<text x="375.0" y="269.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<rect x="410.0" y="275.0" width="70.0" height="35.0" stroke="#1F4E79" stroke-width="1.3" fill="#4C8BC4"/>
+<text x="445.0" y="269.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<rect x="480.0" y="240.0" width="70.0" height="70.0" stroke="#1F4E79" stroke-width="1.3" fill="#4C8BC4"/>
+<text x="515.0" y="234.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="550.0" y="170.0" width="70.0" height="140.0" stroke="#1F4E79" stroke-width="1.3" fill="#4C8BC4"/>
+<text x="585.0" y="164.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="620.0" y="135.0" width="70.0" height="175.0" stroke="#1F4E79" stroke-width="1.3" fill="#D55E00"/>
+<text x="655.0" y="129.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="690.0" y="170.0" width="70.0" height="140.0" stroke="#1F4E79" stroke-width="1.3" fill="#4C8BC4"/>
+<text x="725.0" y="164.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<text x="655.0" y="106.0" font-size="12" fill="#D55E00" text-anchor="middle">modal class 80-89</text>
+<line x1="340.0" y1="310.0" x2="760.0" y2="310.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="340.0" y1="100.0" x2="340.0" y2="310.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="340.0" y1="310.0" x2="340.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="340.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">40</text>
+<line x1="410.0" y1="310.0" x2="410.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="410.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">50</text>
+<line x1="480.0" y1="310.0" x2="480.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="480.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">60</text>
+<line x1="550.0" y1="310.0" x2="550.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="550.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">70</text>
+<line x1="620.0" y1="310.0" x2="620.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="620.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">80</text>
+<line x1="690.0" y1="310.0" x2="690.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="690.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">90</text>
+<line x1="760.0" y1="310.0" x2="760.0" y2="315.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="760.0" y="329.0" font-size="12" fill="#555555" text-anchor="middle">100</text>
+<line x1="335.0" y1="310.0" x2="340.0" y2="310.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="314.0" font-size="12" fill="#555555" text-anchor="end">0</text>
+<line x1="335.0" y1="275.0" x2="340.0" y2="275.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="279.0" font-size="12" fill="#555555" text-anchor="end">1</text>
+<line x1="335.0" y1="240.0" x2="340.0" y2="240.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="244.0" font-size="12" fill="#555555" text-anchor="end">2</text>
+<line x1="335.0" y1="205.0" x2="340.0" y2="205.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="209.0" font-size="12" fill="#555555" text-anchor="end">3</text>
+<line x1="335.0" y1="170.0" x2="340.0" y2="170.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="174.0" font-size="12" fill="#555555" text-anchor="end">4</text>
+<line x1="335.0" y1="135.0" x2="340.0" y2="135.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="139.0" font-size="12" fill="#555555" text-anchor="end">5</text>
+<line x1="335.0" y1="100.0" x2="340.0" y2="100.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="332.0" y="104.0" font-size="12" fill="#555555" text-anchor="end">6</text>
+<text x="550.0" y="352.0" font-size="13" fill="#555555" text-anchor="middle">Test score</text>
+<text x="294.0" y="205.0" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 294.0 205.0)">Frequency</text>
+<text x="195.0" y="408.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">At most 69: S &lt;= 69</text>
+<rect x="60.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="105.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="150.0" y="513.3" width="45.0" height="46.7" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="195.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="240.0" y="443.3" width="45.0" height="116.7" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="285.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<line x1="60.0" y1="560.0" x2="330.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="60.0" y1="420.0" x2="60.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="60.0" y1="560.0" x2="60.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="60.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">40</text>
+<line x1="150.0" y1="560.0" x2="150.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="150.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">60</text>
+<line x1="240.0" y1="560.0" x2="240.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="240.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">80</text>
+<line x1="330.0" y1="560.0" x2="330.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="330.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">100</text>
+<line x1="55.0" y1="560.0" x2="60.0" y2="560.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="52.0" y="564.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="55.0" y1="513.3" x2="60.0" y2="513.3" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="52.0" y="517.3" font-size="11" fill="#555555" text-anchor="end">2</text>
+<line x1="55.0" y1="466.7" x2="60.0" y2="466.7" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="52.0" y="470.7" font-size="11" fill="#555555" text-anchor="end">4</text>
+<line x1="55.0" y1="420.0" x2="60.0" y2="420.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="52.0" y="424.0" font-size="11" fill="#555555" text-anchor="end">6</text>
+<text x="195.0" y="600.0" font-size="13" fill="#D55E00" text-anchor="middle" font-weight="bold">1 + 1 + 2 = 4</text>
+<text x="515.0" y="408.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">At least 80: S &gt;= 80</text>
+<rect x="380.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="425.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="470.0" y="513.3" width="45.0" height="46.7" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="515.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="560.0" y="443.3" width="45.0" height="116.7" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="605.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<line x1="380.0" y1="560.0" x2="650.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="380.0" y1="420.0" x2="380.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="380.0" y1="560.0" x2="380.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="380.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">40</text>
+<line x1="470.0" y1="560.0" x2="470.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="470.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">60</text>
+<line x1="560.0" y1="560.0" x2="560.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="560.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">80</text>
+<line x1="650.0" y1="560.0" x2="650.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="650.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">100</text>
+<line x1="375.0" y1="560.0" x2="380.0" y2="560.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="372.0" y="564.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="375.0" y1="513.3" x2="380.0" y2="513.3" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="372.0" y="517.3" font-size="11" fill="#555555" text-anchor="end">2</text>
+<line x1="375.0" y1="466.7" x2="380.0" y2="466.7" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="372.0" y="470.7" font-size="11" fill="#555555" text-anchor="end">4</text>
+<line x1="375.0" y1="420.0" x2="380.0" y2="420.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="372.0" y="424.0" font-size="11" fill="#555555" text-anchor="end">6</text>
+<text x="515.0" y="600.0" font-size="13" fill="#D55E00" text-anchor="middle" font-weight="bold">5 + 4 = 9</text>
+<text x="835.0" y="408.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">60 to 89 inclusive</text>
+<rect x="700.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="745.0" y="536.7" width="45.0" height="23.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<rect x="790.0" y="513.3" width="45.0" height="46.7" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="835.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="880.0" y="443.3" width="45.0" height="116.7" stroke="#888888" stroke-width="1.3" fill="#D55E00"/>
+<rect x="925.0" y="466.7" width="45.0" height="93.3" stroke="#888888" stroke-width="1.3" fill="#F2F2F2"/>
+<line x1="700.0" y1="560.0" x2="970.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="700.0" y1="420.0" x2="700.0" y2="560.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="700.0" y1="560.0" x2="700.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="700.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">40</text>
+<line x1="790.0" y1="560.0" x2="790.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="790.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">60</text>
+<line x1="880.0" y1="560.0" x2="880.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="880.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">80</text>
+<line x1="970.0" y1="560.0" x2="970.0" y2="565.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="970.0" y="579.0" font-size="11" fill="#555555" text-anchor="middle">100</text>
+<line x1="695.0" y1="560.0" x2="700.0" y2="560.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="692.0" y="564.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="695.0" y1="513.3" x2="700.0" y2="513.3" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="692.0" y="517.3" font-size="11" fill="#555555" text-anchor="end">2</text>
+<line x1="695.0" y1="466.7" x2="700.0" y2="466.7" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="692.0" y="470.7" font-size="11" fill="#555555" text-anchor="end">4</text>
+<line x1="695.0" y1="420.0" x2="700.0" y2="420.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="692.0" y="424.0" font-size="11" fill="#555555" text-anchor="end">6</text>
+<text x="835.0" y="600.0" font-size="13" fill="#D55E00" text-anchor="middle" font-weight="bold">2 + 4 + 5 = 11</text>
+</svg>

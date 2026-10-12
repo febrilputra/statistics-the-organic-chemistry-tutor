@@ -36,6 +36,10 @@ $$\chi^2 = \frac{19 \times 6.9^2}{8.6^2} = \frac{19 \times 47.61}{73.96} \approx
 
 $12.23 > 10.117$, which is in the do-not-reject region. **Fail to reject $H_0$.** At the 5% level the sample does not provide enough evidence that the standard deviation is less than 8.6.
 
+![Chi-square curves for several degrees of freedom, and a left-tailed test with df 19](figures/chi_square_shapes_and_variance_test.png)
+
+Left: ÏÂ² is never negative and is skewed to the right; with more degrees of freedom it moves right and spreads out. Right: for the left-tailed variance test the rejection region is the left tail below 10.117, and 12.23 does not reach it.
+
 ---
 
 ## Key takeaways

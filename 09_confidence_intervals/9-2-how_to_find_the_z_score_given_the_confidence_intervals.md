@@ -31,6 +31,10 @@ $$\text{left area} = \frac{1 + \text{CL}}{2}$$
 
 *Example:* 0.975 sits in row **1.9**, column **0.06**, so $z = 1.9 + 0.06 = 1.96$.
 
+![Four normal curves showing the middle area and critical z for 90, 95, 98 and 99 percent confidence](figures/critical_z_values.png)
+
+The confidence level is the middle area, and each tail gets half of what is left. The left area up to +z is (1 + CL)/2, which is the number to look up in the z-table.
+
 ---
 
 ## Practice

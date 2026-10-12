@@ -67,6 +67,10 @@ $$P = \frac{1}{204} + \frac{1}{221} = \frac{13}{2652} + \frac{12}{2652} = \frac{
 
 > Writing $P(\text{red king}) \times P(\text{diamond}) = \tfrac{2}{52} \times \tfrac{13}{51}$ would be **wrong**, because the second probability depends on which king was taken.
 
+![Card grids highlighting queens and black cards 4 to 9, plus the two cases for a red king then a diamond](figures/cards.png)
+
+Counting favorable cards in the deck. For part (c) the number of diamonds left depends on which red king was taken first, so the two cases are worked out separately and added.
+
 ---
 
 ## Key takeaways

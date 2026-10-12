@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Poisson distribution: counts in a fixed interval</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">P(X = x) = μ^x e^(−μ) / x!. The mean μ must match the length of the interval in the question.</text>
+<line x1="80.0" y1="375.0" x2="460.0" y2="375.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="293.8" x2="460.0" y2="293.8" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="212.5" x2="460.0" y2="212.5" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="131.2" x2="460.0" y2="131.2" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="270.0" y="103.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Phone calls per hour, μ = 8</text>
+<rect x="86.2" y="374.5" width="12.4" height="0.5" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="104.0" y="370.6" width="12.4" height="4.4" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="121.7" y="357.6" width="12.4" height="17.4" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="139.5" y="328.5" width="12.4" height="46.5" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="157.2" y="282.0" width="12.4" height="93.0" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="175.0" y="226.1" width="12.4" height="148.9" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="192.8" y="176.5" width="12.4" height="198.5" stroke="#1F4E79" stroke-width="0.8" fill="#E4E4E4"/>
+<rect x="210.5" y="148.2" width="12.4" height="226.8" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="228.3" y="148.2" width="12.4" height="226.8" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="246.0" y="173.4" width="12.4" height="201.6" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="263.8" y="213.7" width="12.4" height="161.3" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="281.5" y="257.7" width="12.4" height="117.3" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="299.3" y="296.8" width="12.4" height="78.2" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="317.1" y="326.9" width="12.4" height="48.1" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="334.8" y="347.5" width="12.4" height="27.5" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="352.6" y="360.3" width="12.4" height="14.7" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="370.3" y="367.7" width="12.4" height="7.3" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="388.1" y="371.5" width="12.4" height="3.5" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="405.8" y="373.5" width="12.4" height="1.5" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="423.6" y="374.4" width="12.4" height="0.6" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="441.4" y="374.7" width="12.4" height="0.3" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<text x="100.4" y="134.5" font-size="13" fill="#009E73" text-anchor="start" font-weight="bold">P(X ≤ 5) ≈ 0.1912</text>
+<text x="456.4" y="156.5" font-size="13" fill="#D55E00" text-anchor="end" font-weight="bold">P(X &gt; 6) = 1 − P(X ≤ 6) ≈ 0.6866</text>
+<line x1="80.0" y1="375.0" x2="460.0" y2="375.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="80.0" y1="115.0" x2="80.0" y2="375.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="92.4" y1="375.0" x2="92.4" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="92.4" y="394.0" font-size="11" fill="#555555" text-anchor="middle">0</text>
+<line x1="127.9" y1="375.0" x2="127.9" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="127.9" y="394.0" font-size="11" fill="#555555" text-anchor="middle">2</text>
+<line x1="163.5" y1="375.0" x2="163.5" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="163.5" y="394.0" font-size="11" fill="#555555" text-anchor="middle">4</text>
+<line x1="181.2" y1="375.0" x2="181.2" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="181.2" y="394.0" font-size="11" fill="#555555" text-anchor="middle">5</text>
+<line x1="199.0" y1="375.0" x2="199.0" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="199.0" y="394.0" font-size="11" fill="#555555" text-anchor="middle">6</text>
+<line x1="234.5" y1="375.0" x2="234.5" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="234.5" y="394.0" font-size="11" fill="#555555" text-anchor="middle">8</text>
+<line x1="270.0" y1="375.0" x2="270.0" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="270.0" y="394.0" font-size="11" fill="#555555" text-anchor="middle">10</text>
+<line x1="305.5" y1="375.0" x2="305.5" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="305.5" y="394.0" font-size="11" fill="#555555" text-anchor="middle">12</text>
+<line x1="341.0" y1="375.0" x2="341.0" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="341.0" y="394.0" font-size="11" fill="#555555" text-anchor="middle">14</text>
+<line x1="376.5" y1="375.0" x2="376.5" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="376.5" y="394.0" font-size="11" fill="#555555" text-anchor="middle">16</text>
+<line x1="412.1" y1="375.0" x2="412.1" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="412.1" y="394.0" font-size="11" fill="#555555" text-anchor="middle">18</text>
+<line x1="447.6" y1="375.0" x2="447.6" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="447.6" y="394.0" font-size="11" fill="#555555" text-anchor="middle">20</text>
+<line x1="75.0" y1="375.0" x2="80.0" y2="375.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="379.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="75.0" y1="293.8" x2="80.0" y2="293.8" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="297.8" font-size="11" fill="#555555" text-anchor="end">0.05</text>
+<line x1="75.0" y1="212.5" x2="80.0" y2="212.5" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="216.5" font-size="11" fill="#555555" text-anchor="end">0.1</text>
+<line x1="75.0" y1="131.2" x2="80.0" y2="131.2" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="135.2" font-size="11" fill="#555555" text-anchor="end">0.15</text>
+<text x="270.0" y="413.0" font-size="13" fill="#555555" text-anchor="middle">calls x</text>
+<text x="34.0" y="245.0" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 34.0 245.0)">P(X = x)</text>
+<text x="270.0" y="435.0" font-size="13" fill="#555555" text-anchor="middle">x = 6 (grey) belongs to neither question.</text>
+<line x1="560.0" y1="375.0" x2="960.0" y2="375.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="560.0" y1="293.8" x2="960.0" y2="293.8" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="560.0" y1="212.5" x2="960.0" y2="212.5" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="560.0" y1="131.2" x2="960.0" y2="131.2" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="760.0" y="103.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Texts: 7 per 2 hours</text>
+<rect x="562.6" y="373.5" width="6.9" height="1.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="571.2" y="364.6" width="6.9" height="10.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="579.8" y="338.7" width="6.9" height="36.3" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="588.4" y="290.3" width="6.9" height="84.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="597.1" y="226.8" width="6.9" height="148.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="605.7" y="167.5" width="6.9" height="207.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="614.3" y="132.9" width="6.9" height="242.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="622.9" y="132.9" width="6.9" height="242.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="631.6" y="163.1" width="6.9" height="211.9" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="640.2" y="210.2" width="6.9" height="164.8" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="648.8" y="259.7" width="6.9" height="115.3" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="657.4" y="301.6" width="6.9" height="73.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="666.0" y="332.2" width="6.9" height="42.8" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="674.7" y="351.9" width="6.9" height="23.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="683.3" y="363.5" width="6.9" height="11.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="691.9" y="369.6" width="6.9" height="5.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="700.5" y="372.6" width="6.9" height="2.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="709.1" y="374.0" width="6.9" height="1.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="717.8" y="374.6" width="6.9" height="0.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="726.4" y="374.9" width="6.9" height="0.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="735.0" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="743.6" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="752.2" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="760.9" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="769.5" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="778.1" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="786.7" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="795.3" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="804.0" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="812.6" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="821.2" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="829.8" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="838.4" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="847.1" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="855.7" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="864.3" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="872.9" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="881.6" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="890.2" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="898.8" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="907.4" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="916.0" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="924.7" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="933.3" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="941.9" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="950.5" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="562.6" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="571.2" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="579.8" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="588.4" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="597.1" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="605.7" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="614.3" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="622.9" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="631.6" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="640.2" y="375.0" width="6.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="648.8" y="374.9" width="6.9" height="0.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="657.4" y="374.8" width="6.9" height="0.2" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="666.0" y="374.5" width="6.9" height="0.5" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="674.7" y="373.8" width="6.9" height="1.2" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="683.3" y="372.7" width="6.9" height="2.3" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="691.9" y="370.6" width="6.9" height="4.4" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="700.5" y="367.3" width="6.9" height="7.7" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="709.1" y="362.4" width="6.9" height="12.6" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="717.8" y="355.4" width="6.9" height="19.6" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="726.4" y="346.1" width="6.9" height="28.9" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="735.0" y="334.5" width="6.9" height="40.5" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="743.6" y="321.0" width="6.9" height="54.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="752.2" y="306.2" width="6.9" height="68.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="760.9" y="291.3" width="6.9" height="83.7" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="769.5" y="277.3" width="6.9" height="97.7" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="778.1" y="265.6" width="6.9" height="109.4" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="786.7" y="257.2" width="6.9" height="117.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="795.3" y="252.9" width="6.9" height="122.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="804.0" y="252.9" width="6.9" height="122.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="812.6" y="257.1" width="6.9" height="117.9" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="821.2" y="264.9" width="6.9" height="110.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="829.8" y="275.6" width="6.9" height="99.4" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="838.4" y="288.0" width="6.9" height="87.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="847.1" y="301.2" width="6.9" height="73.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="855.7" y="314.2" width="6.9" height="60.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="864.3" y="326.4" width="6.9" height="48.6" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="872.9" y="337.2" width="6.9" height="37.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="881.6" y="346.4" width="6.9" height="28.6" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="890.2" y="353.9" width="6.9" height="21.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="898.8" y="359.9" width="6.9" height="15.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="907.4" y="364.4" width="6.9" height="10.6" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="916.0" y="367.8" width="6.9" height="7.2" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="924.7" y="370.2" width="6.9" height="4.8" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="933.3" y="371.9" width="6.9" height="3.1" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="941.9" y="373.0" width="6.9" height="2.0" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<rect x="950.5" y="373.8" width="6.9" height="1.2" stroke="#1F4E79" stroke-width="0.8" fill="#D9C8E8"/>
+<text x="653.6" y="204.2" font-size="12.5" fill="#0072B2" text-anchor="start" font-weight="bold">2 hours, μ = 7: P(9) ≈ 0.1014</text>
+<text x="752.9" y="237.3" font-size="12.5" fill="#7B4FA0" text-anchor="middle" font-weight="bold"><tspan x="752.9" dy="0.0">8 hours, μ = 28:</tspan><tspan x="752.9" dy="15.6">P(24) ≈ 0.0601</tspan></text>
+<line x1="560.0" y1="375.0" x2="960.0" y2="375.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="560.0" y1="115.0" x2="560.0" y2="375.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="566.0" y1="375.0" x2="566.0" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="566.0" y="394.0" font-size="11" fill="#555555" text-anchor="middle">0</text>
+<line x1="626.4" y1="375.0" x2="626.4" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="626.4" y="394.0" font-size="11" fill="#555555" text-anchor="middle">7</text>
+<line x1="643.6" y1="375.0" x2="643.6" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="643.6" y="394.0" font-size="11" fill="#555555" text-anchor="middle">9</text>
+<line x1="695.3" y1="375.0" x2="695.3" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="695.3" y="394.0" font-size="11" fill="#555555" text-anchor="middle">15</text>
+<line x1="772.9" y1="375.0" x2="772.9" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="772.9" y="394.0" font-size="11" fill="#555555" text-anchor="middle">24</text>
+<line x1="807.4" y1="375.0" x2="807.4" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="807.4" y="394.0" font-size="11" fill="#555555" text-anchor="middle">28</text>
+<line x1="867.8" y1="375.0" x2="867.8" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="867.8" y="394.0" font-size="11" fill="#555555" text-anchor="middle">35</text>
+<line x1="954.0" y1="375.0" x2="954.0" y2="380.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="954.0" y="394.0" font-size="11" fill="#555555" text-anchor="middle">45</text>
+<line x1="555.0" y1="375.0" x2="560.0" y2="375.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="379.0" font-size="11" fill="#555555" text-anchor="end">0</text>
+<line x1="555.0" y1="293.8" x2="560.0" y2="293.8" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="297.8" font-size="11" fill="#555555" text-anchor="end">0.05</text>
+<line x1="555.0" y1="212.5" x2="560.0" y2="212.5" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="216.5" font-size="11" fill="#555555" text-anchor="end">0.1</text>
+<line x1="555.0" y1="131.2" x2="560.0" y2="131.2" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="135.2" font-size="11" fill="#555555" text-anchor="end">0.15</text>
+<text x="760.0" y="413.0" font-size="13" fill="#555555" text-anchor="middle">texts x</text>
+<text x="760.0" y="435.0" font-size="13" fill="#555555" text-anchor="middle"><tspan x="760.0" dy="0.0">An interval 4 times longer has a mean 4 times larger,</tspan><tspan x="760.0" dy="16.2">so the whole distribution shifts to the right.</tspan></text>
+</svg>

@@ -82,18 +82,63 @@ Sorted: 5, 7, 8, 10, 11, **13**, 14, 16, 16, 17, 27 ($n = 11$)
 
 A box plot draws the **five-number summary**:
 
-```
- min        Q1      Q2      Q3            max
-  |---------[=======|=======]-------------|
-             <----- IQR ----->
-```
-
 - The **box** runs from $Q_1$ to $Q_3$, so its length is the IQR.
 - A line inside the box marks the median $Q_2$.
 - The **whiskers** reach out to the smallest and largest values that are **not** outliers.
-- Outliers are drawn as separate **points** beyond the whiskers.
+- Outliers are drawn as separate **points** (`*`) beyond the whiskers.
 
-### Example 4 - building a box plot ($n = 12$)
+### The four possible shapes: is the min or the max an outlier?
+
+Check the minimum against the lower fence and the maximum against the upper fence. That gives four cases:
+
+**(a) Neither is an outlier.** The whiskers go all the way to the min and the max.
+
+```
+ min           Q1      Q2      Q3               max
+  |-------------[=======|=======]----------------|
+```
+
+**(b) Only the max is an outlier.** The right whisker stops at the largest value that is **not** an outlier, and the max is drawn as a separate point.
+
+```
+ min           Q1      Q2      Q3     largest non-outlier     max (outlier)
+  |-------------[=======|=======]-----------|                    *
+```
+
+**(c) Only the min is an outlier.** The left whisker stops at the smallest value that is **not** an outlier, and the min is drawn as a separate point.
+
+```
+ min (outlier)     smallest non-outlier   Q1      Q2      Q3          max
+  *                        |---------------[=======|=======]-----------|
+```
+
+**(d) Both are outliers.** Both whiskers stop short, and the min and max are both drawn as separate points.
+
+```
+ min (outlier)   smallest           Q1      Q2      Q3       largest      max (outlier)
+  *                 |----------------[=======|=======]----------|            *
+```
+
+> The **whisker ends** are therefore not always the min and max. They are always the most extreme values that are **inside** the fences.
+
+The same four cases, drawn to scale from the worked examples below. The dots above each box are the actual data; outliers are orange.
+
+![Box plots for the four cases: no outliers, max is an outlier, min is an outlier, both are outliers](figures/box_plot_outliers.png)
+
+### Worked example for case (a) - Example 3 data, no outliers
+
+Using Example 3 from Section 2: min = 5, $Q_1 = 8$, $Q_2 = 13$, $Q_3 = 16$, max = 27, fences $[-4, 28]$. Both 5 and 27 are inside the fences, so the whiskers reach the min and the max.
+
+```
+                +---------|-----+
+          |-----|         |     |---------------------|
+                +---------|-----+
++---------+---------+---------+---------+---------+---------+
+0         5         10        15        20        25        30
+       min=5   Q1=8      Q2=13 Q3=16                 max=27
+```
+
+### Example 4 - building a box plot ($n = 12$), case (b)
 
 Sorted data: 13, 16, 18 | 18, 22, 23 | 25, 28, 29 | 31, 38, 50
 
@@ -104,6 +149,55 @@ Sorted data: 13, 16, 18 | 18, 22, 23 | 25, 28, 29 | 31, 38, 50
 - Fences: $18 - 1.5(12) = 0$ and $30 + 1.5(12) = 48$
 
 So **50 is an outlier**. In the plot, the box runs from 18 to 30 with the median at 24. The left whisker goes down to 13, and the right whisker stops at **38**, the largest value that is not an outlier. 50 is drawn as a separate dot.
+
+```
+                  +-----|-----+
+             |----|     |     |-------|           *
+                  +-----|-----+
++---------+---------+---------+---------+---------+
+0         10        20        30        40        50
+          min=13 Q1=18 Q2=24 Q3=30   38          50 (outlier)
+```
+
+### Case (c) - the min is an outlier
+
+These two examples are my own; they are not from the video.
+
+Sorted data ($n = 11$): **2**, 15, 17, 18, 19, **20**, 21, 22, 23, 25, 26
+
+- $Q_2 = 20$
+- Lower half 2, 15, **17**, 18, 19 → $Q_1 = 17$
+- Upper half 21, 22, **23**, 25, 26 → $Q_3 = 23$
+- $\text{IQR} = 23 - 17 = 6$
+- Fences: $17 - 1.5(6) = 8$ and $23 + 1.5(6) = 32$
+
+**2 is below 8, so the min is an outlier.** The left whisker stops at **15**, the smallest value that is not an outlier. The max, 26, is inside the fences, so the right whisker reaches it.
+
+```
+                                  +-----|-----+
+    *                         |---|     |     |-----|
+                                  +-----|-----+
++---------+---------+---------+---------+---------+---------+
+0         5         10        15        20        25        30
+ 2 (outlier)                15   Q1=17 Q2=20 Q3=23  max=26
+```
+
+### Case (d) - both the min and the max are outliers
+
+Change the largest value in the last data set from 26 to **40**: 2, 15, 17, 18, 19, 20, 21, 22, 23, 25, **40**
+
+- The quartiles don't change: $Q_1 = 17$, $Q_2 = 20$, $Q_3 = 23$, $\text{IQR} = 6$, fences $[8, 32]$.
+- **2 < 8** and **40 > 32**, so **both** are outliers.
+- The left whisker stops at **15** and the right whisker at **25**, the most extreme values inside the fences. 2 and 40 are drawn as separate points.
+
+```
+                                  +-----|-----+
+    *                         |---|     |     |---|                             *
+                                  +-----|-----+
++---------+---------+---------+---------+---------+---------+---------+---------+
+0         5         10        15        20        25        30        35        40
+ 2 (outlier)                15   Q1=17 Q2=20 Q3=23 25                   40 (outlier)
+```
 
 ---
 
@@ -116,6 +210,12 @@ So **50 is an outlier**. In the plot, the box runs from 18 to 30 with the median
 | **Skewed left** (negative skew) | Left | mean **<** median | Left part of the box ($Q_2 - Q_1$) and/or left whisker longer |
 
 > **Memory aid:** the mean gets pulled toward the tail. A right tail drags the mean to the right of the median.
+
+![Left-skewed, symmetric and right-skewed distributions with their mean, median and mode, and the matching box plots](figures/skewness.png)
+
+In each panel the box plot is on the same scale as the curve above it. In the skewed panels, the longer side of the box and the longer whisker point toward the tail.
+
+*The figures in this note were drawn for these notes. [`figures/make_figures.ipynb`](figures/make_figures.ipynb) recreates them with matplotlib, and SVG versions ([skewness](figures/skewness.svg), [box plots](figures/box_plot_outliers.svg), [histogram](figures/histogram_vs_bar_graph.svg)) are in the same folder.*
 
 ---
 
@@ -219,6 +319,12 @@ First group the scores into classes:
 | **Total** | | **15** |
 
 Then draw adjacent bars of heights 2, 4, 6 and 3 over the classes 60-70, 70-80, 80-90 and 90-100.
+
+![Histogram of the 15 test scores next to a bar graph of the same counts by letter grade](figures/histogram_vs_bar_graph.png)
+
+On the left, the histogram's bars sit on a **number line** and touch, because the classes run straight into each other (70 is where 60-69 ends and 70-79 starts). The orange ticks under the axis are the 15 individual scores, so you can see which bar each one falls into. On the right, the same counts are drawn as a **bar graph** of the letter grades D, C, B and A, which are separate categories, so the bars have gaps.
+
+The tallest bar is 80-89, so most students got a B. The shape has a longer tail on the low side (60s), so it leans slightly left.
 
 ---
 

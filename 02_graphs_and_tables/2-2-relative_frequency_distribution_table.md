@@ -41,6 +41,10 @@ There is no 6 in the data, so 6 is left out of the table.
 
 **Check:** $0.30 + 0.15 + 0.10 + 0.25 + 0.05 + 0.15 = 1.00$ ✓
 
+![Relative frequency bar chart](figures/relative_frequency.png)
+
+The relative frequency chart has the same shape as a frequency chart; only the vertical scale changes. Every bar is a fraction of the 20 values, so the heights add up to exactly 1.00.
+
 ---
 
 ## Key takeaways

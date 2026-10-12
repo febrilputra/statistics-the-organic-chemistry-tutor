@@ -35,6 +35,10 @@ Data: 82, 93, 98, 89, 88
 
 $$s = \sqrt{\frac{142}{5 - 1}} = \sqrt{35.5} \approx 5.958$$
 
+![Deviations from the mean drawn as arrows, with the mean plus-or-minus one standard deviation band](figures/standard_deviation_deviations.png)
+
+Each arrow is one deviation from the mean of 90. Squaring them (64, 9, 64, 1, 4) and adding gives 142. Dividing by n - 1 = 4 and taking the square root gives s = 5.96. The green band shows mean +- s.
+
 ---
 
 ## Example 2 - ten values

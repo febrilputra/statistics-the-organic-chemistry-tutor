@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Reading skewness from a box plot</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">The longer side (box half and/or whisker) points toward the tail.</text>
+<line x1="467.8" y1="115.0" x2="571.1" y2="115.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="708.9" y1="115.0" x2="812.2" y2="115.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="467.8" y1="106.3" x2="467.8" y2="123.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="812.2" y1="106.3" x2="812.2" y2="123.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="571.1" y="102.0" width="137.8" height="26.0" stroke="#222222" stroke-width="2" fill="#E3E3E3"/>
+<line x1="640.0" y1="102.0" x2="640.0" y2="128.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="120.0" font-size="13" fill="#888888" text-anchor="end" font-weight="bold">Symmetric</text>
+<line x1="502.2" y1="165.0" x2="571.1" y2="165.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="708.9" y1="165.0" x2="777.8" y2="165.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="502.2" y1="156.3" x2="502.2" y2="173.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="777.8" y1="156.3" x2="777.8" y2="173.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="571.1" y="152.0" width="137.8" height="26.0" stroke="#222222" stroke-width="2" fill="#F8D9C4"/>
+<line x1="605.6" y1="152.0" x2="605.6" y2="178.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="170.0" font-size="13" fill="#D55E00" text-anchor="end" font-weight="bold">Skewed right: right box half longer</text>
+<line x1="502.2" y1="215.0" x2="571.1" y2="215.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="674.4" y1="215.0" x2="881.1" y2="215.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="502.2" y1="206.3" x2="502.2" y2="223.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="881.1" y1="206.3" x2="881.1" y2="223.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="571.1" y="202.0" width="103.3" height="26.0" stroke="#222222" stroke-width="2" fill="#F8D9C4"/>
+<line x1="622.8" y1="202.0" x2="622.8" y2="228.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="220.0" font-size="13" fill="#D55E00" text-anchor="end" font-weight="bold">Skewed right: right whisker longer</text>
+<line x1="502.2" y1="265.0" x2="553.9" y2="265.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="708.9" y1="265.0" x2="915.6" y2="265.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="502.2" y1="256.3" x2="502.2" y2="273.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="915.6" y1="256.3" x2="915.6" y2="273.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="553.9" y="252.0" width="155.0" height="26.0" stroke="#222222" stroke-width="2" fill="#F8D9C4"/>
+<line x1="588.3" y1="252.0" x2="588.3" y2="278.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="270.0" font-size="13" fill="#D55E00" text-anchor="end" font-weight="bold">Skewed right: both</text>
+<line x1="502.2" y1="315.0" x2="571.1" y2="315.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="708.9" y1="315.0" x2="777.8" y2="315.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="502.2" y1="306.3" x2="502.2" y2="323.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="777.8" y1="306.3" x2="777.8" y2="323.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="571.1" y="302.0" width="137.8" height="26.0" stroke="#222222" stroke-width="2" fill="#E2D6EE"/>
+<line x1="674.4" y1="302.0" x2="674.4" y2="328.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="320.0" font-size="13" fill="#7B4FA0" text-anchor="end" font-weight="bold">Skewed left: left box half longer</text>
+<line x1="398.9" y1="365.0" x2="605.6" y2="365.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="708.9" y1="365.0" x2="812.2" y2="365.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="398.9" y1="356.3" x2="398.9" y2="373.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="812.2" y1="356.3" x2="812.2" y2="373.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="605.6" y="352.0" width="103.3" height="26.0" stroke="#222222" stroke-width="2" fill="#E2D6EE"/>
+<line x1="657.2" y1="352.0" x2="657.2" y2="378.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="370.0" font-size="13" fill="#7B4FA0" text-anchor="end" font-weight="bold">Skewed left: left whisker longer</text>
+<line x1="364.4" y1="415.0" x2="571.1" y2="415.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="726.1" y1="415.0" x2="777.8" y2="415.0" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="364.4" y1="406.3" x2="364.4" y2="423.7" stroke="#222222" stroke-width="2" fill="none"/>
+<line x1="777.8" y1="406.3" x2="777.8" y2="423.7" stroke="#222222" stroke-width="2" fill="none"/>
+<rect x="571.1" y="402.0" width="155.0" height="26.0" stroke="#222222" stroke-width="2" fill="#E2D6EE"/>
+<line x1="691.7" y1="402.0" x2="691.7" y2="428.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<text x="310.0" y="420.0" font-size="13" fill="#7B4FA0" text-anchor="end" font-weight="bold">Skewed left: both</text>
+</svg>

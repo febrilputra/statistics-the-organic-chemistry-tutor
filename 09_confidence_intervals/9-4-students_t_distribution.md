@@ -50,6 +50,10 @@ $$165 \pm 2.106 \;\Rightarrow\; 162.894 < \mu < 167.106$$
 
 We are 95% confident that the mean weight of all the school's students is between about **162.9 and 167.1 lb**.
 
+![t curves with 2 and 9 degrees of freedom compared with the normal curve, and the t critical values for 19 degrees of freedom](figures/t_vs_normal.png)
+
+Left: t has heavier tails than the normal curve, especially with few degrees of freedom. Right: for Î½ = 19 the 95% critical value is 2.093, a bit further out than z = 1.96, so t intervals are slightly wider.
+
 ---
 
 ## Example 2 - chemistry scores, 90% CI

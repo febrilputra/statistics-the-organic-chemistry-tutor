@@ -37,6 +37,10 @@ $$n = \frac{(1.645)^2(0.73)(0.27)}{(0.02)^2} \approx 1333.39 \;\Rightarrow\; n =
 
 Derivation: square $E = z\sqrt{\hat p\hat q/n}$ to get $E^2 = z^2\hat p\hat q/n$, then solve for $n$.
 
+![Three proportion confidence intervals drawn on a number line](figures/proportion_intervals.png)
+
+The three intervals from the lesson. The dot is pÌ, the midpoint, and each arm is the margin of error E. The 99% car interval is the widest, because higher confidence uses a larger z.
+
 ---
 
 ## Example 2 - car ownership

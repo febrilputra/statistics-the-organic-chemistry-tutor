@@ -47,6 +47,10 @@ $$H_0: \mu = 2.7 \qquad H_a: \mu \ne 2.7$$
 $$H_0: p \le 0.75 \qquad H_a: p > 0.75$$
 ("No more than" means ≤. Surveying 100 residents gives the sample size, which is not part of either hypothesis.)
 
+![Number lines showing the values covered by H0 and Ha for the four examples](figures/hypotheses_number_lines.png)
+
+H0 and Ha always cover every possible value between them. H0 holds the boundary value (the equality). With "â ", H0 is a single point and Ha is everything else.
+
 ---
 
 ## Key takeaways

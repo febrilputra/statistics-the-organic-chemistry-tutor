@@ -40,6 +40,10 @@ This holds for **every** data set: the mean is exactly the balance point of the 
 - the **mean absolute deviation**, which uses absolute values, and
 - the **variance / standard deviation**, which square the deviations.
 
+![Signed deviations as arrows to the left and right of the mean, balancing on a beam](figures/deviations_cancel.png)
+
+The leftward pulls (-10, -6, -3) add to -19 and the rightward pulls (+1, +5, +13) add to +19, so the signed deviations always total zero. The mean is the point where the data balance.
+
 ---
 
 ## Key takeaways

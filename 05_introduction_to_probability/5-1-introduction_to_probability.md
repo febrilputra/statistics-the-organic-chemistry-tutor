@@ -65,6 +65,10 @@ $$P = \frac48 = \frac12 = 50\%$$
 Favorable: $\{HHT, HTH, THH\}$, which is 3 of 8.
 $$P = \frac38 = 0.375 = 37.5\%$$
 
+![Tree diagram of three coin flips with the 8 outcomes and which ones count for each question](figures/three_coin_tree.png)
+
+Every path through the tree is one of the 8 equally likely outcomes. Count the ticks: 4 outcomes have at least two tails (4/8 = 1/2), and 3 have exactly one tail (3/8).
+
 ---
 
 ## Example 2 - one six-sided die
@@ -78,6 +82,10 @@ $S = \{1, 2, 3, 4, 5, 6\}$
 | (c) **at most** 4 ($x \le 4$) | {1, 2, 3, 4} | $\tfrac46 = \tfrac23 \approx 66.7\%$ |
 | (d) **greater than** 3 ($x > 3$, so 3 is excluded) | {4, 5, 6} | $\tfrac36 = \tfrac12 = 50\%$ |
 | (e) at most 5 ($x \le 5$) | {1, 2, 3, 4, 5} | $\tfrac56 \approx 83.3\%$ |
+
+![Six die faces with the favorable outcomes highlighted for five events](figures/die_events.png)
+
+The favorable faces for each die question. Note how "at most 4" includes 4, while "greater than 3" leaves 3 out.
 
 ---
 

@@ -39,6 +39,10 @@ An event and its complement together cover the whole sample space, so their prob
 
 $$\boxed{P(A') = 1 - P(A)}$$
 
+![Three Venn diagrams shading A and B, A or B, and the complement of A](figures/intersection_union_complement.png)
+
+The same two events shaded three ways. The complement A' is everything in S outside A, so A and A' together fill the whole box: P(A) + P(A') = 1.
+
 ---
 
 ## Example - marbles

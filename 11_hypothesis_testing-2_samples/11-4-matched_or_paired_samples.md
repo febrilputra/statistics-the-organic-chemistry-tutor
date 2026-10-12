@@ -62,6 +62,10 @@ $$-13.1 \pm 1.833\,(4.119) = -13.1 \pm 7.55 \;\Rightarrow\; (-20.65,\; -5.55)$$
 
 Either way, the whole interval is **below 0**: there are no zero or positive values, which supports rejecting $H_0$. The margin of error is 7.55 for the 90% interval, or 9.32 for 95%.
 
+![Before and after slope chart, dot plot of differences with 90 and 95 percent intervals, and the left-tailed t-test](figures/paired_samples.png)
+
+Top left: most subjects lost weight. Top right: the ten differences, with the 90% and 95% intervals for the mean difference; both sit entirely below 0. Bottom: t = â3.18 is beyond the critical value â1.833, so H0 is rejected.
+
 ---
 
 ## Key takeaways

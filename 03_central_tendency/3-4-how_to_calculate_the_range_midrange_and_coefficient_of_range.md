@@ -28,6 +28,10 @@ $$\frac{45 + 5}{2} = \frac{50}{2} = 25$$
 **(c) Coefficient of range**
 $$\text{CR} = \frac{45 - 5}{45 + 5} = \frac{40}{50} = \frac{4}{5} = 0.8$$
 
+![Number line showing the lowest and highest values, the range and the midrange](figures/range_midrange.png)
+
+All three measures come from just the two extreme values: the range is the distance between them, the midrange is the point halfway between them, and the coefficient of range compares the range with their sum.
+
 ---
 
 ## Key takeaways

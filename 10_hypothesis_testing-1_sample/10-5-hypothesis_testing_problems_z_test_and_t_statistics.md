@@ -29,6 +29,10 @@ $$z = \frac{78 - 80}{2.5/\sqrt{40}} = \frac{-2}{0.39528} \approx -5.06$$
 
 $-5.06 < -1.96$, so the statistic is far into the left rejection region. **Reject $H_0$.** At the 5% significance level there is strong evidence that the machine does not dispense 80 mL on average.
 
+![Two-tailed z-test and left-tailed t-test with the test statistics in the rejection regions](figures/z_and_t_test_examples.png)
+
+Both worked examples. The bottling statistic (â5.06) is so extreme it lies off the chart. The battery test uses a t-distribution with 9 degrees of freedom, so its left critical value is â2.821, not a z value.
+
 ---
 
 ## Example 2 - left-tailed t-test (car batteries)

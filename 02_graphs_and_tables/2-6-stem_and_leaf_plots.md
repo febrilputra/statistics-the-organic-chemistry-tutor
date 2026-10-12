@@ -31,6 +31,10 @@ Sorted data: 7, 8, 13, 13, 15, 17, 22, 24, 25, 27, 28, 32, 32, 32, 36, 43
 
 Key: `1 | 3 = 13`. Single-digit numbers use a stem of 0 (`0 | 7 = 7`).
 
+![Stem-and-leaf plot of example 1 next to a histogram of the same data](figures/stem_and_leaf_as_histogram.png)
+
+Example 1 as a stem-and-leaf plot (each box is one leaf) next to a histogram of the same 16 values with classes 0-9, 10-19, .... Turn the stem-and-leaf plot 90 degrees counter-clockwise and the rows of leaves become the bars.
+
 ---
 
 ## Example 2 - numbers above 100

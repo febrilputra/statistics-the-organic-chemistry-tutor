@@ -34,6 +34,10 @@ $$\text{mode} = 69.5 + 10\left(\frac{9 - 6}{2(9) - 6 - 8}\right) = 69.5 + 10\lef
 
 **Does it make sense?** 77 lies in the modal class 70-79, and it is nearer 79 than 70. The class after the modal class has a higher frequency (8) than the class before it (6), so the mode is pulled toward the upper end.
 
+![Histogram with the crossing-lines construction for the grouped mode](figures/grouped_mode_construction.png)
+
+A graphical version of the formula. The two lines joining the modal bar to its neighbours cross at grade 77. The mode leans toward 79.5 because the next class (8) is taller than the previous one (6).
+
 ---
 
 ## Key takeaways

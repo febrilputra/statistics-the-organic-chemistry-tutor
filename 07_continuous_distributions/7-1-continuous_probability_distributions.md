@@ -23,6 +23,10 @@ The curve of a continuous distribution is its **probability density function (PD
 
 The **normal distribution** (bell curve) is the most important example. It is covered in Chapter 8.
 
+![One density curve shaded for a left area, an area between two values, a right area, and a single value](figures/probability_is_area.png)
+
+Every probability question about a continuous variable is a shaded area under the density curve. A single value is a vertical line with no width, so its probability is 0.
+
 ---
 
 ## Uniform distribution

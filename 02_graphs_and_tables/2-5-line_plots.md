@@ -27,6 +27,10 @@ The data contains: three 0s, five 1s, two 2s, one 3, four 4s, two 5s.
     0  1  2  3  4  5
 ```
 
+![Line plots of example 1 and of the car-ownership survey](figures/line_plots.png)
+
+Left: the line plot from Example 1. Right: the car survey from Example 2; the orange X's are the 24 people who own at least two cars.
+
 ---
 
 ## Example 2 - reading a line plot

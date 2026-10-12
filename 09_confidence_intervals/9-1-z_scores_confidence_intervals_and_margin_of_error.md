@@ -72,6 +72,10 @@ $$80.93075 < \mu < 83.06925$$
 
 If we took many samples and built a 95% interval from each one, about **95% of those intervals would contain the true mean $\mu$**, and about 5% would miss it. The video phrases this in terms of sample means landing in the interval; this is the more precise statement.
 
+![Normal curve with the 90 percent middle area and the matching interval, and 25 simulated 95 percent intervals](figures/confidence_interval.png)
+
+Top: the confidence level is the middle area between âz and +z, and the interval reaches one EBM either side of xÌ. Bottom: 25 simulated samples give 25 different intervals. Most of them cover the true mean (dashed line), but a few miss it, which is what "95% confident" means in the long run.
+
 ---
 
 ## What changes the margin of error?

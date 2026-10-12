@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Overlapping vs mutually exclusive events</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">One die, S = {1, ..., 6}. Shaded = the union "or". Darker = the overlap that would be counted twice.</text>
+<text x="260.0" y="90.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">A = {1, 2, 3, 4} and B = {3, 4, 5}: overlap</text>
+<rect x="40.0" y="100.0" width="440.0" height="270.0" stroke="#555555" stroke-width="1.5" fill="#ffffff"/>
+<text x="50.0" y="122.0" font-size="15" fill="#555555" text-anchor="start" font-weight="bold" font-style="italic">S</text>
+<circle cx="195.0" cy="235.0" r="95.0" stroke="none" fill="#F4B183"/>
+<circle cx="305.0" cy="235.0" r="95.0" stroke="none" fill="#F4B183"/>
+<clipPath id="vclip8"><circle cx="195" cy="235" r="95"/></clipPath>
+<circle cx="305.0" cy="235.0" r="95.0" fill="#E8955A" clip-path="url(#vclip8)"/>
+<circle cx="195.0" cy="235.0" r="95.0" stroke="#0072B2" stroke-width="2.4" fill="none"/>
+<circle cx="305.0" cy="235.0" r="95.0" stroke="#7B4FA0" stroke-width="2.4" fill="none"/>
+<text x="195.0" y="131.0" font-size="15" fill="#0072B2" text-anchor="middle" font-weight="bold">A</text>
+<text x="305.0" y="131.0" font-size="15" fill="#7B4FA0" text-anchor="middle" font-weight="bold">B</text>
+<text x="155.0" y="227.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<text x="155.0" y="253.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<text x="250.0" y="227.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<text x="250.0" y="253.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<text x="450.0" y="140.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<text x="345.0" y="240.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<text x="260.0" y="405.0" font-size="16" fill="#222222" text-anchor="middle" font-weight="bold">P(A or B) = 4/6 + 3/6 − 2/6 = 5/6</text>
+<text x="260.0" y="430.0" font-size="13" fill="#555555" text-anchor="middle">Forgetting to subtract gives 7/6, which is more than 1.</text>
+<text x="740.0" y="90.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">B = {3, 4, 5} and C = {6}: no overlap</text>
+<rect x="520.0" y="100.0" width="440.0" height="270.0" stroke="#555555" stroke-width="1.5" fill="#ffffff"/>
+<text x="530.0" y="122.0" font-size="15" fill="#555555" text-anchor="start" font-weight="bold" font-style="italic">S</text>
+<circle cx="680.0" cy="235.0" r="95.0" stroke="none" fill="#F4B183"/>
+<circle cx="850.0" cy="235.0" r="60.0" stroke="none" fill="#F4B183"/>
+<clipPath id="vclip9"><circle cx="680" cy="235" r="95"/></clipPath>
+<circle cx="850.0" cy="235.0" r="60.0" fill="#ffffff" clip-path="url(#vclip9)"/>
+<circle cx="680.0" cy="235.0" r="95.0" stroke="#0072B2" stroke-width="2.4" fill="none"/>
+<circle cx="850.0" cy="235.0" r="60.0" stroke="#7B4FA0" stroke-width="2.4" fill="none"/>
+<text x="680.0" y="131.0" font-size="15" fill="#0072B2" text-anchor="middle" font-weight="bold">B</text>
+<text x="850.0" y="166.0" font-size="15" fill="#7B4FA0" text-anchor="middle" font-weight="bold">C</text>
+<text x="935.0" y="132.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">1</text>
+<text x="935.0" y="158.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<text x="850.0" y="240.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<text x="667.0" y="227.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<text x="693.0" y="227.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<text x="680.0" y="253.9" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<text x="740.0" y="405.0" font-size="16" fill="#222222" text-anchor="middle" font-weight="bold">P(B or C) = 3/6 + 1/6 = 4/6 = 2/3</text>
+<text x="740.0" y="430.0" font-size="13" fill="#555555" text-anchor="middle">Mutually exclusive: P(B and C) = 0, so nothing is subtracted.</text>
+</svg>

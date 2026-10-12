@@ -51,6 +51,10 @@ Without subtracting $\tfrac26$ you would get $\tfrac76$, which is more than 1 an
 
 **Check:** $A \cup B = \{1, 2, 3, 4, 5\}$, which is 5 of 6 outcomes ✓
 
+![Venn diagrams of overlapping events and of mutually exclusive events](figures/mutually_exclusive.png)
+
+Overlapping circles share outcomes, so the overlap must be subtracted once. Separate circles share nothing, so P(A or B) is simply P(A) + P(B).
+
 ---
 
 ## Example 2 - mutually exclusive events

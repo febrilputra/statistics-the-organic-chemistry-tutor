@@ -45,6 +45,10 @@ Data (16 values): 5, 8, 3, 6, 8, 5, 8, 2, 3, 8, 5, 8, 3, 5, 7, 6
 - **Median:** with $n = 16$, the median is the average of the 8th and 9th values. Removing dots from both ends leaves a 5 and a 6, so
   $$\text{median} = \frac{5 + 6}{2} = 5.5$$
 
+![Dot plots of the two examples](figures/dot_plots.png)
+
+The two dot plots from this lesson. The tallest stack (orange) is the mode. In Example 1 the 8th and 9th values are a 5 and a 6, so the median is 5.5 (dashed line).
+
 ---
 
 ## Example 2 (practice)

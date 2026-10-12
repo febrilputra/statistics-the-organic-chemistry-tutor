@@ -36,6 +36,10 @@ Data: 7, 11, 14, 19, 22, 29
 
 $$\text{MAD} = \frac{38}{6} = 6\tfrac{1}{3} \approx 6.33$$
 
+![Distances of each value from the mean drawn as bars](figures/mean_absolute_deviation.png)
+
+Each bar is the distance of one value from the mean of 12. The mean absolute deviation is the average bar length, (7 + 3 + 0 + 4 + 6)/5 = 4.
+
 ---
 
 ## Example 2 - directly with the formula

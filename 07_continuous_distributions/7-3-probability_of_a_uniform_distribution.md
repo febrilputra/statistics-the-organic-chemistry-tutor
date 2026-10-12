@@ -56,6 +56,10 @@ $$0.85 = (K - 0) \cdot \frac{1}{40} \;\Rightarrow\; K = 0.85 \times 40 = 34 \tex
 
 This is reasonable: the 75th percentile is 30, so the 85th must lie between 30 and 40.
 
+![Uniform rectangles for the train and test examples with shaded probability regions](figures/uniform_probabilities.png)
+
+Each probability is the width of the shaded strip divided by the total width. Strips of equal width (26 to 35 and 36 to 45) have equal probability. For the conditional question, the given part (X > 30) becomes the new total width.
+
 ---
 
 ## Example 2 - time to finish a chemistry test (20 to 45 minutes)

@@ -43,6 +43,10 @@ $$P(4 < X < 7) = \left(1 - e^{-1.4}\right) - \left(1 - e^{-0.8}\right) \approx 0
 
 (Equivalently, $e^{-0.8} - e^{-1.4} \approx 0.4493 - 0.2466 = 0.2027$.)
 
+![Exponential curve with Î» = 0.2 shaded for less than 3, more than 10, and between 4 and 7 years](figures/exponential_laptops.png)
+
+The three laptop questions as areas under f(x) = 0.2e^(â0.2x). The curve starts at Î» = 0.2, and the mean lifetime is 5 years.
+
 ---
 
 ## Key takeaways

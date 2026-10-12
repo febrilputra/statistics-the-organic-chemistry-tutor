@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Counting cards in a 52-card deck</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">4 suits × 13 ranks. Orange cards are the favorable outcomes.</text>
+<text x="260.0" y="92.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">(a) Queens: 4/52 = 1/13</text>
+<text x="55.0" y="131.0" font-size="20" fill="#C0392B" text-anchor="middle">♦</text>
+<rect x="71.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="85.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">A</text>
+<rect x="102.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="116.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">2</text>
+<rect x="133.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="147.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">3</text>
+<rect x="164.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="178.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">4</text>
+<rect x="195.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="209.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">5</text>
+<rect x="226.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="240.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">6</text>
+<rect x="257.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="271.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">7</text>
+<rect x="288.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="302.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">8</text>
+<rect x="319.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="333.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">9</text>
+<rect x="350.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="364.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">10</text>
+<rect x="381.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="395.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">J</text>
+<rect x="412.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="426.5" y="129.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="443.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="457.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">K</text>
+<text x="55.0" y="171.0" font-size="20" fill="#C0392B" text-anchor="middle">♥</text>
+<rect x="71.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="85.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">A</text>
+<rect x="102.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="116.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">2</text>
+<rect x="133.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="147.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">3</text>
+<rect x="164.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="178.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">4</text>
+<rect x="195.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="209.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">5</text>
+<rect x="226.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="240.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">6</text>
+<rect x="257.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="271.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">7</text>
+<rect x="288.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="302.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">8</text>
+<rect x="319.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="333.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">9</text>
+<rect x="350.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="364.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">10</text>
+<rect x="381.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="395.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">J</text>
+<rect x="412.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="426.5" y="169.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="443.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="457.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">K</text>
+<text x="55.0" y="211.0" font-size="20" fill="#222222" text-anchor="middle">♠</text>
+<rect x="71.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="85.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="102.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="116.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="133.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="147.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="164.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="178.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="195.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="209.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="226.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="240.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="257.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="271.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="288.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="302.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="319.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="333.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="350.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="364.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="381.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="395.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="412.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="426.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="443.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="457.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">K</text>
+<text x="55.0" y="251.0" font-size="20" fill="#222222" text-anchor="middle">♣</text>
+<rect x="71.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="85.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="102.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="116.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="133.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="147.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="164.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="178.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="195.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="209.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="226.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="240.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="257.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="271.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="288.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="302.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="319.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="333.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="350.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="364.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="381.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="395.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="412.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="426.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="443.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="457.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">K</text>
+<text x="740.0" y="92.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">(b) Black, 4 to 9: 12/52 = 3/13</text>
+<text x="535.0" y="131.0" font-size="20" fill="#C0392B" text-anchor="middle">♦</text>
+<rect x="551.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="565.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">A</text>
+<rect x="582.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="596.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">2</text>
+<rect x="613.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="627.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">3</text>
+<rect x="644.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="658.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">4</text>
+<rect x="675.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="689.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">5</text>
+<rect x="706.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="720.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">6</text>
+<rect x="737.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="751.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">7</text>
+<rect x="768.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="782.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">8</text>
+<rect x="799.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="813.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">9</text>
+<rect x="830.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="844.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">10</text>
+<rect x="861.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="875.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">J</text>
+<rect x="892.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="906.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="923.0" y="106.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="937.5" y="129.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">K</text>
+<text x="535.0" y="171.0" font-size="20" fill="#C0392B" text-anchor="middle">♥</text>
+<rect x="551.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="565.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">A</text>
+<rect x="582.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="596.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">2</text>
+<rect x="613.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="627.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">3</text>
+<rect x="644.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="658.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">4</text>
+<rect x="675.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="689.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">5</text>
+<rect x="706.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="720.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">6</text>
+<rect x="737.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="751.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">7</text>
+<rect x="768.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="782.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">8</text>
+<rect x="799.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="813.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">9</text>
+<rect x="830.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="844.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">10</text>
+<rect x="861.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="875.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">J</text>
+<rect x="892.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="906.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="923.0" y="146.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="937.5" y="169.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">K</text>
+<text x="535.0" y="211.0" font-size="20" fill="#222222" text-anchor="middle">♠</text>
+<rect x="551.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="565.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="582.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="596.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="613.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="627.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="644.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="658.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="675.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="689.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="706.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="720.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="737.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="751.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="768.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="782.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="799.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="813.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="830.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="844.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="861.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="875.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="892.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="906.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="923.0" y="186.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="937.5" y="209.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">K</text>
+<text x="535.0" y="251.0" font-size="20" fill="#222222" text-anchor="middle">♣</text>
+<rect x="551.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="565.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="582.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="596.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="613.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="627.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="644.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="658.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="675.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="689.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="706.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="720.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="737.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="751.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="768.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="782.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="799.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="813.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="830.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="844.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="861.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="875.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="892.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="906.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="923.0" y="226.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="937.5" y="249.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">K</text>
+<text x="45.0" y="300.0" font-size="15" fill="#222222" text-anchor="start" font-weight="bold">(c) A red king first, then a diamond, without replacement: two cases</text>
+<text x="45.0" y="329.0" font-size="13" fill="#555555" text-anchor="start">Case 1: the king of hearts (all 13 diamonds left)</text>
+<rect x="45.0" y="335.0" width="44.0" height="44.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="67.0" y="362.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">K♥</text>
+<line x1="96.0" y1="357.0" x2="128.0" y2="357.0" stroke="#555555" stroke-width="1.8" fill="none"/>
+<polygon points="128.0,357.0 119.7,360.5 119.7,353.5" stroke="none" fill="#555555"/>
+<rect x="136.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="150.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="167.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="181.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="198.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="212.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="229.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="243.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="260.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="274.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="291.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="305.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="322.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="336.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="353.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="367.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="384.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="398.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="415.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="429.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="446.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="460.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="477.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="491.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="508.0" y="339.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="522.5" y="362.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">K</text>
+<text x="560.0" y="363.0" font-size="16" fill="#222222" text-anchor="start" font-weight="bold">1/52 × 13/51 = 1/204</text>
+<text x="45.0" y="424.0" font-size="13" fill="#555555" text-anchor="start">Case 2: the king of diamonds (one diamond is gone)</text>
+<rect x="45.0" y="430.0" width="44.0" height="44.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="67.0" y="457.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">K♦</text>
+<line x1="96.0" y1="452.0" x2="128.0" y2="452.0" stroke="#555555" stroke-width="1.8" fill="none"/>
+<polygon points="128.0,452.0 119.7,455.5 119.7,448.5" stroke="none" fill="#555555"/>
+<rect x="136.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="150.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">A</text>
+<rect x="167.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="181.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">2</text>
+<rect x="198.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="212.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">3</text>
+<rect x="229.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="243.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">4</text>
+<rect x="260.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="274.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">5</text>
+<rect x="291.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="305.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">6</text>
+<rect x="322.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="336.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">7</text>
+<rect x="353.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="367.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">8</text>
+<rect x="384.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="398.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">9</text>
+<rect x="415.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="429.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">10</text>
+<rect x="446.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="460.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">J</text>
+<rect x="477.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#D55E00" stroke-width="2" fill="#F4B183"/>
+<text x="491.5" y="457.0" font-size="12.5" fill="#222222" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="508.0" y="434.0" width="29.0" height="36.0" rx="4" stroke="#BBBBBB" stroke-width="1" fill="#ffffff"/>
+<text x="522.5" y="457.0" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="bold">K</text>
+<line x1="510.0" y1="436.0" x2="535.0" y2="468.0" stroke="#C0392B" stroke-width="2" fill="none"/>
+<text x="560.0" y="458.0" font-size="16" fill="#222222" text-anchor="start" font-weight="bold">1/52 × 12/51 = 1/221</text>
+<text x="45.0" y="530.0" font-size="16" fill="#D55E00" text-anchor="start" font-weight="bold">Add the two cases:  P = 1/204 + 1/221 = 25/2652 ≈ 0.0094</text>
+</svg>

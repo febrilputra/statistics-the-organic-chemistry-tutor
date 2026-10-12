@@ -43,6 +43,10 @@ $$s = \sqrt{\frac{5443.73}{37 - 1}} = \sqrt{151.21} \approx 12.3$$
 
 (The deviations above use the rounded mean 79.2. Using the unrounded mean changes the answer only in later decimals.)
 
+![Histogram of grouped exam scores with the mean and a one-standard-deviation band](figures/grouped_standard_deviation.png)
+
+Each class is represented by its midpoint (black dots) when computing the mean and standard deviation. The shaded band from 66.9 to 91.5 is the mean +- 1 standard deviation.
+
 ---
 
 ## Key takeaways

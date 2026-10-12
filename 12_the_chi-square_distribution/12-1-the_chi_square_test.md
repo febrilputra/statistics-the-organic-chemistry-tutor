@@ -51,6 +51,10 @@ $$\chi^2 = \frac{126}{20} = 6.3$$
 
 $6.3 < 9.49$, which is in the do-not-reject region. **Fail to reject $H_0$.** The variation between days is not large enough to say that absences are unevenly spread across the week.
 
+![Bar chart of observed absences by weekday against 20 expected, and the chi-square curve with df 4](figures/goodness_of_fit.png)
+
+Left: Friday and Wednesday are furthest from the expected 20, so they contribute the most to ÏÂ². Right: the total, 6.3, is still below the critical value 9.49, so the uneven pattern could be due to chance.
+
 ---
 
 ## Key takeaways

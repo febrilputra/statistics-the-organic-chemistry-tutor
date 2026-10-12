@@ -55,7 +55,7 @@ $$P(X = 6) = 38{,}760\,(0.25)^6(0.75)^{14} \approx 0.1686 = 16.86\%$$
 - $n = 30$, $p = 0.25$, $q = 0.75$
 
 **(a) P(exactly 7 take algebra)**
-$$P(X = 7) = {}_{30}C_7\,(0.25)^7(0.75)^{23} = 2{,}035{,}800\,(0.25)^7(0.75)^{23} \approx 0.1663 = 16.6\%$$
+$$P(X = 7) = {}_{30}C_7\,(0.25)^7(0.75)^{23} = 2{,}035{,}800\,(0.25)^7(0.75)^{23} \approx 0.1662 = 16.6\%$$
 
 **(b) P(fewer than 5 take algebra)**, so $X < 5$, meaning $X = 0, 1, 2, 3, 4$ (5 is not included):
 
@@ -75,6 +75,10 @@ For large $n$, adding many terms gets tedious. A normal approximation, or the co
 **(c) Mean and standard deviation**
 $$\mu = np = 30(0.25) = 7.5$$
 $$\sigma = \sqrt{npq} = \sqrt{30(0.25)(0.75)} = \sqrt{5.625} \approx 2.37$$
+
+![Binomial probability bar charts for all three examples](figures/binomial_distributions.png)
+
+The full distribution behind each example. "Exactly 7" is a single bar. "Fewer than 5" is the sum of the five green bars, including the almost invisible bar at x = 0. The bars are tallest near the mean np = 7.5.
 
 ---
 

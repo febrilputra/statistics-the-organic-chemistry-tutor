@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Binomial distributions from the lesson</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Each bar is P(X = x) = C(n, x) p^x q^(n − x). One question = one bar; "fewer than" = several bars added.</text>
+<line x1="80.0" y1="347.0" x2="940.0" y2="347.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="288.2" x2="940.0" y2="288.2" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="229.5" x2="940.0" y2="229.5" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="170.8" x2="940.0" y2="170.8" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="112.0" x2="940.0" y2="112.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="510.0" y="100.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Example 3: 30 students, P(algebra) = 0.25</text>
+<rect x="94.1" y="346.8" width="28.1" height="0.2" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="134.3" y="344.9" width="28.1" height="2.1" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="174.4" y="336.9" width="28.1" height="10.1" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="214.6" y="315.4" width="28.1" height="31.6" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="254.8" y="276.0" width="28.1" height="71.0" stroke="#1F4E79" stroke-width="0.8" fill="#009E73"/>
+<rect x="295.0" y="223.9" width="28.1" height="123.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="335.2" y="176.1" width="28.1" height="170.9" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="375.4" y="151.7" width="28.1" height="195.3" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="415.6" y="159.8" width="28.1" height="187.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="455.7" y="194.5" width="28.1" height="152.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="495.9" y="240.2" width="28.1" height="106.8" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="536.1" y="282.3" width="28.1" height="64.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="576.3" y="312.8" width="28.1" height="34.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="616.5" y="331.2" width="28.1" height="15.8" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="656.7" y="340.6" width="28.1" height="6.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="696.9" y="344.7" width="28.1" height="2.3" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="737.1" y="346.3" width="28.1" height="0.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="777.2" y="346.8" width="28.1" height="0.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="817.4" y="347.0" width="28.1" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="857.6" y="347.0" width="28.1" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="897.8" y="347.0" width="28.1" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<text x="355.4" y="149.7" font-size="13" fill="#D55E00" text-anchor="end" font-weight="bold">P(X = 7) ≈ 0.1662</text>
+<text x="98.1" y="223.6" font-size="13" fill="#009E73" text-anchor="start" font-weight="bold"><tspan x="98.1" dy="0.0">P(X &lt; 5) = P(0) + ... + P(4)</tspan><tspan x="98.1" dy="16.2">≈ 0.0979 (green)</tspan></text>
+<line x1="164.4" y1="258.9" x2="236.7" y2="307.1" stroke="#009E73" stroke-width="1.6" fill="none"/>
+<polygon points="236.7,307.1 227.9,305.4 231.8,299.5" stroke="none" fill="#009E73"/>
+<line x1="409.5" y1="347.0" x2="409.5" y2="112.0" stroke="#222222" stroke-width="1.8" stroke-dasharray="6,4" fill="none"/>
+<line x1="314.2" y1="126.1" x2="504.8" y2="126.1" stroke="#7B4FA0" stroke-width="2" fill="none"/>
+<line x1="314.2" y1="133.2" x2="314.2" y2="119.1" stroke="#7B4FA0" stroke-width="2" fill="none"/>
+<line x1="504.8" y1="133.2" x2="504.8" y2="119.1" stroke="#7B4FA0" stroke-width="2" fill="none"/>
+<text x="512.8" y="131.1" font-size="13" fill="#7B4FA0" text-anchor="start" font-weight="bold">μ = np = 7.5,  σ = √(npq) ≈ 2.37</text>
+<line x1="80.0" y1="347.0" x2="940.0" y2="347.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="80.0" y1="112.0" x2="80.0" y2="347.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="108.1" y1="347.0" x2="108.1" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="108.1" y="366.0" font-size="12" fill="#555555" text-anchor="middle">0</text>
+<line x1="148.3" y1="347.0" x2="148.3" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="148.3" y="366.0" font-size="12" fill="#555555" text-anchor="middle">1</text>
+<line x1="188.5" y1="347.0" x2="188.5" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="188.5" y="366.0" font-size="12" fill="#555555" text-anchor="middle">2</text>
+<line x1="228.7" y1="347.0" x2="228.7" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="228.7" y="366.0" font-size="12" fill="#555555" text-anchor="middle">3</text>
+<line x1="268.9" y1="347.0" x2="268.9" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="268.9" y="366.0" font-size="12" fill="#555555" text-anchor="middle">4</text>
+<line x1="309.1" y1="347.0" x2="309.1" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="309.1" y="366.0" font-size="12" fill="#555555" text-anchor="middle">5</text>
+<line x1="349.3" y1="347.0" x2="349.3" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="349.3" y="366.0" font-size="12" fill="#555555" text-anchor="middle">6</text>
+<line x1="389.4" y1="347.0" x2="389.4" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="389.4" y="366.0" font-size="12" fill="#555555" text-anchor="middle">7</text>
+<line x1="429.6" y1="347.0" x2="429.6" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="429.6" y="366.0" font-size="12" fill="#555555" text-anchor="middle">8</text>
+<line x1="469.8" y1="347.0" x2="469.8" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="469.8" y="366.0" font-size="12" fill="#555555" text-anchor="middle">9</text>
+<line x1="510.0" y1="347.0" x2="510.0" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="510.0" y="366.0" font-size="12" fill="#555555" text-anchor="middle">10</text>
+<line x1="550.2" y1="347.0" x2="550.2" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="550.2" y="366.0" font-size="12" fill="#555555" text-anchor="middle">11</text>
+<line x1="590.4" y1="347.0" x2="590.4" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="590.4" y="366.0" font-size="12" fill="#555555" text-anchor="middle">12</text>
+<line x1="630.6" y1="347.0" x2="630.6" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="630.6" y="366.0" font-size="12" fill="#555555" text-anchor="middle">13</text>
+<line x1="670.7" y1="347.0" x2="670.7" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="670.7" y="366.0" font-size="12" fill="#555555" text-anchor="middle">14</text>
+<line x1="710.9" y1="347.0" x2="710.9" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="710.9" y="366.0" font-size="12" fill="#555555" text-anchor="middle">15</text>
+<line x1="751.1" y1="347.0" x2="751.1" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="751.1" y="366.0" font-size="12" fill="#555555" text-anchor="middle">16</text>
+<line x1="791.3" y1="347.0" x2="791.3" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="791.3" y="366.0" font-size="12" fill="#555555" text-anchor="middle">17</text>
+<line x1="831.5" y1="347.0" x2="831.5" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="831.5" y="366.0" font-size="12" fill="#555555" text-anchor="middle">18</text>
+<line x1="871.7" y1="347.0" x2="871.7" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="871.7" y="366.0" font-size="12" fill="#555555" text-anchor="middle">19</text>
+<line x1="911.9" y1="347.0" x2="911.9" y2="352.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="911.9" y="366.0" font-size="12" fill="#555555" text-anchor="middle">20</text>
+<line x1="75.0" y1="347.0" x2="80.0" y2="347.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="351.0" font-size="12" fill="#555555" text-anchor="end">0</text>
+<line x1="75.0" y1="288.2" x2="80.0" y2="288.2" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="292.2" font-size="12" fill="#555555" text-anchor="end">0.05</text>
+<line x1="75.0" y1="229.5" x2="80.0" y2="229.5" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="233.5" font-size="12" fill="#555555" text-anchor="end">0.1</text>
+<line x1="75.0" y1="170.8" x2="80.0" y2="170.8" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="174.8" font-size="12" fill="#555555" text-anchor="end">0.15</text>
+<line x1="75.0" y1="112.0" x2="80.0" y2="112.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="116.0" font-size="12" fill="#555555" text-anchor="end">0.2</text>
+<text x="510.0" y="385.0" font-size="13" fill="#555555" text-anchor="middle">number taking algebra, x</text>
+<text x="34.0" y="229.5" font-size="13" fill="#555555" text-anchor="middle" transform="rotate(-90 34.0 229.5)">P(X = x)</text>
+<line x1="80.0" y1="580.0" x2="460.0" y2="580.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="540.0" x2="460.0" y2="540.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="500.0" x2="460.0" y2="500.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="80.0" y1="460.0" x2="460.0" y2="460.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="270.0" y="428.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Example 1: 12 die rolls, P(a 4) = 1/6</text>
+<rect x="89.9" y="535.1" width="19.9" height="44.9" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="118.3" y="472.3" width="19.9" height="107.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="146.6" y="461.6" width="19.9" height="118.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="175.0" y="501.0" width="19.9" height="79.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="203.4" y="544.5" width="19.9" height="35.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="231.7" y="568.6" width="19.9" height="11.4" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="260.1" y="577.3" width="19.9" height="2.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="288.4" y="579.5" width="19.9" height="0.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="316.8" y="579.9" width="19.9" height="0.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="345.1" y="580.0" width="19.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="373.5" y="580.0" width="19.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="401.9" y="580.0" width="19.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="430.2" y="580.0" width="19.9" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<text x="253.6" y="562.6" font-size="12.5" fill="#D55E00" text-anchor="start" font-weight="bold">P(X = 5) ≈ 0.0284</text>
+<line x1="80.0" y1="580.0" x2="460.0" y2="580.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="80.0" y1="440.0" x2="80.0" y2="580.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="99.9" y1="580.0" x2="99.9" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="99.9" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">0</text>
+<line x1="128.2" y1="580.0" x2="128.2" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="128.2" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">1</text>
+<line x1="156.6" y1="580.0" x2="156.6" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="156.6" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">2</text>
+<line x1="184.9" y1="580.0" x2="184.9" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="184.9" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">3</text>
+<line x1="213.3" y1="580.0" x2="213.3" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="213.3" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">4</text>
+<line x1="241.6" y1="580.0" x2="241.6" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="241.6" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">5</text>
+<line x1="270.0" y1="580.0" x2="270.0" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="270.0" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">6</text>
+<line x1="298.4" y1="580.0" x2="298.4" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="298.4" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">7</text>
+<line x1="326.7" y1="580.0" x2="326.7" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="326.7" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">8</text>
+<line x1="355.1" y1="580.0" x2="355.1" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="355.1" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">9</text>
+<line x1="383.4" y1="580.0" x2="383.4" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="383.4" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">10</text>
+<line x1="411.8" y1="580.0" x2="411.8" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="411.8" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">11</text>
+<line x1="440.1" y1="580.0" x2="440.1" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="440.1" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">12</text>
+<line x1="75.0" y1="580.0" x2="80.0" y2="580.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="584.0" font-size="10.5" fill="#555555" text-anchor="end">0</text>
+<line x1="75.0" y1="540.0" x2="80.0" y2="540.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="544.0" font-size="10.5" fill="#555555" text-anchor="end">0.1</text>
+<line x1="75.0" y1="500.0" x2="80.0" y2="500.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="504.0" font-size="10.5" fill="#555555" text-anchor="end">0.2</text>
+<line x1="75.0" y1="460.0" x2="80.0" y2="460.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="72.0" y="464.0" font-size="10.5" fill="#555555" text-anchor="end">0.3</text>
+<text x="270.0" y="618.0" font-size="13" fill="#555555" text-anchor="middle">number of 4s, x</text>
+<line x1="560.0" y1="580.0" x2="940.0" y2="580.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="560.0" y1="524.0" x2="940.0" y2="524.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<line x1="560.0" y1="468.0" x2="940.0" y2="468.0" stroke="#E6E6E6" stroke-width="1" fill="none"/>
+<text x="750.0" y="428.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Example 2: 20 guesses, P(correct) = 0.25</text>
+<rect x="566.2" y="578.2" width="12.4" height="1.8" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="584.0" y="568.2" width="12.4" height="11.8" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="601.7" y="542.5" width="12.4" height="37.5" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="619.5" y="505.0" width="12.4" height="75.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="637.2" y="473.8" width="12.4" height="106.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="655.0" y="466.7" width="12.4" height="113.3" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="672.8" y="485.6" width="12.4" height="94.4" stroke="#1F4E79" stroke-width="0.8" fill="#D55E00"/>
+<rect x="690.5" y="517.1" width="12.4" height="62.9" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="708.3" y="545.9" width="12.4" height="34.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="726.0" y="564.8" width="12.4" height="15.2" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="743.8" y="574.4" width="12.4" height="5.6" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="761.5" y="578.3" width="12.4" height="1.7" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="779.3" y="579.6" width="12.4" height="0.4" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="797.1" y="579.9" width="12.4" height="0.1" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="814.8" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="832.6" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="850.3" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="868.1" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="885.8" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="903.6" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<rect x="921.4" y="580.0" width="12.4" height="0.0" stroke="#1F4E79" stroke-width="0.8" fill="#BFD3E6"/>
+<text x="691.0" y="479.6" font-size="12.5" fill="#D55E00" text-anchor="start" font-weight="bold">P(X = 6) ≈ 0.1686</text>
+<line x1="560.0" y1="580.0" x2="940.0" y2="580.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="560.0" y1="440.0" x2="560.0" y2="580.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="572.4" y1="580.0" x2="572.4" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="572.4" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">0</text>
+<line x1="590.2" y1="580.0" x2="590.2" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="590.2" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">1</text>
+<line x1="607.9" y1="580.0" x2="607.9" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="607.9" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">2</text>
+<line x1="625.7" y1="580.0" x2="625.7" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="625.7" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">3</text>
+<line x1="643.5" y1="580.0" x2="643.5" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="643.5" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">4</text>
+<line x1="661.2" y1="580.0" x2="661.2" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="661.2" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">5</text>
+<line x1="679.0" y1="580.0" x2="679.0" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="679.0" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">6</text>
+<line x1="696.7" y1="580.0" x2="696.7" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="696.7" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">7</text>
+<line x1="714.5" y1="580.0" x2="714.5" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="714.5" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">8</text>
+<line x1="732.2" y1="580.0" x2="732.2" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="732.2" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">9</text>
+<line x1="750.0" y1="580.0" x2="750.0" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="750.0" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">10</text>
+<line x1="767.8" y1="580.0" x2="767.8" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="767.8" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">11</text>
+<line x1="785.5" y1="580.0" x2="785.5" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="785.5" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">12</text>
+<line x1="803.3" y1="580.0" x2="803.3" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="803.3" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">13</text>
+<line x1="821.0" y1="580.0" x2="821.0" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="821.0" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">14</text>
+<line x1="838.8" y1="580.0" x2="838.8" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="838.8" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">15</text>
+<line x1="856.5" y1="580.0" x2="856.5" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="856.5" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">16</text>
+<line x1="874.3" y1="580.0" x2="874.3" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="874.3" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">17</text>
+<line x1="892.1" y1="580.0" x2="892.1" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="892.1" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">18</text>
+<line x1="909.8" y1="580.0" x2="909.8" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="909.8" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">19</text>
+<line x1="927.6" y1="580.0" x2="927.6" y2="585.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="927.6" y="599.0" font-size="10.5" fill="#555555" text-anchor="middle">20</text>
+<line x1="555.0" y1="580.0" x2="560.0" y2="580.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="584.0" font-size="10.5" fill="#555555" text-anchor="end">0</text>
+<line x1="555.0" y1="524.0" x2="560.0" y2="524.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="528.0" font-size="10.5" fill="#555555" text-anchor="end">0.1</text>
+<line x1="555.0" y1="468.0" x2="560.0" y2="468.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="552.0" y="472.0" font-size="10.5" fill="#555555" text-anchor="end">0.2</text>
+<text x="750.0" y="618.0" font-size="13" fill="#555555" text-anchor="middle">number correct, x</text>
+</svg>

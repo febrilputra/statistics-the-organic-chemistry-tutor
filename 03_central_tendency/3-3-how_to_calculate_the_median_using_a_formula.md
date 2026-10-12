@@ -29,6 +29,10 @@ Sorted: 5, 7, 13, **14**, 19, 26, 42 ($n = 7$)
 
 $$\frac{n+1}{2} = \frac{8}{2} = 4 \;\Rightarrow\; \text{median} = a_4 = 14$$
 
+![Sorted values in numbered boxes with the median position highlighted](figures/median_position.png)
+
+The formula only tells you a position in the sorted list. With 7 values the 4th box is the median. With 8 values there is no single middle box, so the 4th and 5th are averaged.
+
 ## Example 2 - even $n$
 
 Data: 8, 21, 14, 36, 17, 2, 56, 41

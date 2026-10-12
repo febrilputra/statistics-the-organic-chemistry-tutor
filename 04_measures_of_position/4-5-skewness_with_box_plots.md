@@ -13,6 +13,10 @@ The **mode** is the value with the highest frequency, which is the **peak** of t
 | Two peaks | 2 | **Bimodal** |
 | Three peaks | 3 | **Trimodal** (or, in general, **multimodal**) |
 
+![Unimodal, bimodal and trimodal curves](figures/number_of_modes.png)
+
+The number of peaks gives the number of modes.
+
 ---
 
 ## The three shapes (unimodal distributions)
@@ -29,6 +33,10 @@ Reading left to right along the x-axis:
 - **Skewed left:** long tail on the left → mean → median → peak (mode)
 
 > **Memory aid:** the **mean is pulled toward the tail**. The mode stays at the peak, and the median sits between them.
+
+![Left-skewed, symmetric and right-skewed curves with mean, median and mode, and their box plots](figures/skewness.png)
+
+Where the mean, median and mode fall for each shape, with the matching box plot underneath. The mean is always pulled toward the tail.
 
 ---
 
@@ -68,6 +76,10 @@ Any of these indicates right skew:
 ```
 
 - $Q_2 - Q_1 > Q_3 - Q_2$, and/or the left whisker is longer.
+
+![Seven box plots showing symmetric, right-skewed and left-skewed shapes](figures/skewness_box_plots.png)
+
+The three ways a box plot can show skew: a longer box half, a longer whisker, or both. The longer side always points toward the tail.
 
 ---
 

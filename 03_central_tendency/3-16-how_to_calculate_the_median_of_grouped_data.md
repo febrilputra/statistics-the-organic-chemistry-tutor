@@ -48,6 +48,10 @@ The median is about **75.1**, which is inside the median class 70-79 as it shoul
 
 > **Correction to the video:** the video gives 75.5 (repeating) as the result. But $50/9 \approx 5.56$ and $69.5 + 5.56 \approx 75.06$, so the correct median is about **75.06**.
 
+![Cumulative frequency curve with the median found at n/2 = 19](figures/grouped_median_ogive.png)
+
+The formula is the same as reading the cumulative frequency curve. Go across from n/2 = 19 to the curve, then straight down. The median lands about 5/9 of the way through the 69.5-79.5 class.
+
 ---
 
 ## Key takeaways

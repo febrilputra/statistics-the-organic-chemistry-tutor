@@ -43,6 +43,10 @@ $$z = \frac{169.5 - 168}{3.9/\sqrt{36}} = \frac{1.5}{0.65} \approx 2.31$$
 
 $0.02088 < 0.05$ → **reject $H_0$**. At the 5% level there is enough evidence that the mean weight is not 168 lb.
 
+![Normal curves with p-value areas shaded beyond the test statistics](figures/p_value_method.png)
+
+The p-value (dark red) is the tail area beyond the test statistic. For a two-tailed test, both tails count. In both examples the p-value is smaller than Î± (the light red region), so H0 is rejected.
+
 ---
 
 ## Example 2 - left-tailed (car warranty)

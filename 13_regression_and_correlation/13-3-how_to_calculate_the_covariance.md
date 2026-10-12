@@ -70,6 +70,10 @@ On a scatter plot:
 
 > The **size** of the covariance depends on the units of $x$ and $y$, so it is hard to say whether 17.5 is "big". The **correlation coefficient** (Lesson 13.4) rescales it to the range −1 to +1.
 
+![Two scatter plots split into quadrants at the means, with each point's product of deviations](figures/covariance_quadrants.png)
+
+Points up-right or down-left of the means (green) add positive products. Points up-left or down-right (red) add negative products. Example 1 is all green, so the covariance is positive. Example 2 is all red, so it is negative.
+
 ---
 
 ## Key takeaways

@@ -137,6 +137,10 @@ $$\text{percentile of value } v = \frac{x + 0.5\,y}{n} \times 100$$
 - $D_6$ sits between a 7 and a 9 → 8
 - $D_7$ sits between two 9s → 9
 
+![Cumulative relative frequency step graph with four deciles read off, and the sorted data split into tenths](figures/deciles_from_crf.png)
+
+Reading deciles from the cumulative relative frequency. Where a decile level crosses a flat step, it lands strictly between two values, so take the higher one (D4 = 4, D7 = 9). Where it lands exactly on a step, average the two values on either side (D3 = 3.5, D6 = 8). The row of boxes below shows the same thing with the 20 sorted values.
+
 ---
 
 ## Key takeaways

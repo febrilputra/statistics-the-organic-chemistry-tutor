@@ -26,15 +26,9 @@
 | 90-100 | A | 4 |
 | **Total** | | **17** |
 
-```mermaid
-xychart-beta
-    title "Test scores"
-    x-axis ["40-49", "50-59", "60-69", "70-79", "80-89", "90-100"]
-    y-axis "Frequency" 0 --> 6
-    bar [1, 1, 2, 4, 5, 4]
-```
+![Histogram of the 17 test scores, with the three reading questions shaded below it](figures/histogram_test_scores.png)
 
-(In a hand-drawn histogram the bars touch each other.)
+The top chart is the histogram. Its bars touch, and the modal class 80-89 is shown in orange. The three small charts below shade the bars used to answer each question in the next section.
 
 ### Shape and mode
 

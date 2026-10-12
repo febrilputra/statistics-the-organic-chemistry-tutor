@@ -44,6 +44,10 @@ $$r = \frac{8.5}{2.54951 \times 3.39116} \approx 0.9831$$
 
 **Mental-math tip:** $34/4 = 32/4 + 2/4 = 8 + 0.5 = 8.5$.
 
+![Raw data with quadrant products, and the same points in standardized units near the diagonal](figures/correlation_from_covariance.png)
+
+Dividing the covariance by sx and sy is the same as measuring both variables in standard-deviation units. In those units the points sit close to the diagonal line zy = zx, which is why r â 0.983 is close to 1.
+
 ---
 
 ## Method 2 - computational formula (check)

@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="870" viewBox="0 0 1000 870" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222222">Box-and-whisker plots: what happens when the min or the max is an outlier</text>
+<text x="60" y="76" font-size="15" font-weight="bold" fill="#222222">(a) No outliers: whiskers reach the min and the max</text>
+<line x1="105.0" y1="102" x2="105.0" y2="202" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="101.0" y="100" text-anchor="end" font-size="11" fill="#888888">lower fence = -4</text>
+<line x1="825.0" y1="102" x2="825.0" y2="202" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="829.0" y="100" text-anchor="start" font-size="11" fill="#888888">upper fence = 28</text>
+<circle cx="307.5" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="352.5" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="375.0" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="420.0" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="442.5" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="487.5" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="510.0" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="555.0" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="555.0" cy="105.0" r="4.2" fill="#555555"/>
+<circle cx="577.5" cy="114.0" r="4.2" fill="#555555"/>
+<circle cx="802.5" cy="114.0" r="4.2" fill="#555555"/>
+<line x1="307.5" y1="156" x2="375.0" y2="156" stroke="#333333" stroke-width="2"/>
+<line x1="555.0" y1="156" x2="802.5" y2="156" stroke="#333333" stroke-width="2"/>
+<line x1="307.5" y1="146" x2="307.5" y2="166" stroke="#333333" stroke-width="2"/>
+<line x1="802.5" y1="146" x2="802.5" y2="166" stroke="#333333" stroke-width="2"/>
+<rect x="375.0" y="141" width="180.0" height="30" fill="#BFD3E6" stroke="#333333" stroke-width="2"/>
+<line x1="487.5" y1="141" x2="487.5" y2="171" stroke="#0072B2" stroke-width="3"/>
+<line x1="60.0" y1="202" x2="960.0" y2="202" stroke="#555555" stroke-width="1.2"/>
+<line x1="195.0" y1="202" x2="195.0" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="195.0" y="220" text-anchor="middle" font-size="11" fill="#555555">0</text>
+<line x1="307.5" y1="202" x2="307.5" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="307.5" y="220" text-anchor="middle" font-size="11" fill="#555555">5</text>
+<line x1="420.0" y1="202" x2="420.0" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="420.0" y="220" text-anchor="middle" font-size="11" fill="#555555">10</text>
+<line x1="532.5" y1="202" x2="532.5" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="532.5" y="220" text-anchor="middle" font-size="11" fill="#555555">15</text>
+<line x1="645.0" y1="202" x2="645.0" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="645.0" y="220" text-anchor="middle" font-size="11" fill="#555555">20</text>
+<line x1="757.5" y1="202" x2="757.5" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="757.5" y="220" text-anchor="middle" font-size="11" fill="#555555">25</text>
+<line x1="870.0" y1="202" x2="870.0" y2="207" stroke="#555555" stroke-width="1"/>
+<text x="870.0" y="220" text-anchor="middle" font-size="11" fill="#555555">30</text>
+<text x="375.0" y="135" text-anchor="middle" font-size="11.5" fill="#222222">Q1 = 8</text>
+<text x="487.5" y="135" text-anchor="middle" font-size="11.5" fill="#0072B2">Q2 = 13</text>
+<text x="555.0" y="135" text-anchor="middle" font-size="11.5" fill="#222222">Q3 = 16</text>
+<text x="307.5" y="187" text-anchor="middle" font-size="11.5" fill="#222222">min = 5</text>
+<text x="802.5" y="187" text-anchor="middle" font-size="11.5" fill="#222222">max = 27</text>
+<text x="60" y="266" font-size="15" font-weight="bold" fill="#222222">(b) Max is an outlier: right whisker stops at the largest non-outlier</text>
+<line x1="147.1" y1="292" x2="147.1" y2="392" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="143.1" y="290" text-anchor="end" font-size="11" fill="#888888">lower fence = 0</text>
+<line x1="843.9" y1="292" x2="843.9" y2="392" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="847.9" y="290" text-anchor="start" font-size="11" fill="#888888">upper fence = 48</text>
+<circle cx="335.8" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="379.4" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="408.4" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="408.4" cy="295.0" r="4.2" fill="#555555"/>
+<circle cx="466.5" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="481.0" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="510.0" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="553.5" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="568.1" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="597.1" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="698.7" cy="304.0" r="4.2" fill="#555555"/>
+<circle cx="872.9" cy="304.0" r="4.2" fill="#D55E00"/>
+<line x1="335.8" y1="346" x2="408.4" y2="346" stroke="#333333" stroke-width="2"/>
+<line x1="582.6" y1="346" x2="698.7" y2="346" stroke="#333333" stroke-width="2"/>
+<line x1="335.8" y1="336" x2="335.8" y2="356" stroke="#333333" stroke-width="2"/>
+<line x1="698.7" y1="336" x2="698.7" y2="356" stroke="#333333" stroke-width="2"/>
+<rect x="408.4" y="331" width="174.2" height="30" fill="#BFD3E6" stroke="#333333" stroke-width="2"/>
+<line x1="495.5" y1="331" x2="495.5" y2="361" stroke="#0072B2" stroke-width="3"/>
+<circle cx="872.9" cy="346" r="6" fill="none" stroke="#D55E00" stroke-width="2.4"/>
+<line x1="60.0" y1="392" x2="960.0" y2="392" stroke="#555555" stroke-width="1.2"/>
+<line x1="147.1" y1="392" x2="147.1" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="147.1" y="410" text-anchor="middle" font-size="11" fill="#555555">0</text>
+<line x1="219.7" y1="392" x2="219.7" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="219.7" y="410" text-anchor="middle" font-size="11" fill="#555555">5</text>
+<line x1="292.3" y1="392" x2="292.3" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="292.3" y="410" text-anchor="middle" font-size="11" fill="#555555">10</text>
+<line x1="364.8" y1="392" x2="364.8" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="364.8" y="410" text-anchor="middle" font-size="11" fill="#555555">15</text>
+<line x1="437.4" y1="392" x2="437.4" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="437.4" y="410" text-anchor="middle" font-size="11" fill="#555555">20</text>
+<line x1="510.0" y1="392" x2="510.0" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="510.0" y="410" text-anchor="middle" font-size="11" fill="#555555">25</text>
+<line x1="582.6" y1="392" x2="582.6" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="582.6" y="410" text-anchor="middle" font-size="11" fill="#555555">30</text>
+<line x1="655.2" y1="392" x2="655.2" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="655.2" y="410" text-anchor="middle" font-size="11" fill="#555555">35</text>
+<line x1="727.7" y1="392" x2="727.7" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="727.7" y="410" text-anchor="middle" font-size="11" fill="#555555">40</text>
+<line x1="800.3" y1="392" x2="800.3" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="800.3" y="410" text-anchor="middle" font-size="11" fill="#555555">45</text>
+<line x1="872.9" y1="392" x2="872.9" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="872.9" y="410" text-anchor="middle" font-size="11" fill="#555555">50</text>
+<line x1="945.5" y1="392" x2="945.5" y2="397" stroke="#555555" stroke-width="1"/>
+<text x="945.5" y="410" text-anchor="middle" font-size="11" fill="#555555">55</text>
+<text x="408.4" y="325" text-anchor="middle" font-size="11.5" fill="#222222">Q1 = 18</text>
+<text x="495.5" y="325" text-anchor="middle" font-size="11.5" fill="#0072B2">Q2 = 24</text>
+<text x="582.6" y="325" text-anchor="middle" font-size="11.5" fill="#222222">Q3 = 30</text>
+<text x="335.8" y="377" text-anchor="middle" font-size="11.5" fill="#222222">min = 13</text>
+<text x="698.7" y="377" text-anchor="middle" font-size="11.5" fill="#222222">largest non-outlier = 38</text>
+<text x="872.9" y="377" text-anchor="middle" font-size="11.5" fill="#D55E00">outlier = 50</text>
+<text x="60" y="456" font-size="15" font-weight="bold" fill="#222222">(c) Min is an outlier: left whisker stops at the smallest non-outlier</text>
+<line x1="255.7" y1="482" x2="255.7" y2="582" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="251.7" y="480" text-anchor="end" font-size="11" fill="#888888">lower fence = 8</text>
+<line x1="725.2" y1="482" x2="725.2" y2="582" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="729.2" y="480" text-anchor="start" font-size="11" fill="#888888">upper fence = 32</text>
+<circle cx="138.3" cy="494.0" r="4.2" fill="#D55E00"/>
+<circle cx="392.6" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="431.7" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="451.3" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="470.9" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="490.4" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="510.0" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="529.6" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="549.1" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="588.3" cy="494.0" r="4.2" fill="#555555"/>
+<circle cx="607.8" cy="494.0" r="4.2" fill="#555555"/>
+<line x1="392.6" y1="536" x2="431.7" y2="536" stroke="#333333" stroke-width="2"/>
+<line x1="549.1" y1="536" x2="607.8" y2="536" stroke="#333333" stroke-width="2"/>
+<line x1="392.6" y1="526" x2="392.6" y2="546" stroke="#333333" stroke-width="2"/>
+<line x1="607.8" y1="526" x2="607.8" y2="546" stroke="#333333" stroke-width="2"/>
+<rect x="431.7" y="521" width="117.4" height="30" fill="#BFD3E6" stroke="#333333" stroke-width="2"/>
+<line x1="490.4" y1="521" x2="490.4" y2="551" stroke="#0072B2" stroke-width="3"/>
+<circle cx="138.3" cy="536" r="6" fill="none" stroke="#D55E00" stroke-width="2.4"/>
+<line x1="60.0" y1="582" x2="960.0" y2="582" stroke="#555555" stroke-width="1.2"/>
+<line x1="99.1" y1="582" x2="99.1" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="99.1" y="600" text-anchor="middle" font-size="11" fill="#555555">0</text>
+<line x1="197.0" y1="582" x2="197.0" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="197.0" y="600" text-anchor="middle" font-size="11" fill="#555555">5</text>
+<line x1="294.8" y1="582" x2="294.8" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="294.8" y="600" text-anchor="middle" font-size="11" fill="#555555">10</text>
+<line x1="392.6" y1="582" x2="392.6" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="392.6" y="600" text-anchor="middle" font-size="11" fill="#555555">15</text>
+<line x1="490.4" y1="582" x2="490.4" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="490.4" y="600" text-anchor="middle" font-size="11" fill="#555555">20</text>
+<line x1="588.3" y1="582" x2="588.3" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="588.3" y="600" text-anchor="middle" font-size="11" fill="#555555">25</text>
+<line x1="686.1" y1="582" x2="686.1" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="686.1" y="600" text-anchor="middle" font-size="11" fill="#555555">30</text>
+<line x1="783.9" y1="582" x2="783.9" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="783.9" y="600" text-anchor="middle" font-size="11" fill="#555555">35</text>
+<line x1="881.7" y1="582" x2="881.7" y2="587" stroke="#555555" stroke-width="1"/>
+<text x="881.7" y="600" text-anchor="middle" font-size="11" fill="#555555">40</text>
+<text x="431.7" y="515" text-anchor="middle" font-size="11.5" fill="#222222">Q1 = 17</text>
+<text x="490.4" y="515" text-anchor="middle" font-size="11.5" fill="#0072B2">Q2 = 20</text>
+<text x="549.1" y="515" text-anchor="middle" font-size="11.5" fill="#222222">Q3 = 23</text>
+<text x="392.6" y="567" text-anchor="middle" font-size="11.5" fill="#222222">smallest non-outlier = 15</text>
+<text x="607.8" y="567" text-anchor="middle" font-size="11.5" fill="#222222">max = 26</text>
+<text x="138.3" y="567" text-anchor="middle" font-size="11.5" fill="#D55E00">outlier = 2</text>
+<text x="60" y="646" font-size="15" font-weight="bold" fill="#222222">(d) Min and max are both outliers: both whiskers stop short</text>
+<line x1="255.7" y1="672" x2="255.7" y2="772" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="251.7" y="670" text-anchor="end" font-size="11" fill="#888888">lower fence = 8</text>
+<line x1="725.2" y1="672" x2="725.2" y2="772" stroke="#888888" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="729.2" y="670" text-anchor="start" font-size="11" fill="#888888">upper fence = 32</text>
+<circle cx="138.3" cy="684.0" r="4.2" fill="#D55E00"/>
+<circle cx="392.6" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="431.7" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="451.3" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="470.9" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="490.4" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="510.0" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="529.6" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="549.1" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="588.3" cy="684.0" r="4.2" fill="#555555"/>
+<circle cx="881.7" cy="684.0" r="4.2" fill="#D55E00"/>
+<line x1="392.6" y1="726" x2="431.7" y2="726" stroke="#333333" stroke-width="2"/>
+<line x1="549.1" y1="726" x2="588.3" y2="726" stroke="#333333" stroke-width="2"/>
+<line x1="392.6" y1="716" x2="392.6" y2="736" stroke="#333333" stroke-width="2"/>
+<line x1="588.3" y1="716" x2="588.3" y2="736" stroke="#333333" stroke-width="2"/>
+<rect x="431.7" y="711" width="117.4" height="30" fill="#BFD3E6" stroke="#333333" stroke-width="2"/>
+<line x1="490.4" y1="711" x2="490.4" y2="741" stroke="#0072B2" stroke-width="3"/>
+<circle cx="138.3" cy="726" r="6" fill="none" stroke="#D55E00" stroke-width="2.4"/>
+<circle cx="881.7" cy="726" r="6" fill="none" stroke="#D55E00" stroke-width="2.4"/>
+<line x1="60.0" y1="772" x2="960.0" y2="772" stroke="#555555" stroke-width="1.2"/>
+<line x1="99.1" y1="772" x2="99.1" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="99.1" y="790" text-anchor="middle" font-size="11" fill="#555555">0</text>
+<line x1="197.0" y1="772" x2="197.0" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="197.0" y="790" text-anchor="middle" font-size="11" fill="#555555">5</text>
+<line x1="294.8" y1="772" x2="294.8" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="294.8" y="790" text-anchor="middle" font-size="11" fill="#555555">10</text>
+<line x1="392.6" y1="772" x2="392.6" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="392.6" y="790" text-anchor="middle" font-size="11" fill="#555555">15</text>
+<line x1="490.4" y1="772" x2="490.4" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="490.4" y="790" text-anchor="middle" font-size="11" fill="#555555">20</text>
+<line x1="588.3" y1="772" x2="588.3" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="588.3" y="790" text-anchor="middle" font-size="11" fill="#555555">25</text>
+<line x1="686.1" y1="772" x2="686.1" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="686.1" y="790" text-anchor="middle" font-size="11" fill="#555555">30</text>
+<line x1="783.9" y1="772" x2="783.9" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="783.9" y="790" text-anchor="middle" font-size="11" fill="#555555">35</text>
+<line x1="881.7" y1="772" x2="881.7" y2="777" stroke="#555555" stroke-width="1"/>
+<text x="881.7" y="790" text-anchor="middle" font-size="11" fill="#555555">40</text>
+<text x="431.7" y="705" text-anchor="middle" font-size="11.5" fill="#222222">Q1 = 17</text>
+<text x="490.4" y="705" text-anchor="middle" font-size="11.5" fill="#0072B2">Q2 = 20</text>
+<text x="549.1" y="705" text-anchor="middle" font-size="11.5" fill="#222222">Q3 = 23</text>
+<text x="392.6" y="757" text-anchor="middle" font-size="11.5" fill="#222222">smallest non-outlier = 15</text>
+<text x="588.3" y="757" text-anchor="middle" font-size="11.5" fill="#222222">largest non-outlier = 25</text>
+<text x="138.3" y="757" text-anchor="middle" font-size="11.5" fill="#D55E00">outlier = 2</text>
+<text x="881.7" y="757" text-anchor="middle" font-size="11.5" fill="#D55E00">outlier = 40</text>
+<text x="500" y="852" text-anchor="middle" font-size="12" fill="#555555">Dots = the data (outliers in orange). Dashed lines = fences Q1 &#8722; 1.5&#215;IQR and Q3 + 1.5&#215;IQR. Data from the worked examples in lesson 1.1.</text>
+</svg>

@@ -13,6 +13,10 @@ $$\bar x_w = \frac{\sum w x}{\sum w} = \frac{w_1x_1 + w_2x_2 + \dots + w_nx_n}{w
 
 > **How to decide which is $x$ and which is $w$:** $x$ is the thing you want the *average of*. $w$ is *how much each one counts*.
 
+![Weighted values drawn as circles sized by weight, with the balance point marked](figures/weighted_mean_balance.png)
+
+Picture each value as a weight on a beam. The weighted mean is where the beam balances, so it moves toward the heavier weights: 84.8 instead of 86 for the class averages, and 40% instead of 35% for the antifreeze mixture.
+
 ---
 
 ## Example 1 - a weighted mean with frequencies as weights

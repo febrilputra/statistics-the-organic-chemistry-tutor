@@ -19,6 +19,10 @@ $$d = \frac{|\bar x_1 - \bar x_2|}{s_{\text{pooled}}}$$
 | ≈ 0.5 | Medium |
 | ≥ 0.8 | Large |
 
+![Pairs of overlapping normal curves for small, medium and large effects, and for the two examples](figures/cohens_d.png)
+
+Cohen's d measures how far apart the two curves sit, in units of the pooled standard deviation. The more the curves overlap, the smaller the effect. Example 1 (d â 0.85) is a large effect; Example 2 (d â 0.56) is medium.
+
 ## Pooled standard deviation
 
 **General formula** (use it when the sample sizes differ):

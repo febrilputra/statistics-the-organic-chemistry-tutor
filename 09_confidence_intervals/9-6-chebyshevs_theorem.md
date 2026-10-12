@@ -22,6 +22,10 @@ $$1 - \frac{1}{k^2}, \qquad k > 1$$
 | $3\sigma$ | 99.7% | $1 - \tfrac19 \approx 88.9\%$ |
 | $4\sigma$ | ≈ 99.99% | $1 - \tfrac1{16} = 93.75\%$ |
 
+![Chebyshev bound and normal coverage plotted against k, and the weight example intervals](figures/chebyshev.png)
+
+Left: Chebyshev's guaranteed minimum (orange) is always below the exact share for normal data (blue). For example, it guarantees 75% within 2 SDs, while a normal distribution has 95%. Right: the two intervals from the weight example.
+
 ## Finding $k$
 
 If an interval is centered on the mean, $\mu \pm k\sigma$, then

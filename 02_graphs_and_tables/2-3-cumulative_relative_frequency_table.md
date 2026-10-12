@@ -38,6 +38,10 @@ The data has 25 values with these counts (there are no 4s or 7s):
 - 0.52 at V = 3 → 52% of the values are 3 or less.
 - 0.80 at V = 6 → 80% of the values are 6 or less.
 
+![Relative frequency bars with the cumulative relative frequency drawn as steps](figures/cumulative_relative_frequency.png)
+
+The cumulative relative frequency only changes at data values, so it is drawn as steps: flat until the next value, then a jump equal to that value's relative frequency. It never goes down and it ends at 1.00. Read it as "the fraction of the data at or below this value" (e.g. 0.80 of the values are 6 or less).
+
 ---
 
 ## Key takeaways

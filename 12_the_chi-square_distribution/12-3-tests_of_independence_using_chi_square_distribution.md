@@ -66,6 +66,10 @@ The rounded values still match every row and column total (e.g. 110 + 124 + 76 =
 
 $32.3 > 5.99$, which is in the rejection region. **Reject $H_0$.** There is strong evidence that study time **depends** on student type. In the data, seniors are much more likely than freshmen to study only 0-2 hours a day.
 
+![Observed and expected counts for freshmen and seniors by study time, and the chi-square curve with df 2](figures/test_of_independence.png)
+
+Left: if study time were independent of student type, the bars would roughly fill the outlined expected boxes. The 0-2 hour group is far off for both freshmen and seniors. Right: ÏÂ² â 32.3 is far beyond 5.99.
+
 ---
 
 ## Key takeaways

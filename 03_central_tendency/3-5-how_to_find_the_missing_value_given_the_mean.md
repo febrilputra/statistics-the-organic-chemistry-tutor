@@ -27,6 +27,10 @@ $$450 = 352 + x_5 \quad\Rightarrow\quad x_5 = 450 - 352 = 98$$
 
 She needs a **98**.
 
+![Bar charts of known exam scores, the target average, and the score needed](figures/missing_value.png)
+
+The needed score (orange) has to make up for the scores below the target line and use up the room left by the scores above it, so that the bars balance at the target average.
+
 ---
 
 ## Example 2 - what score is needed on exam 7?

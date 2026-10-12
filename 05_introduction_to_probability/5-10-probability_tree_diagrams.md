@@ -46,6 +46,10 @@ $$\frac{6}{25} + \frac{6}{25} = \frac{12}{25} = 0.48 = 48\%$$
 
 > (c) and (d) differ: "red **then** blue" fixes the order, while "a red **and** a blue" allows either order.
 
+![Two-draw probability trees with and without replacement](figures/marble_trees.png)
+
+Multiply along each path to get its probability, then add the paths that match the question. Without replacement, the second-draw branches change depending on the first draw.
+
 ---
 
 ## Problem 2 - without replacement (dependent)
@@ -88,6 +92,10 @@ $$(0.3)^3 = 0.027 = 2.7\%$$
 
 **(d) P(exactly two blue)**: RBB, BRB, BBR
 $$3 \times (0.7)(0.3)(0.3) = 3 \times 0.063 = 0.189 = 18.9\%$$
+
+![Three-draw tree with leaf probabilities, and a car tree with counts](figures/three_draws_and_cars.png)
+
+Left: the 8 outcomes of three draws. Exactly two blue is three separate paths. Right: multiplying the counts by the branch percentages turns the tree into counts.
 
 ---
 

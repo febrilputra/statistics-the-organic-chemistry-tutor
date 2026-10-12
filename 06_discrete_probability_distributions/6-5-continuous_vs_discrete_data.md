@@ -37,6 +37,10 @@ Items 8 and 9 show that **rounding** a continuous quantity turns it into discret
 - **Continuous:** one connected line or curve with no jumps or gaps.
 - **Discrete:** **separate points**, or bars/steps that don't connect into a smooth line.
 
+![Stem plot of cats per house next to a smooth temperature curve](figures/continuous_vs_discrete.png)
+
+Counted data (left) can only sit at whole numbers, so the graph is separate points. Measured data (right) can take any value, so the graph is one connected curve.
+
 ---
 
 ## Key takeaways
