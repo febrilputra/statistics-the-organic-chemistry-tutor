@@ -65,6 +65,32 @@ The harmonic mean is the **reciprocal of the average of the reciprocals**:
 
 $$H = \left(\frac{\frac{1}{x_1} + \dots + \frac{1}{x_n}}{n}\right)^{-1} = \frac{n}{\sum \frac{1}{x}}$$
 
+### From the definition to the product form
+
+Put the reciprocals over a common denominator.
+
+**Two values $a, b$** (common denominator $ab$):
+
+$$\frac1a + \frac1b = \frac{b + a}{ab} \quad\Rightarrow\quad H = \frac{2}{\frac{a+b}{ab}} = \frac{2ab}{a+b}$$
+
+**Three values $a, b, c$** (common denominator $abc$):
+
+$$\frac1a + \frac1b + \frac1c = \frac{bc + ac + ab}{abc} \quad\Rightarrow\quad H = \frac{3abc}{ab + bc + ca}$$
+
+**General $n$:** each $\frac{1}{x_j}$ becomes the product of all the *other* values over the full product, so
+
+$$H = \frac{n\prod_{i=1}^{n} x_i}{\displaystyle\sum_{j=1}^{n}\ \prod_{i\neq j} x_i}$$
+
+For $n = 2$, "the product of the others" is just one number ($b$ or $a$), so the denominator collapses to $a + b$.
+
+> **Warning:** $\dfrac{n\prod x_i}{\sum x_i}$ is **only** correct for $n = 2$. Check with 1, 2, 4:
+>
+> - True: $H = \dfrac{3}{1 + 0.5 + 0.25} = \dfrac{3}{1.75} \approx 1.714$
+> - Correct product form: $\dfrac{3(8)}{2 + 4 + 8} = \dfrac{24}{14} \approx 1.714$
+> - Wrong shortcut: $\dfrac{3(8)}{1 + 2 + 4} = \dfrac{24}{7} \approx 3.43$, larger than the arithmetic mean (2.33), which a harmonic mean can never be.
+>
+> For $n > 2$, just use $H = \dfrac{n}{\sum \frac{1}{x}}$.
+
 A **harmonic sequence** consists of the reciprocals of an arithmetic sequence:
 
 $$\tfrac12, \tfrac15, \tfrac18, \tfrac1{11}, \tfrac1{14}, \tfrac1{17}, \tfrac1{20}$$
