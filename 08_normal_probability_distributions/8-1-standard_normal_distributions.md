@@ -63,9 +63,9 @@ Mark the axis: 50, 58, 66, **74**, 82, 90, 98 (from $-3\sigma$ to $+3\sigma$).
 |---|---|---|
 | (a) % below 58 ($< \mu - 2\sigma$) | 0.15 + 2.35 | **2.5%** |
 | (b) P(66 < X < 82) ($\mu \pm 1\sigma$) | 34 + 34 | **68%** |
-| (c) **How many** scored at most 90? | everything below $+2\sigma$ = 100 − (2.35 + 0.15) = 97.5% | $0.975 \times 2000 = $ **1,950 students** |
+| (c) **How many** scored at most 90? | everything below $+2\sigma$ = 100 − (2.35 + 0.15) = 97.5% | $0.975 \times 2000 =$ **1,950 students** |
 | (d) % at least 66 | 34 + 34 + 13.5 + 2.35 + 0.15 | **84%** |
-| (e) **How many** scored more than 98? | 0.15% | $0.0015 \times 2000 = $ **3 students** |
+| (e) **How many** scored more than 98? | 0.15% | $0.0015 \times 2000 =$ **3 students** |
 
 ![Bell curve of test scores with the eight empirical-rule regions and the 68, 95 and 99.7 percent brackets](figures/empirical_rule.png)
 

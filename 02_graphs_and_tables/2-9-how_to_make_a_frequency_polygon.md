@@ -16,15 +16,15 @@ A **frequency polygon** is a line graph of a frequency distribution. Plot the fr
 
 ---
 
-## Example - incomes in a town (class width $20k)
+## Example - incomes in a town (class width \$20k)
 
-**Class boundaries.** Each class includes its lower bound but **not** its upper bound, so an income of exactly $40k goes in the 40k-60k class:
+**Class boundaries.** Each class includes its lower bound but **not** its upper bound, so an income of exactly \$40k goes in the 40k-60k class:
 
 $$20 \le I < 40, \quad 40 \le I < 60, \quad \dots$$
 
-No income is below $20k, and the highest is $115k, so the classes run from 20k to 120k.
+No income is below \$20k, and the highest is \$115k, so the classes run from 20k to 120k.
 
-| Income range (k = $1,000) | Frequency | Midpoint |
+| Income range (k = \$1,000) | Frequency | Midpoint |
 |---|---:|---:|
 | 20k - < 40k | 5 | 30k |
 | 40k - < 60k | 4 | 50k |

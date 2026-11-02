@@ -19,7 +19,7 @@ Decile:      D0  D1   D2        D3   D4   D5   D6   D7        D8   D9  D10
 Quartile:    min           Q1             Q2                  Q3          max
 ```
 
-- $Q_1 = P_{25}$, $\quad Q_2 = D_5 = P_{50} = $ median, $\quad Q_3 = P_{75}$
+- $Q_1 = P_{25}$, $\quad Q_2 = D_5 = P_{50} = \text{median}$, $\quad Q_3 = P_{75}$
 - $D_k = P_{10k}$, so $D_4 = P_{40}$ and $D_9 = P_{90}$.
 
 ### What does a percentile mean?

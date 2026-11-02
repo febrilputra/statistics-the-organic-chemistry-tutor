@@ -20,7 +20,7 @@ $$E(X) = \sum x\,P(x) = x_1p_1 + x_2p_2 + \dots + x_np_n$$
 
 ## Example 1 - a casino game
 
-Lisa wins **$500** with probability 20%, and otherwise loses **$100**.
+Lisa wins **\$500** with probability 20%, and otherwise loses **\$100**.
 
 | Outcome | Value $x$ | Probability $p$ | $x \cdot p$ |
 |---|---:|---:|---:|
@@ -43,7 +43,7 @@ Each outcome becomes a rectangle with area x times p. Positive areas (green) min
 
 ## Example 2 - profit per laptop
 
-Company XYZ earns **$40** on each working laptop it sells and loses **$500** on each one returned as defective. **3 in 100** laptops are defective.
+Company XYZ earns **\$40** on each working laptop it sells and loses **\$500** on each one returned as defective. **3 in 100** laptops are defective.
 
 | Outcome | Value $x$ | Probability $p$ | $x \cdot p$ |
 |---|---:|---:|---:|
@@ -61,5 +61,5 @@ Selling 100 laptops is expected to earn $100 \times 23.80 = \$2{,}380$.
 
 - $E(X) = \sum x\,p$: weight each outcome's value by its probability.
 - Losses go in as **negative** values.
-- The expected value is an **average over many trials**. A single game never pays exactly $20.
+- The expected value is an **average over many trials**. A single game never pays exactly \$20.
 - Total expected = number of trials × expected value per trial.
