@@ -8,10 +8,7 @@
 - A **bell-shaped**, symmetric curve, written $X \sim N(\mu, \sigma)$: the first number is the **mean**, the second the **standard deviation**.
 - The mean sits at the center. Each standard deviation away from it is one unit of **z-score**.
 
-```
- z:   -3     -2     -1      0      1      2      3
- x: μ-3σ   μ-2σ   μ-σ      μ     μ+σ   μ+2σ   μ+3σ
-```
+![Normal bell curve showing z-scores from -3 to 3 and corresponding values from mu minus 3 sigma to mu plus 3 sigma](figures/normal_distribution_z_scores.png)
 
 ## Key formulas
 
@@ -34,13 +31,6 @@ You don't need the PDF to find probabilities in an intro course. Use z-tables (o
 | $\mu \pm 1\sigma$ | 68% |
 | $\mu \pm 2\sigma$ | 95% |
 | $\mu \pm 3\sigma$ | 99.7% |
-
-Split into the 8 regions of the bell curve:
-
-```
- 0.15% | 2.35% | 13.5% |  34%  |  34%  | 13.5% | 2.35% | 0.15%
-     -3σ     -2σ     -1σ       μ      +1σ     +2σ     +3σ
-```
 
 - $68/2 = 34\%$
 - $(95 - 68)/2 = 13.5\%$
