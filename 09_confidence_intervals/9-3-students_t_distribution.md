@@ -1,4 +1,4 @@
-# Lesson 9.4 - Student's T-Distribution
+# Lesson 9.3 - Student's T-Distribution
 
 > **Video:** [Student's T Distribution - Confidence Intervals & Margin of Error](https://www.youtube.com/watch?v=MUD390jtgQs) by The Organic Chemistry Tutor
 > **Chapter:** [9 - Confidence Intervals](https://www.video-tutor.net/confidence-intervals.html)

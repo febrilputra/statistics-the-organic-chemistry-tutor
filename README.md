@@ -99,9 +99,9 @@ The videos and the website belong to The Organic Chemistry Tutor. These notes ar
 
 - [Lesson 9.1 - Z-Scores, Confidence Intervals, and Margin of Error](09_confidence_intervals/9-1-z_scores_confidence_intervals_and_margin_of_error.md)
 - [Lesson 9.2 - How to Find the Z-score Given the Confidence Intervals](09_confidence_intervals/9-2-how_to_find_the_z_score_given_the_confidence_intervals.md)
-- [Lesson 9.3 - How to Calculate the Sample Size](09_confidence_intervals/9-3-how_to_calculate_the_sample_size.md)
-- [Lesson 9.4 - Student's T-Distribution](09_confidence_intervals/9-4-students_t_distribution.md)
-- [Lesson 9.5 - Finding a Confidence Interval of a Population Proportion](09_confidence_intervals/9-5-finding_a_confidence_interval_of_a_population_proportion.md)
+- [Lesson 9.3 - Student's T-Distribution](09_confidence_intervals/9-3-students_t_distribution.md)
+- [Lesson 9.4 - Finding a Confidence Interval of a Population Proportion](09_confidence_intervals/9-4-finding_a_confidence_interval_of_a_population_proportion.md)
+- [Lesson 9.5 - How to Calculate the Sample Size](09_confidence_intervals/9-5-how_to_calculate_the_sample_size.md)
 - [Lesson 9.6 - Chebyshev's Theorem](09_confidence_intervals/9-6-chebyshevs_theorem.md)
 
 ### Chapter 10 - Hypothesis Testing - 1 Sample

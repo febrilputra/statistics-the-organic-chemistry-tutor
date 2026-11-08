@@ -1,4 +1,4 @@
-# Lesson 9.5 - Finding a Confidence Interval of a Population Proportion
+# Lesson 9.4 - Finding a Confidence Interval of a Population Proportion
 
 > **Video:** [Finding The Confidence Interval of a Population Proportion Using The Normal Distribution](https://www.youtube.com/watch?v=_aQTgv_OOSU) by The Organic Chemistry Tutor
 > **Chapter:** [9 - Confidence Intervals](https://www.video-tutor.net/confidence-intervals.html)
