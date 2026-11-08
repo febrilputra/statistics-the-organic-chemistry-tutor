@@ -69,7 +69,7 @@ Mark the axis: 50, 58, 66, **74**, 82, 90, 98 (from $-3\sigma$ to $+3\sigma$).
 
 ![Bell curve of test scores with the eight empirical-rule regions and the 68, 95 and 99.7 percent brackets](figures/empirical_rule.png)
 
-The empirical rule on the test-score example (Î¼ = 74, Ï = 8). Each question in Example 2 adds up the regions it covers.
+The empirical rule on the test-score example (μ = 74, σ = 8). Each question in Example 2 adds up the regions it covers.
 
 ---
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Building the laptop confidence interval</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Start at p̂ and go out one margin of error E in each direction.</text>
+<line x1="259.8" y1="118.0" x2="497.0" y2="118.0" stroke="#555555" stroke-width="1.5" fill="none"/>
+<polygon points="259.8 118.0 266.8 114.0 266.8 122.0" fill="#555555"/>
+<polygon points="497.0 118.0 490.0 114.0 490.0 122.0" fill="#555555"/>
+<line x1="503.0" y1="118.0" x2="740.2" y2="118.0" stroke="#555555" stroke-width="1.5" fill="none"/>
+<polygon points="503.0 118.0 510.0 114.0 510.0 122.0" fill="#555555"/>
+<polygon points="740.2 118.0 733.2 114.0 733.2 122.0" fill="#555555"/>
+<text x="379.9" y="107.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">E = 0.0308</text>
+<text x="620.1" y="107.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">E = 0.0308</text>
+<line x1="259.8" y1="128.0" x2="259.8" y2="161.0" stroke="#E6E6E6" stroke-width="1.3" fill="none" stroke-dasharray="4 3"/>
+<line x1="500.0" y1="128.0" x2="500.0" y2="161.0" stroke="#E6E6E6" stroke-width="1.3" fill="none" stroke-dasharray="4 3"/>
+<line x1="740.2" y1="128.0" x2="740.2" y2="161.0" stroke="#E6E6E6" stroke-width="1.3" fill="none" stroke-dasharray="4 3"/>
+<line x1="259.8" y1="175.0" x2="740.2" y2="175.0" stroke="#0072B2" stroke-width="6" fill="none"/>
+<line x1="259.8" y1="162.0" x2="259.8" y2="188.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<line x1="740.2" y1="162.0" x2="740.2" y2="188.0" stroke="#0072B2" stroke-width="3" fill="none"/>
+<circle cx="500.0" cy="175.0" r="8" stroke="none" fill="#D55E00"/>
+<text x="259.8" y="211.0" font-size="14" fill="#0072B2" text-anchor="middle" font-weight="bold">p̂ − E</text>
+<text x="259.8" y="230.0" font-size="12.5" fill="#0072B2" text-anchor="middle">0.73 − 0.0308 = 0.6992</text>
+<text x="500.0" y="211.0" font-size="14" fill="#D55E00" text-anchor="middle" font-weight="bold">p̂</text>
+<text x="500.0" y="230.0" font-size="12.5" fill="#D55E00" text-anchor="middle">584 / 800 = 0.73</text>
+<text x="740.2" y="211.0" font-size="14" fill="#0072B2" text-anchor="middle" font-weight="bold">p̂ + E</text>
+<text x="740.2" y="230.0" font-size="12.5" fill="#0072B2" text-anchor="middle">0.73 + 0.0308 = 0.7608</text>
+<line x1="110.0" y1="268.0" x2="890.0" y2="268.0" stroke="#555555" stroke-width="1.3" fill="none"/>
+<line x1="110.0" y1="268.0" x2="110.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="110.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.68</text>
+<line x1="188.0" y1="268.0" x2="188.0" y2="271.0" stroke="#555555" stroke-width="1" fill="none"/>
+<line x1="266.0" y1="268.0" x2="266.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="266.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.70</text>
+<line x1="344.0" y1="268.0" x2="344.0" y2="271.0" stroke="#555555" stroke-width="1" fill="none"/>
+<line x1="422.0" y1="268.0" x2="422.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="422.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.72</text>
+<line x1="500.0" y1="268.0" x2="500.0" y2="271.0" stroke="#555555" stroke-width="1" fill="none"/>
+<line x1="578.0" y1="268.0" x2="578.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="578.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.74</text>
+<line x1="656.0" y1="268.0" x2="656.0" y2="271.0" stroke="#555555" stroke-width="1" fill="none"/>
+<line x1="734.0" y1="268.0" x2="734.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="734.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.76</text>
+<line x1="812.0" y1="268.0" x2="812.0" y2="271.0" stroke="#555555" stroke-width="1" fill="none"/>
+<line x1="890.0" y1="268.0" x2="890.0" y2="273.0" stroke="#555555" stroke-width="1" fill="none"/>
+<text x="890.0" y="287.0" font-size="12" fill="#555555" text-anchor="middle">0.78</text>
+<text x="500.0" y="310.0" font-size="13" fill="#555555" text-anchor="middle">population proportion p  (fraction of ALL students at the university who own a laptop)</text>
+<text x="500.0" y="342.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">95% confidence interval: 0.6992 &lt; p &lt; 0.7608, i.e. about 69.9% to 76.1% of all students.</text>
+</svg>

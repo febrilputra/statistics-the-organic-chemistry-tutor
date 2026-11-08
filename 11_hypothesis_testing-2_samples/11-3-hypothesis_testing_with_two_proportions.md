@@ -39,7 +39,7 @@ $-1.96 < -1.65 < 0$, which is in the fail-to-reject region.
 
 ![Bar chart of 4 percent and 6 percent defect rates with the pooled rate, and the z-test curve](figures/two_proportions.png)
 
-The two sample rates differ by 2 percentage points, but with these sample sizes that gives only z â â1.65, which is inside Â±1.96. The difference is not statistically significant.
+The two sample rates differ by 2 percentage points, but with these sample sizes that gives only z ≈ −1.65, which is inside ±1.96. The difference is not statistically significant.
 
 ---
 

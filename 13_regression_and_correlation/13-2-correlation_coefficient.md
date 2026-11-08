@@ -17,9 +17,9 @@ The **correlation coefficient** $r$ (sometimes written $\rho$) measures the **st
 
 The **sign** of $r$ matches the sign of the slope. The **size** of $r$ shows how tightly the points hug the line.
 
-![Six scatter plots with correlations from +1 to â1, plus the lesson data](figures/correlation_examples.png)
+![Six scatter plots with correlations from +1 to −1, plus the lesson data](figures/correlation_examples.png)
 
-The closer r is to Â±1, the more tightly the points line up. The sign follows the direction of the trend. The lesson's data (orange) is almost a perfect line, r = 0.998.
+The closer r is to ±1, the more tightly the points line up. The sign follows the direction of the trend. The lesson's data (orange) is almost a perfect line, r = 0.998.
 
 ## Formula
 

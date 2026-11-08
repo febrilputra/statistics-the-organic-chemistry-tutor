@@ -63,7 +63,7 @@ This is likely, which makes sense: the average is 8 calls, so more than 6 is the
 
 ![Poisson probability bars for the phone call and text message examples](figures/poisson_distributions.png)
 
-Left: "at most 5" adds the green bars and "more than 6" is everything orange, found as 1 â P(X â¤ 6). Right: changing the interval from 2 hours to 8 hours multiplies the mean by 4, which moves and spreads out the whole distribution.
+Left: "at most 5" adds the green bars and "more than 6" is everything orange, found as 1 − P(X ≤ 6). Right: changing the interval from 2 hours to 8 hours multiplies the mean by 4, which moves and spreads out the whole distribution.
 
 ---
 

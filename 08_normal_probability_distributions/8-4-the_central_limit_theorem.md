@@ -20,7 +20,7 @@ That histogram is the **sampling distribution of the sample means**, and it is *
 
 ![Histograms of simulated sample means from a uniform and an exponential population for n = 5 and n = 30](figures/central_limit_theorem.png)
 
-Neither population is normal, yet the sample means pile up into a bell shape. With n = 30 they match the normal curve N(Î¼, Ï/ân) closely, even for the skewed exponential population, where n = 5 is still visibly lopsided.
+Neither population is normal, yet the sample means pile up into a bell shape. With n = 30 they match the normal curve N(μ, σ/√n) closely, even for the skewed exponential population, where n = 5 is still visibly lopsided.
 
 ---
 
@@ -83,7 +83,7 @@ $$\bar x = 74 + 0.84(0.9617) \approx 74.81$$
 
 ![Wide normal curve for one score next to a narrow curve for the mean of 50 scores](figures/one_value_vs_sample_mean.png)
 
-Example 1 on a shared axis. A question about one student uses Ï = 6.8. A question about the mean of 50 students uses the much smaller standard error 6.8/â50 â 0.96.
+Example 1 on a shared axis. A question about one student uses σ = 6.8. A question about the mean of 50 students uses the much smaller standard error 6.8/√50 ≈ 0.96.
 
 ---
 

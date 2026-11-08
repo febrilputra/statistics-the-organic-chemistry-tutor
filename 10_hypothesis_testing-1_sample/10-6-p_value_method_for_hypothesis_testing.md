@@ -45,7 +45,7 @@ $0.02088 < 0.05$ → **reject $H_0$**. At the 5% level there is enough evidence 
 
 ![Normal curves with p-value areas shaded beyond the test statistics](figures/p_value_method.png)
 
-The p-value (dark red) is the tail area beyond the test statistic. For a two-tailed test, both tails count. In both examples the p-value is smaller than Î± (the light red region), so H0 is rejected.
+The p-value (dark red) is the tail area beyond the test statistic. For a two-tailed test, both tails count. In both examples the p-value is smaller than α (the light red region), so H0 is rejected.
 
 ---
 

@@ -22,7 +22,7 @@ We can't control whether $H_0$ is true. We only control the decision. (The video
 
 ![Decision table of the four outcomes and two overlapping normal curves showing alpha, beta and power](figures/type_i_and_type_ii_errors.png)
 
-Left: the four combinations of decision and truth. Right: if H0 is true, the red tail beyond the critical value (Î±) is the chance of a false alarm. If H0 is false, the orange area left of the critical value (Î²) is the chance of missing the effect, and the green area is the power.
+Left: the four combinations of decision and truth. Right: if H0 is true, the red tail beyond the critical value (α) is the chance of a false alarm. If H0 is false, the orange area left of the critical value (β) is the chance of missing the effect, and the green area is the power.
 
 ## How to identify the error type
 

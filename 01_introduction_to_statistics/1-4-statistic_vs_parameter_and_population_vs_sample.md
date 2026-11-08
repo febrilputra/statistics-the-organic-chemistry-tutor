@@ -26,7 +26,7 @@ Town XYZ has **100,000** residents, and we want their average age.
 
 ![A sample ellipse inside a population ellipse, with parameter and statistic symbols](figures/population_sample_symbols.png)
 
-The sample is part of the population. Numbers computed from the sample (xÌ, s, pÌ) are statistics, and we use them to estimate the population's parameters (Î¼, Ï, p).
+The sample is part of the population. Numbers computed from the sample (x̄, s, p̂) are statistics, and we use them to estimate the population's parameters (μ, σ, p).
 
 ---
 

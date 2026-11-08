@@ -64,7 +64,7 @@ Either way, the whole interval is **below 0**: there are no zero or positive val
 
 ![Before and after slope chart, dot plot of differences with 90 and 95 percent intervals, and the left-tailed t-test](figures/paired_samples.png)
 
-Top left: most subjects lost weight. Top right: the ten differences, with the 90% and 95% intervals for the mean difference; both sit entirely below 0. Bottom: t = â3.18 is beyond the critical value â1.833, so H0 is rejected.
+Top left: most subjects lost weight. Top right: the ten differences, with the 90% and 95% intervals for the mean difference; both sit entirely below 0. Bottom: t = −3.18 is beyond the critical value −1.833, so H0 is rejected.
 
 ---
 

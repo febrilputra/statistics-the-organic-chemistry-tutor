@@ -31,7 +31,7 @@ $-5.06 < -1.96$, so the statistic is far into the left rejection region. **Rejec
 
 ![Two-tailed z-test and left-tailed t-test with the test statistics in the rejection regions](figures/z_and_t_test_examples.png)
 
-Both worked examples. The bottling statistic (â5.06) is so extreme it lies off the chart. The battery test uses a t-distribution with 9 degrees of freedom, so its left critical value is â2.821, not a z value.
+Both worked examples. The bottling statistic (−5.06) is so extreme it lies off the chart. The battery test uses a t-distribution with 9 degrees of freedom, so its left critical value is −2.821, not a z value.
 
 ---
 

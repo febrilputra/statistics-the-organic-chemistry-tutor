@@ -37,7 +37,7 @@ The **arrow** in $H_a$ points to the tail: $<$ → left, $>$ → right, $\ne$ �
 
 ![Three normal curves with the rejection region on both sides, the left side, and the right side](figures/one_and_two_tailed_tests.png)
 
-The sign in Ha decides where Î± goes: split between both tails for â , all in the left tail for <, and all in the right tail for >.
+The sign in Ha decides where α goes: split between both tails for ≠, all in the left tail for <, and all in the right tail for >.
 
 ---
 
