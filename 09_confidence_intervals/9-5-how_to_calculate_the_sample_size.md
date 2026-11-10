@@ -27,11 +27,17 @@ Always **round $n$ up** to the next whole number.
 
 $$SE = \sqrt{\frac{p(1-p)}{n}}$$
 
+**Why $p$ here and not $\hat p$?** The SE describes how much $\hat p$ wobbles from sample to sample. That wobble comes from the population the samples are drawn from, so the exact formula uses the true $p$. But $p$ is exactly what we don't know. In practice we plug in the best stand-in available: the sample's $\hat p$ when building an interval from data (Lesson 9.4), or a guess, or 0.5, when planning a survey before any data exists (point 6). That swap is why the formulas at the top are written with $\hat p$. With a decent-sized sample $\hat p$ is close to $p$, so the estimated SE is close to the true one.
+
 **2. The margin of error is $z$ standard errors.** On a bell curve, 95% of values lie within 1.96 standard deviations of the centre. So 95% of the time, $\hat p$ lands within $1.96 \times SE$ of the truth:
 
 $$E = z \times SE$$
 
 $E$ is how far off you are willing to be, and $z$ is how sure you want to be of staying within that distance.
+
+![Simulated surveys with true p = 0.5: with n = 100 the p-hat values spread with SE = 0.05 and E = 0.098; with n = 400 the curve is twice as narrow, SE = 0.025 and E = 0.049](figures/sample_size_wobble.png)
+
+Each dot is one simulated survey. Its $\hat p$ misses the true $p = 0.5$ by a different amount each time, but about 95% of the dots land inside $\pm E$. The bottom row previews point 4: four times as many people makes the curve half as wide.
 
 **3. Why $p(1-p)$ plays the role of $\sigma^2$.** Code each answer as 1 (yes) or 0 (no). Then $\hat p$ is just the average of those 0s and 1s, and their variance is
 
@@ -41,6 +47,10 @@ since $1^2 = 1$ and $0^2 = 0$. Intuitively:
 
 - If everyone says yes ($p = 1$), every sample looks the same: $p(1-p) = 0$, so there is no uncertainty.
 - If the population is split 50/50, samples can easily tilt either way, so the variation is largest: $p(1-p) = 0.25$.
+
+![Four populations of 0s and 1s with p = 1.0, 0.8, 0.5 and 0.2, their variances 0, 0.16, 0.25 and 0.16, and on a 0 to 1 axis the individual answers stacked as dots at 0 and 1 next to the sampling distribution of p-hat for n = 100: a single spike at 1, a curve with SE 0.04 around 0.8, a wider curve with SE 0.05 around 0.5, and a curve with SE 0.04 around 0.2](figures/sample_size_zero_one.png)
+
+A single answer can only be 0 or 1 (the dots), but the average of 100 answers clusters tightly around $p$ (the curve). The more mixed the 0s and 1s, the bigger $p(1-p)$, and the wider $\hat p$ spreads from survey to survey. $p = 0.2$ and $p = 0.8$ give the same spread, since $0.2 \times 0.8 = 0.8 \times 0.2$: only how mixed the answers are matters, not which side is the majority.
 
 **4. Why divide by $n$.** In a small sample, a few unusual answers move $\hat p$ a lot. In a large one they get diluted. The variance shrinks like $1/n$, so $SE$ shrinks like $1/\sqrt n$. Because of the square root, **halving** the margin of error takes **4 times** as many people.
 
@@ -52,11 +62,19 @@ since $1^2 = 1$ and $0^2 = 0$. Intuitively:
 | Smaller margin of error ($E$ ↓) | $n$ ↑↑ (squared) | More precision needs more data |
 | $p$ closer to 0.5 | $n$ ↑ | A more mixed population is less predictable |
 
+![Required sample size plotted against confidence level (271, 385, 664 at 90, 95, 99 percent), against margin of error (1537 at E = 0.025, 385 at E = 0.05), and against p-hat (385 at 0.5, 246 at 0.8)](figures/sample_size_drivers.png)
+
+Each panel changes one ingredient and holds the others at 95%, $E = 0.05$, $\hat p = 0.5$. The middle panel is the steepest: halving $E$ multiplies $n$ by 4.
+
 **6. Why $\hat p = 0.5$ is the safe choice.** You plan the survey before you have data, so $p$ is unknown. Rewrite the product as
 
 $$\hat p(1-\hat p) = 0.25 - (\hat p - 0.5)^2$$
 
 The squared term is never negative, so the product can never exceed 0.25, which happens at $\hat p = 0.5$. Planning for this worst case guarantees $n$ is large enough. If the true $p$ turns out to be, say, 0.8, the real margin of error simply comes out a bit smaller than planned.
+
+![Left: the parabola p-hat times one minus p-hat under a dashed ceiling at 0.25, with the shaded gap equal to (p-hat minus 0.5) squared, which is 0.09 at p-hat = 0.8. Right: with n = 385 the real margin of error is 0.05 at p = 0.5 and about 0.040 at p = 0.8](figures/sample_size_worst_case.png)
+
+Left: the shaded gap between the curve and 0.25 is $(\hat p - 0.5)^2$, which is zero only at $\hat p = 0.5$. Right: survey the planned $n = 385$, and if $p$ turns out to be 0.8 the margin of error is $1.96\sqrt{0.16/385} \approx 0.040$, comfortably inside the 0.05 you asked for.
 
 > **In one sentence:** sample answers wobble around the truth. The wobble grows with how mixed the population is and shrinks with $\sqrt n$, so you pick $n$ large enough that $z$ times the wobble fits inside the error you'll accept.
 
