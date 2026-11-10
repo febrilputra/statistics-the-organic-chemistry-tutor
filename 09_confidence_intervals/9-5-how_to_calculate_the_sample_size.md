@@ -66,11 +66,23 @@ A single answer can only be 0 or 1 (the dots), but the average of 100 answers cl
 
 Each panel changes one ingredient and holds the others at 95%, $E = 0.05$, $\hat p = 0.5$. The middle panel is the steepest: halving $E$ multiplies $n$ by 4.
 
-**6. Why $\hat p = 0.5$ is the safe choice.** You plan the survey before you have data, so $p$ is unknown. Rewrite the product as
+**6. Why $\hat p = 0.5$ is the safe choice.** You plan the survey before you have data, so $p$ is unknown. The safe move is to use the $\hat p$ that makes $n$ as large as possible. Since $z$ and $E$ are fixed, that means finding the maximum of
+
+$$f(\hat p) = \hat p(1-\hat p) = \hat p - \hat p^2, \qquad 0 \le \hat p \le 1$$
+
+*With calculus.* Set the first derivative to zero:
+
+$$f'(\hat p) = 1 - 2\hat p = 0 \;\Rightarrow\; \hat p = 0.5$$
+
+The second derivative is $f''(\hat p) = -2 < 0$, so the curve bends downward everywhere and $\hat p = 0.5$ is a maximum, not a minimum. Its value is $f(0.5) = 0.5 \times 0.5 = 0.25$. At the ends, $f(0) = f(1) = 0$, so 0.25 is the largest value on the whole range $0 \le \hat p \le 1$.
+
+*Without calculus.* Completing the square gives the same answer:
 
 $$\hat p(1-\hat p) = 0.25 - (\hat p - 0.5)^2$$
 
-The squared term is never negative, so the product can never exceed 0.25, which happens at $\hat p = 0.5$. Planning for this worst case guarantees $n$ is large enough. If the true $p$ turns out to be, say, 0.8, the real margin of error simply comes out a bit smaller than planned.
+The squared term is never negative, so the product can never exceed 0.25, which happens only at $\hat p = 0.5$.
+
+Planning for this worst case guarantees $n$ is large enough. If the true $p$ turns out to be, say, 0.8, the real margin of error simply comes out a bit smaller than planned.
 
 ![Left: the parabola p-hat times one minus p-hat under a dashed ceiling at 0.25, with the shaded gap equal to (p-hat minus 0.5) squared, which is 0.09 at p-hat = 0.8. Right: with n = 385 the real margin of error is 0.05 at p = 0.5 and about 0.040 at p = 0.8](figures/sample_size_worst_case.png)
 
