@@ -22,7 +22,37 @@ We can't control whether ${\color{#0072B2}H_0}$ is true. We only control the dec
 
 ![Decision table of the four outcomes and two overlapping normal curves showing alpha, beta and power](figures/type_i_and_type_ii_errors.png)
 
-Left: the four combinations of decision and truth. Right: if ${\color{#0072B2}H_0}$ is true, the red tail beyond the critical value (α) is the chance of a false alarm. If ${\color{#0072B2}H_0}$ is false, the orange area left of the critical value (β) is the chance of missing the effect, and the green area is the power.
+Left: the four combinations of decision and truth, each tagged with its confusion-matrix name (TP, TN, FP, FN). Right: if ${\color{#0072B2}H_0}$ is true, the red tail beyond the critical value (α) is the chance of a false alarm. If ${\color{#0072B2}H_0}$ is false, the orange area left of the critical value (β) is the chance of missing the effect, and the green area is the power.
+
+## Same idea as a confusion matrix (TP, TN, FP, FN)
+
+The decision table is the same thing as a **confusion matrix** (used for medical tests and machine learning). Just treat:
+
+- **Reject ${\color{#0072B2}H_0}$** as a **positive** result: the test raises an alarm, "something is going on".
+- **${\color{#0072B2}H_0}$ false** as **actually positive**: the effect is really there.
+
+| | ${\color{#0072B2}H_0}$ true (actually **negative**) | ${\color{#0072B2}H_0}$ false (actually **positive**) |
+|---|---|---|
+| **Reject** ${\color{#0072B2}H_0}$ (test says **positive**) | **False Positive (FP)** = Type I error | **True Positive (TP)** = correct (power) |
+| **Fail to reject** ${\color{#0072B2}H_0}$ (test says **negative**) | **True Negative (TN)** = correct | **False Negative (FN)** = Type II error |
+
+How to read the names: the second word (**Positive** / **Negative**) is what the test said. The first word (**True** / **False**) says whether the test was right.
+
+| Hypothesis-testing name | Confusion-matrix name | Rate |
+|---|---|---|
+| Type I error | False Positive (false alarm) | $\alpha = \dfrac{FP}{FP + TN}$, the **false positive rate** |
+| Type II error | False Negative (missed detection) | $\beta = \dfrac{FN}{FN + TP}$, the **false negative rate** |
+| Power | True Positive | $1 - \beta = \dfrac{TP}{TP + FN}$, the **sensitivity** (also called **recall**) |
+| Correctly keeping ${\color{#0072B2}H_0}$ | True Negative | $1 - \alpha = \dfrac{TN}{TN + FP}$, the **specificity** |
+
+**Medical test example.** ${\color{#0072B2}H_0}$: *the patient does not have the disease.* A positive test result = reject ${\color{#0072B2}H_0}$.
+
+- **False positive (Type I):** a healthy person is told they're sick.
+- **False negative (Type II):** a sick person is told they're healthy.
+
+> **Memory trick: the boy who cried wolf.** First the villagers believe him when there is no wolf: a **false positive** (Type I). Later they ignore him when the wolf is real: a **false negative** (Type II).
+
+*Note:* in machine learning, the confusion matrix often puts the **actual** values in the rows and the **predicted** values in the columns, the opposite of the table above. The four names stay the same; only the layout flips.
 
 ## How to identify the error type
 
@@ -68,4 +98,5 @@ ${\color{#0072B2}H_0}$: *The defendant is innocent* (presumed innocent).
 - Type I = **false alarm**: rejecting a true ${\color{#0072B2}H_0}$, probability $\alpha$.
 - Type II = **missed detection**: failing to reject a false ${\color{#0072B2}H_0}$, probability $\beta$.
 - Power = $1 - \beta$, the probability of correctly rejecting a false ${\color{#0072B2}H_0}$.
+- Confusion-matrix names: Type I = **False Positive**, Type II = **False Negative**, power = **True Positive** rate (sensitivity), $1 - \alpha$ = **True Negative** rate (specificity).
 - Which error is "worse" depends on the real-world consequences in context.
