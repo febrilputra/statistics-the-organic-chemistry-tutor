@@ -7,13 +7,13 @@
 
 Two **independent** groups. Does their population mean differ?
 
-$$H_0: \mu_1 = \mu_2 \;\;(\mu_1 - \mu_2 = 0) \qquad H_a: \mu_1 \ne \mu_2 \;\;(\mu_1 - \mu_2 \ne 0)$$
+$${\color{#0072B2}H_0}: \mu_1 = \mu_2 \;\;(\mu_1 - \mu_2 = 0) \qquad {\color{#D55E00}H_a}: \mu_1 \ne \mu_2 \;\;(\mu_1 - \mu_2 \ne 0)$$
 
 ## Test statistic
 
 $$t \text{ (or } z) = \frac{(\bar x_1 - \bar x_2) - (\mu_1 - \mu_2)}{\sqrt{\dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2}}}$$
 
-Under $H_0$, $\mu_1 - \mu_2 = 0$. The denominator is the **standard error of the difference**.
+Under ${\color{#0072B2}H_0}$, $\mu_1 - \mu_2 = 0$. The denominator is the **standard error of the difference**.
 
 | Sample sizes | Use |
 |---|---|
@@ -36,7 +36,7 @@ Do two teachers' classes score differently? $\alpha = 0.05$.
 | $\bar x$ | 82 | 84 |
 | $s$ | 2.4 | 1.7 |
 
-**Hypotheses:** $H_0: \mu_1 - \mu_2 = 0$, $\;H_a: \mu_1 - \mu_2 \ne 0$ (two-tailed, $\alpha/2 = 0.025$).
+**Hypotheses:** ${\color{#0072B2}H_0}: \mu_1 - \mu_2 = 0$, $\;{\color{#D55E00}H_a}: \mu_1 - \mu_2 \ne 0$ (two-tailed, $\alpha/2 = 0.025$).
 
 **Both samples are small → t-test.**
 
@@ -52,7 +52,7 @@ The video rounds this to **25**, giving $t_{0.025,\,25} = 2.0595$. Many textbook
 **Test statistic:**
 $$t = \frac{82 - 84 - 0}{\sqrt{0.384 + 0.24083}} = \frac{-2}{0.79046} \approx -2.53$$
 
-$-2.53 < -2.0595$, which is in the rejection region. **Reject $H_0$.** At the 5% level there is a significant difference between the two teachers' class means.
+$-2.53 < -2.0595$, which is in the rejection region. **Reject ${\color{#0072B2}H_0}$.** At the 5% level there is a significant difference between the two teachers' class means.
 
 ![Mean plus or minus SD bars for both pairs of groups, and the t and z test curves](figures/difference_of_two_means.png)
 
@@ -70,18 +70,18 @@ Is there a difference in refining rate (liters per second)? $\alpha = 0.10$.
 | $\bar x$ | 3.1 | 3.8 |
 | $s$ | 1.0 | 1.5 |
 
-**Hypotheses:** $H_0: \mu_1 = \mu_2$, $\;H_a: \mu_1 \ne \mu_2$ (two-tailed).
+**Hypotheses:** ${\color{#0072B2}H_0}: \mu_1 = \mu_2$, $\;{\color{#D55E00}H_a}: \mu_1 \ne \mu_2$ (two-tailed).
 
 **Both samples are large → z-test.** The confidence level is 90%, so the left area for the critical value is 0.95: $z = \pm 1.645$.
 
 $$z = \frac{3.1 - 3.8}{\sqrt{\dfrac{1^2}{40} + \dfrac{1.5^2}{36}}} = \frac{-0.7}{\sqrt{0.025 + 0.0625}} = \frac{-0.7}{0.2958} \approx -2.37$$
 
-$-2.37 < -1.645$ → **reject $H_0$**. At the 10% level there is a significant difference between the factories; the new one refines faster.
+$-2.37 < -1.645$ → **reject ${\color{#0072B2}H_0}$**. At the 10% level there is a significant difference between the factories; the new one refines faster.
 
 ---
 
 ## Key takeaways
 
-- $H_0$: equal means (difference 0). Test statistic = (difference in sample means) ÷ $\sqrt{s_1^2/n_1 + s_2^2/n_2}$.
+- ${\color{#0072B2}H_0}$: equal means (difference 0). Test statistic = (difference in sample means) ÷ $\sqrt{s_1^2/n_1 + s_2^2/n_2}$.
 - Small samples → t with Welch's df. Large samples → z.
 - Compare with the critical value(s), or with the p-value, as in the one-sample case.

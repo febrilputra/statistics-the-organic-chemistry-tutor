@@ -7,13 +7,13 @@
 
 1. Find the **critical value(s)** from the significance level and the type of test. For a two-tailed test at 95%, $\pm 1.96$.
 2. Compute the **test statistic** $z_c$ (or $t$) from the sample.
-3. Statistic in the rejection region → **reject $H_0$**. Statistic in the fail-to-reject region → **fail to reject $H_0$**.
+3. Statistic in the rejection region → **reject ${\color{#0072B2}H_0}$**. Statistic in the fail-to-reject region → **fail to reject ${\color{#0072B2}H_0}$**.
 
-*Example:* $H_0: \mu = 50$ vs $H_a: \mu \ne 50$ at 95% has critical values $\pm 1.96$. A calculated $z_c$ beyond 1.96 (or below −1.96) means reject.
+*Example:* ${\color{#0072B2}H_0}: \mu = 50$ vs ${\color{#D55E00}H_a}: \mu \ne 50$ at 95% has critical values $\pm 1.96$. A calculated $z_c$ beyond 1.96 (or below −1.96) means reject.
 
 ![Two normal curves with critical values ±1.96, one test statistic in the middle and one in the right tail](figures/decision_rule.png)
 
-Compute the test statistic, then see which region it lands in. Between −1.96 and 1.96, fail to reject H0. Beyond either critical value, reject H0.
+Compute the test statistic, then see which region it lands in. Between −1.96 and 1.96, fail to reject ${\color{#0072B2}H_0}$. Beyond either critical value, reject ${\color{#0072B2}H_0}$.
 
 ---
 
@@ -26,7 +26,7 @@ Compute the test statistic, then see which region it lands in. Between −1.96 a
 | $n \ge 30$ | No (use $s$) | z (approximately normal) | $z = \dfrac{\bar x - \mu}{s/\sqrt n}$ |
 | $n \ge 30$ | Yes | z | $z = \dfrac{\bar x - \mu}{\sigma/\sqrt n}$ |
 
-Here $\mu$ is the value claimed in $H_0$.
+Here $\mu$ is the value claimed in ${\color{#0072B2}H_0}$.
 
 > Many textbooks use the t-distribution **whenever $\sigma$ is unknown**, whatever the sample size. For $n \ge 30$, $t$ and $z$ give nearly the same answer, so the video's rule is a common shortcut.
 
@@ -37,7 +37,7 @@ Here $\mu$ is the value claimed in $H_0$.
 $$z = \frac{\hat p - p}{\sqrt{\dfrac{pq}{n}}}, \qquad q = 1 - p$$
 
 - $\hat p$ = sample proportion ($x/n$)
-- $p$ = the proportion claimed in $H_0$ (sometimes written $p_0$). Use this hypothesized value under the square root, not $\hat p$.
+- $p$ = the proportion claimed in ${\color{#0072B2}H_0}$ (sometimes written $p_0$). Use this hypothesized value under the square root, not $\hat p$.
 
 ---
 
@@ -45,5 +45,5 @@ $$z = \frac{\hat p - p}{\sqrt{\dfrac{pq}{n}}}, \qquad q = 1 - p$$
 
 - Test statistic = (sample value − hypothesized value) ÷ standard error.
 - Mean: use $t$ with $s$ when $n < 30$ and $\sigma$ is unknown. Otherwise use $z$.
-- Proportion: $z = (\hat p - p)/\sqrt{pq/n}$, with $p$ from $H_0$.
-- Compare with the critical value(s) to reject or fail to reject $H_0$.
+- Proportion: $z = (\hat p - p)/\sqrt{pq/n}$, with $p$ from ${\color{#0072B2}H_0}$.
+- Compare with the critical value(s) to reject or fail to reject ${\color{#0072B2}H_0}$.

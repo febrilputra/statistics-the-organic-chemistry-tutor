@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">Only two possible decisions about <tspan fill="#0072B2">H0</tspan></text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Assume <tspan fill="#0072B2">H0</tspan> is true, then ask whether the sample gives strong evidence against it. "Accept <tspan fill="#0072B2">H0</tspan>" is never one of the answers.</text>
+
+<!-- start -->
+<rect x="340.0" y="74.0" width="320.0" height="50.0" rx="8" fill="#F1F4F8" stroke="#555555" stroke-width="1.5"/>
+<text x="500.0" y="95.0" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">Start: assume <tspan fill="#0072B2">H0</tspan> is true</text>
+<text x="500.0" y="113.0" font-size="12.5" fill="#555555" text-anchor="middle">Collect a sample and run the test</text>
+<line x1="500.0" y1="124.0" x2="500.0" y2="146.0" stroke="#555555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- question -->
+<polygon points="500.0,148.0 690.0,200.0 500.0,252.0 310.0,200.0" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+<text x="500.0" y="196.0" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">Is the evidence against <tspan fill="#0072B2">H0</tspan></text>
+<text x="500.0" y="214.0" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">strong enough?</text>
+
+<!-- branches -->
+<polyline points="310.0,200.0 250.0,200.0 250.0,276.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#arr)"/>
+<polyline points="690.0,200.0 750.0,200.0 750.0,276.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="250.0" y="190.0" font-size="14" fill="#D55E00" text-anchor="middle" font-weight="bold">YES</text>
+<text x="750.0" y="190.0" font-size="14" fill="#0072B2" text-anchor="middle" font-weight="bold">NO</text>
+
+<!-- decisions -->
+<rect x="100.0" y="278.0" width="300.0" height="54.0" rx="8" fill="#FBE3D2" stroke="#D55E00" stroke-width="2"/>
+<text x="250.0" y="312.0" font-size="19" fill="#D55E00" text-anchor="middle" font-weight="bold">Reject <tspan fill="#0072B2">H0</tspan></text>
+<rect x="600.0" y="278.0" width="300.0" height="54.0" rx="8" fill="#D9E8F5" stroke="#0072B2" stroke-width="2"/>
+<text x="750.0" y="312.0" font-size="19" fill="#0072B2" text-anchor="middle" font-weight="bold">Fail to reject <tspan fill="#0072B2">H0</tspan></text>
+<line x1="250.0" y1="332.0" x2="250.0" y2="356.0" stroke="#555555" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="750.0" y1="332.0" x2="750.0" y2="356.0" stroke="#555555" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- meaning -->
+<rect x="100.0" y="358.0" width="300.0" height="66.0" rx="8" fill="#ffffff" stroke="#D55E00" stroke-width="1.5"/>
+<text x="250.0" y="384.0" font-size="14.5" fill="#222222" text-anchor="middle" font-weight="bold">Enough evidence to support <tspan fill="#D55E00">Ha</tspan></text>
+<text x="250.0" y="405.0" font-size="12.5" fill="#555555" text-anchor="middle"><tspan fill="#0072B2">H0</tspan> and <tspan fill="#D55E00">Ha</tspan> cover everything, so <tspan fill="#D55E00">Ha</tspan> is what's left</text>
+<rect x="600.0" y="358.0" width="300.0" height="66.0" rx="8" fill="#ffffff" stroke="#0072B2" stroke-width="1.5"/>
+<text x="750.0" y="384.0" font-size="14.5" fill="#222222" text-anchor="middle" font-weight="bold">Not enough evidence to support <tspan fill="#D55E00">Ha</tspan></text>
+<text x="750.0" y="405.0" font-size="12.5" fill="#555555" text-anchor="middle"><tspan fill="#0072B2">H0</tspan> is NOT proven true, just not ruled out</text>
+
+<!-- courtroom + caution -->
+<rect x="100.0" y="438.0" width="300.0" height="66.0" rx="8" fill="#F7F9FB" stroke="#D0D7DE" stroke-width="1"/>
+<text x="250.0" y="464.0" font-size="13.5" fill="#222222" text-anchor="middle">Courtroom: <tspan font-weight="bold">"Guilty"</tspan></text>
+<text x="250.0" y="485.0" font-size="12.5" fill="#555555" text-anchor="middle">Small risk: Type I error (chance = α)</text>
+<rect x="600.0" y="438.0" width="300.0" height="66.0" rx="8" fill="#F7F9FB" stroke="#D0D7DE" stroke-width="1"/>
+<text x="750.0" y="464.0" font-size="13.5" fill="#222222" text-anchor="middle">Courtroom: <tspan font-weight="bold">"Not guilty"</tspan> (never "innocent")</text>
+<text x="750.0" y="485.0" font-size="12.5" fill="#555555" text-anchor="middle">Maybe <tspan fill="#0072B2">H0</tspan> is true, maybe the sample was too small</text>
+
+<!-- wording -->
+<rect x="100.0" y="520.0" width="300.0" height="66.0" rx="8" fill="#D4EFE5" stroke="#009E73" stroke-width="1.5"/>
+<text x="250.0" y="546.0" font-size="14" fill="#009E73" text-anchor="middle" font-weight="bold">✓ Say: "support <tspan fill="#D55E00">Ha</tspan>" / "conclude <tspan fill="#D55E00">Ha</tspan>"</text>
+<text x="250.0" y="567.0" font-size="12.5" fill="#555555" text-anchor="middle">"Accept <tspan fill="#D55E00">Ha</tspan>" is OK for many teachers</text>
+<rect x="600.0" y="520.0" width="300.0" height="66.0" rx="8" fill="#F6D5D5" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="750.0" y="546.0" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="bold">✗ Never say: "accept <tspan fill="#0072B2">H0</tspan>"</text>
+<text x="750.0" y="567.0" font-size="12.5" fill="#555555" text-anchor="middle">Not a third option, just wrong wording</text>
+</svg>

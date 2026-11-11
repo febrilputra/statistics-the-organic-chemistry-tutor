@@ -8,7 +8,7 @@
 | | Traditional (critical-value) method | **P-value method** |
 |---|---|---|
 | Compare | calculated $z$ **vs** critical $z$ | **p-value vs $\alpha$** |
-| Reject $H_0$ when | $z$ is in the rejection region | $p\text{-value} < \alpha$ |
+| Reject ${\color{#0072B2}H_0}$ when | $z$ is in the rejection region | $p\text{-value} < \alpha$ |
 | Fail to reject when | $z$ is in the fail-to-reject region | $p\text{-value} \ge \alpha$ |
 
 **Significance level:** $\alpha = 1 - \text{confidence level}$.
@@ -28,24 +28,24 @@
 Town XYZ's mean weight is claimed to be **168 lb**. A nutritionist thinks it is different. A sample of **36** people has $\bar x = 169.5$ lb and $s = 3.9$ lb.
 
 **(a)**
-$$H_0: \mu = 168 \qquad H_a: \mu \ne 168$$
+$${\color{#0072B2}H_0}: \mu = 168 \qquad {\color{#D55E00}H_a}: \mu \ne 168$$
 
 **(b) Test at 95% confidence** ($\alpha = 0.05$), two-tailed, $n \ge 30$ so use $z$:
 
 $$z = \frac{169.5 - 168}{3.9/\sqrt{36}} = \frac{1.5}{0.65} \approx 2.31$$
 
-**Traditional method:** the critical values are $\pm 1.96$ (left area 0.975). $2.31 > 1.96$, so it is in the rejection region → **reject $H_0$**.
+**Traditional method:** the critical values are $\pm 1.96$ (left area 0.975). $2.31 > 1.96$, so it is in the rejection region → **reject ${\color{#0072B2}H_0}$**.
 
 **P-value method:**
 - The table gives a left area of 0.98956 for $z = 2.31$.
 - Right tail: $1 - 0.98956 = 0.01044$.
 - Two-tailed p-value: $2 \times 0.01044 = 0.02088$.
 
-$0.02088 < 0.05$ → **reject $H_0$**. At the 5% level there is enough evidence that the mean weight is not 168 lb.
+$0.02088 < 0.05$ → **reject ${\color{#0072B2}H_0}$**. At the 5% level there is enough evidence that the mean weight is not 168 lb.
 
 ![Normal curves with p-value areas shaded beyond the test statistics](figures/p_value_method.png)
 
-The p-value (dark red) is the tail area beyond the test statistic. For a two-tailed test, both tails count. In both examples the p-value is smaller than α (the light red region), so H0 is rejected.
+The p-value (dark red) is the tail area beyond the test statistic. For a two-tailed test, both tails count. In both examples the p-value is smaller than α (the light red region), so ${\color{#0072B2}H_0}$ is rejected.
 
 ---
 
@@ -54,7 +54,7 @@ The p-value (dark red) is the tail area beyond the test statistic. For a two-tai
 A factory gives a **5-year** warranty on the engine and transmission. An engineer believes failures happen **in less than 5 years**. A sample of **40** cars has $\bar x = 4.8$ years and $s = 0.5$ years.
 
 **(a)**
-$$H_0: \mu \ge 5 \qquad H_a: \mu < 5$$
+$${\color{#0072B2}H_0}: \mu \ge 5 \qquad {\color{#D55E00}H_a}: \mu < 5$$
 
 **(b) Is there evidence at the 2% significance level ($\alpha = 0.02$, 98% confidence) to revise the warranty?**
 
@@ -64,13 +64,13 @@ $$z = \frac{4.8 - 5}{0.5/\sqrt{40}} = \frac{-0.2}{0.07906} \approx -2.53$$
 
 The p-value is the area to the left of −2.53 = **0.0057**.
 
-$0.0057 < 0.02$ → **reject $H_0$**. There is enough evidence that the mean time to failure is under 5 years, so the warranty should be revised.
+$0.0057 < 0.02$ → **reject ${\color{#0072B2}H_0}$**. There is enough evidence that the mean time to failure is under 5 years, so the warranty should be revised.
 
 ---
 
 ## Key takeaways
 
-- p-value = the probability, assuming $H_0$ is true, of a result at least as extreme as the one observed.
-- **Small p-value (< α) → reject $H_0$.** Large p-value (≥ α) → fail to reject.
+- p-value = the probability, assuming ${\color{#0072B2}H_0}$ is true, of a result at least as extreme as the one observed.
+- **Small p-value (< α) → reject ${\color{#0072B2}H_0}$.** Large p-value (≥ α) → fail to reject.
 - For a two-tailed test, **double** the one-tail area.
 - The p-value method and the critical-value method always give the same decision.

@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Export every lesson .md to <chapter>/markdown_export/<stem>.pdf, plus one
+# Export every lesson .md to <chapter>/pdf_version/<stem>.pdf, plus one
 # combined <chapter>_md.pdf per chapter (bookmarked, one lesson per new page).
 #
 # Each lesson becomes an HTML page that renders the Markdown with marked.js and
@@ -128,17 +128,17 @@ for my $ch (@chapters) {
   opendir my $cd, $dir or die $!;
   my @md = sort { lesson_key($a) <=> lesson_key($b) } grep { /^\d+-\d+-.*\.md$/ } readdir $cd;
   next unless @md;
-  mkdir "$dir/markdown_export";
+  mkdir "$dir/pdf_version";
   print "$ch (" . scalar(@md) . " lessons)\n";
   my $base = fileurl("$dir/");
   for my $m (@md) {
     (my $stem = $m) =~ s/\.md$//;
     my $html = "$WORK/$stem.html";
     open my $fh, '>:raw', $html or die $!; print $fh page($stem, $base, "$dir/$m"); close $fh;
-    print_pdf($html, "$dir/markdown_export/$stem.pdf") or $fail++;
+    print_pdf($html, "$dir/pdf_version/$stem.pdf") or $fail++;
   }
   my $html = "$WORK/${ch}_md.html";
   open my $fh, '>:raw', $html or die $!; print $fh page("$ch - Markdown lessons", $base, map { "$dir/$_" } @md); close $fh;
-  print_pdf($html, "$dir/markdown_export/${ch}_md.pdf") or $fail++;
+  print_pdf($html, "$dir/pdf_version/${ch}_md.pdf") or $fail++;
 }
 print $fail ? "$fail FAILED\n" : "all done\n";
