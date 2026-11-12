@@ -22,7 +22,7 @@ $$s = \sqrt{\frac{\sum (x - \bar x)^2}{n - 1}}$$
 
 Data: 82, 93, 98, 89, 88
 
-**Mean:** $\bar x = \dfrac{450}{5} = 90$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{450}{5} = 90$
 
 | $x$ | $x - \bar x$ | $(x - \bar x)^2$ |
 |---:|---:|---:|
@@ -33,7 +33,7 @@ Data: 82, 93, 98, 89, 88
 | 88 | −2 | 4 |
 | **Sum** | 0 | **142** |
 
-$$s = \sqrt{\frac{142}{5 - 1}} = \sqrt{35.5} \approx 5.958$$
+$$s = \sqrt{\frac{\sum (x - \bar x)^2}{n - 1}} = \sqrt{\frac{142}{5 - 1}} = \sqrt{35.5} \approx 5.958$$
 
 ![Deviations from the mean drawn as arrows, with the mean plus-or-minus one standard deviation band](figures/standard_deviation_deviations.png)
 
@@ -45,7 +45,7 @@ Each arrow is one deviation from the mean of 90. Squaring them (64, 9, 64, 1, 4)
 
 Data: 76, 84, 69, 92, 58, 89, 73, 97, 85, 77
 
-**Mean:** $\bar x = \dfrac{800}{10} = 80$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{800}{10} = 80$
 
 **Shortcut:** squaring removes the sign, so just write how far each value is from 80.
 
@@ -63,7 +63,7 @@ Data: 76, 84, 69, 92, 58, 89, 73, 97, 85, 77
 | 77 | 3 | 9 |
 | **Sum** | | **1234** |
 
-$$s = \sqrt{\frac{1234}{10 - 1}} = \sqrt{137.11} \approx 11.709$$
+$$s = \sqrt{\frac{\sum (x - \bar x)^2}{n - 1}} = \sqrt{\frac{1234}{10 - 1}} = \sqrt{137.11} \approx 11.709$$
 
 ---
 

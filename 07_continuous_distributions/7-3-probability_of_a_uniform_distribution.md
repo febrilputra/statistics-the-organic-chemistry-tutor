@@ -29,15 +29,15 @@ $$\text{area} = \text{base} \times \text{height} = (b - a)\,f(x) = 1 \;\Rightarr
 The wait time is uniformly distributed on $[0, 40]$.
 
 **(a) PDF**
-$$f(x) = \frac{1}{40 - 0} = \frac{1}{40}, \qquad 0 \le x \le 40$$
+$$f(x) = \frac{1}{b - a} = \frac{1}{40 - 0} = \frac{1}{40}, \qquad 0 \le x \le 40$$
 
 **(b) Graph:** a flat line at height $\tfrac{1}{40}$ from $x = 0$ to $x = 40$, which forms a rectangle.
 
 **(c) Wait less than 8 minutes**
-$$P(X < 8) = 8 \times \frac{1}{40} = \frac{8}{40} = \frac15 = 0.20 = 20\%$$
+$$P(X < 8) = \text{width} \times \text{height} = (8 - 0) \times \frac{1}{40} = \frac{8}{40} = \frac15 = 0.20 = 20\%$$
 
 **(d) Wait more than 30 minutes**
-$$P(X > 30) = (40 - 30) \times \frac{1}{40} = \frac{10}{40} = 0.25 = 25\%$$
+$$P(X > 30) = \text{width} \times \text{height} = (40 - 30) \times \frac{1}{40} = \frac{10}{40} = 0.25 = 25\%$$
 
 **(e) Assorted probabilities**
 
@@ -47,7 +47,7 @@ $$P(X > 30) = (40 - 30) \times \frac{1}{40} = \frac{10}{40} = 0.25 = 25\%$$
 - $P(X > 45) = 0$, outside the range.
 
 **(f) Mean and standard deviation**
-$$\mu = \frac{0 + 40}{2} = 20, \qquad \sigma = \frac{40}{\sqrt{12}} \approx 11.55$$
+$$\mu = \frac{a + b}{2} = \frac{0 + 40}{2} = 20, \qquad \sigma = \frac{b - a}{\sqrt{12}} = \frac{40}{\sqrt{12}} \approx 11.55$$
 
 **(g) 85th percentile**
 
@@ -65,19 +65,19 @@ Each probability is the width of the shaded strip divided by the total width. St
 ## Example 2 - time to finish a chemistry test (20 to 45 minutes)
 
 **(a) PDF**
-$$f(x) = \frac{1}{45 - 20} = \frac{1}{25}, \qquad 20 \le x \le 45$$
+$$f(x) = \frac{1}{b - a} = \frac{1}{45 - 20} = \frac{1}{25}, \qquad 20 \le x \le 45$$
 
 **(b) Graph:** a rectangle of height $\tfrac{1}{25}$ from 20 to 45.
 
 **(c) More than 36 minutes**
-$$P(X > 36) = \frac{45 - 36}{25} = \frac{9}{25} = 0.36 = 36\%$$
+$$P(X > 36) = \frac{b - 36}{b - a} = \frac{45 - 36}{25} = \frac{9}{25} = 0.36 = 36\%$$
 
 **(d) Between 26 and 35 minutes**
-$$P(26 < X < 35) = \frac{35 - 26}{25} = \frac{9}{25} = 0.36$$
+$$P(26 < X < 35) = \frac{\text{width}}{b - a} = \frac{35 - 26}{25} = \frac{9}{25} = 0.36$$
 The width is the same as in (c), so the probability is the same.
 
 **(e) Mean (= median), variance, standard deviation**
-$$\mu = \frac{20 + 45}{2} = 32.5, \qquad \sigma^2 = \frac{25^2}{12} = \frac{625}{12} \approx 52.08, \qquad \sigma \approx 7.217$$
+$$\mu = \frac{a + b}{2} = \frac{20 + 45}{2} = 32.5, \qquad \sigma^2 = \frac{(b - a)^2}{12} = \frac{25^2}{12} = \frac{625}{12} \approx 52.08, \qquad \sigma = \sqrt{\sigma^2} \approx 7.217$$
 
 **(f) Third quartile ($Q_3$ = 75th percentile)**
 $$0.75 = (K - 20)\cdot\frac{1}{25} \;\Rightarrow\; K - 20 = 18.75 \;\Rightarrow\; K = 38.75 \text{ minutes}$$

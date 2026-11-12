@@ -21,10 +21,10 @@ The uncertainty is usually **rounded to one significant figure**.
 
 Scores: 79, 84, 91, 86, 95, 77, 88, 96
 
-- Mean: $\bar x = \dfrac{696}{8} = 87$
-- Uncertainty: $u = \dfrac{96 - 77}{2} = \dfrac{19}{2} = 9.5 \approx 10$ (1 significant figure)
+- Mean: $\bar x = \dfrac{\sum x}{n} = \dfrac{696}{8} = 87$
+- Uncertainty: $u = \dfrac{\text{max} - \text{min}}{2} = \dfrac{96 - 77}{2} = \dfrac{19}{2} = 9.5 \approx 10$ (1 significant figure)
 
-$$\text{score} = 87 \pm 10$$
+$$\text{score} = \bar x \pm u = 87 \pm 10$$
 
 Check: $87 - 10 = 77$ and $87 + 10 = 97$, so every score lies inside this interval.
 
@@ -38,10 +38,10 @@ The interval mean +- (half the range) covers nearly all of the data. For the vel
 
 Velocities: 46, 48, 47, 48, 51, 53, 55, 52, 50, 46
 
-- Mean: $\bar x = \dfrac{496}{10} = 49.6$
-- Uncertainty: $u = \dfrac{55 - 46}{2} = 4.5 \approx 5$
+- Mean: $\bar x = \dfrac{\sum x}{n} = \dfrac{496}{10} = 49.6$
+- Uncertainty: $u = \dfrac{\text{max} - \text{min}}{2} = \dfrac{55 - 46}{2} = 4.5 \approx 5$
 
-$$v = 49.6 \pm 5$$
+$$v = \bar x \pm u = 49.6 \pm 5$$
 
 This gives the interval 44.6 to 54.6. The maximum 55 sits just outside it, so the summary is close but not perfect.
 

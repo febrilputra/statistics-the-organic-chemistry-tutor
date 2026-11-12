@@ -17,7 +17,7 @@
 
 A bag holds **8 red** and **12 blue** marbles (20 total). Two marbles are drawn **with replacement**.
 
-$P(R) = \tfrac{8}{20} = \tfrac25$, $\;P(B) = \tfrac{12}{20} = \tfrac35$. These stay the same on every draw.
+$P(R) = \tfrac{\text{red}}{\text{total}} = \tfrac{8}{20} = \tfrac25$, $\;P(B) = \tfrac{\text{blue}}{\text{total}} = \tfrac{12}{20} = \tfrac35$. These stay the same on every draw.
 
 ```
                  2/5   R  →  RR : 2/5 · 2/5 = 4/25
@@ -34,15 +34,15 @@ Check: $4 + 6 + 6 + 9 = 25$, so the total is $25/25 = 1$ ✓
 **(a) P(two blue)** $= \tfrac{9}{25} = 0.36 = 36\%$
 
 **(b) P(at least one red)**: paths RR, RB, BR
-$$\frac{4 + 6 + 6}{25} = \frac{16}{25} = 0.64$$
+$$P(RR) + P(RB) + P(BR) = \frac{4 + 6 + 6}{25} = \frac{16}{25} = 0.64$$
 **Complement shortcut:** "at least one red" = "not both blue":
 $$1 - P(BB) = 1 - 0.36 = 0.64 \;✓$$
 
 **(c) P(red first, then blue)**: only RB
-$$\frac{6}{25} = 0.24 = 24\%$$
+$$P(RB) = P(R) \cdot P(B) = \frac25 \cdot \frac35 = \frac{6}{25} = 0.24 = 24\%$$
 
 **(d) P(one red and one blue), in any order**: RB or BR
-$$\frac{6}{25} + \frac{6}{25} = \frac{12}{25} = 0.48 = 48\%$$
+$$P(RB) + P(BR) = \frac{6}{25} + \frac{6}{25} = \frac{12}{25} = 0.48 = 48\%$$
 
 > (c) and (d) differ: "red **then** blue" fixes the order, while "a red **and** a blue" allows either order.
 
@@ -67,7 +67,7 @@ A bag holds **5 red** and **10 blue** marbles (15 total). Sally draws two **with
 ```
 
 **(a) P(two red)**
-$$\frac13 \cdot \frac27 = \frac{2}{21} \approx 0.095 = 9.5\%$$
+$$P(RR) = P(R_1) \cdot P(R_2 \mid R_1) = \frac13 \cdot \frac27 = \frac{2}{21} \approx 0.095 = 9.5\%$$
 
 **(b) P(one red and one blue), in any order**
 $$P(RB) + P(BR) = \frac{5}{21} + \frac{5}{21} = \frac{10}{21} \approx 0.476 = 47.6\%$$
@@ -84,14 +84,14 @@ There are $2^3 = 8$ outcomes: RRR, RRB, RBR, RBB, BRR, BRB, BBR, BBB.
 $$1 - P(BBB) = 1 - (0.3)^3 = 1 - 0.027 = 0.973 = 97.3\%$$
 
 **(b) P(at most two blue)**: 0, 1 or 2 blue, again everything except BBB
-$$1 - 0.027 = 0.973$$
+$$1 - P(BBB) = 1 - 0.027 = 0.973$$
 "At least one red" and "at most two blue" describe the **same** event.
 
 **(c) P(no red)** = P(BBB)
-$$(0.3)^3 = 0.027 = 2.7\%$$
+$$P(BBB) = P(B)^3 = (0.3)^3 = 0.027 = 2.7\%$$
 
 **(d) P(exactly two blue)**: RBB, BRB, BBR
-$$3 \times (0.7)(0.3)(0.3) = 3 \times 0.063 = 0.189 = 18.9\%$$
+$$3 \times P(R)\,P(B)^2 = 3 \times (0.7)(0.3)(0.3) = 3 \times 0.063 = 0.189 = 18.9\%$$
 
 ![Three-draw tree with leaf probabilities, and a car tree with counts](figures/three_draws_and_cars.png)
 
@@ -114,10 +114,10 @@ There are **5,000** cars in a neighborhood. **40%** are black and **60%** are wh
 ```
 
 **(a) P(black sedan)**
-$$\frac{1500}{5000} = 0.30, \quad\text{or along the path: } 0.40 \times 0.75 = 0.30 = 30\%$$
+$$P(\text{black and sedan}) = \frac{\text{black sedans}}{\text{total}} = \frac{1500}{5000} = 0.30, \quad\text{or along the path: } P(\text{black}) \times P(\text{sedan} \mid \text{black}) = 0.40 \times 0.75 = 0.30 = 30\%$$
 
 **(b) Number of white SUVs**
-$$5000 \times 0.60 \times 0.20 = 600$$
+$$\text{total} \times P(\text{white}) \times P(\text{SUV} \mid \text{white}) = 5000 \times 0.60 \times 0.20 = 600$$
 
 ---
 

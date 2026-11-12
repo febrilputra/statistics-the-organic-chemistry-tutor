@@ -25,17 +25,17 @@ The data set has $n = 11$ values (already sorted). Its 3rd value is 14 and its 9
 
 **Find the quartiles.**
 
-- $Q_1$: position $\dfrac{1(11 + 1)}{4} = 3$ → 3rd value → $Q_1 = 14$
-- $Q_3$: position $\dfrac{3(11 + 1)}{4} = 9$ → 9th value → $Q_3 = 35$
+- $Q_1$: position $\dfrac{k(n + 1)}{4} = \dfrac{1(11 + 1)}{4} = 3$ → 3rd value → $Q_1 = 14$
+- $Q_3$: position $\dfrac{k(n + 1)}{4} = \dfrac{3(11 + 1)}{4} = 9$ → 9th value → $Q_3 = 35$
 
 **(a) Interquartile range**
-$$\text{IQR} = 35 - 14 = 21$$
+$$\text{IQR} = Q_3 - Q_1 = 35 - 14 = 21$$
 
 **(b) Quartile deviation**
-$$\text{QD} = \frac{21}{2} = 10.5$$
+$$\text{QD} = \frac{Q_3 - Q_1}{2} = \frac{21}{2} = 10.5$$
 
 **(c) Coefficient of quartile deviation**
-$$\text{CQD} = \frac{35 - 14}{35 + 14} = \frac{21}{49} \approx 0.429$$
+$$\text{CQD} = \frac{Q_3 - Q_1}{Q_3 + Q_1} = \frac{35 - 14}{35 + 14} = \frac{21}{49} \approx 0.429$$
 
 ![Number line showing Q1, Q3, the IQR and the quartile deviation](figures/quartile_deviation.png)
 

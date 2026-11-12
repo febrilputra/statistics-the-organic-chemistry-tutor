@@ -32,8 +32,8 @@ Sorted ($n = 13$): 8, 10, 11, 13, 14, 17, **20**, 22, 24, 27, 29, 35, 49
 - $Q_2 = 20$
 - Lower half 8, 10, 11, 13, 14, 17 → $Q_1 = \dfrac{11 + 13}{2} = 12$
 - Upper half 22, 24, 27, 29, 35, 49 → $Q_3 = \dfrac{27 + 29}{2} = 28$
-- $\text{IQR} = 28 - 12 = 16$
-- Fences: $12 - 1.5(16) = -12$ and $28 + 1.5(16) = 52$
+- $\text{IQR} = Q_3 - Q_1 = 28 - 12 = 16$
+- Fences: $Q_1 - 1.5\,\text{IQR} = 12 - 1.5(16) = -12$ and $Q_3 + 1.5\,\text{IQR} = 28 + 1.5(16) = 52$
 
 Both 8 and 49 are inside $[-12, 52]$, so there are **no outliers**. Minimum = 8, maximum = 49.
 
@@ -57,8 +57,8 @@ Sorted ($n = 14$): 15, 18, 20, **22**, 25, 29, 32 ‖ 34, 38, 41, **43**, 46, 54
 - $Q_2 = \dfrac{32 + 34}{2} = 33$
 - Lower half (7 values) → middle value $Q_1 = 22$
 - Upper half (7 values) → middle value $Q_3 = 43$
-- $\text{IQR} = 43 - 22 = 21$
-- Fences: $22 - 1.5(21) = -9.5$ and $43 + 1.5(21) = 74.5$
+- $\text{IQR} = Q_3 - Q_1 = 43 - 22 = 21$
+- Fences: $Q_1 - 1.5\,\text{IQR} = 22 - 1.5(21) = -9.5$ and $Q_3 + 1.5\,\text{IQR} = 43 + 1.5(21) = 74.5$
 
 **76 > 74.5, so 76 is an outlier.** The right whisker stops at the largest non-outlier, **54**, and 76 is drawn as a separate point (`*`).
 

@@ -34,7 +34,7 @@ $$P(X = x) = q^{\,x-1}\,p, \qquad q = 1 - p$$
 
 $p = \tfrac16$ (rolling a 6), $q = \tfrac56$:
 
-$$P(X = 4) = \left(\tfrac56\right)^3 \cdot \tfrac16 = \frac{125}{1296} \approx 0.0965 = 9.6\%$$
+$$P(X = 4) = q^{\,x-1}\,p = \left(\tfrac56\right)^3 \cdot \tfrac16 = \frac{125}{1296} \approx 0.0965 = 9.6\%$$
 
 Three failures, then one success.
 
@@ -42,17 +42,17 @@ Three failures, then one success.
 
 15% of cars are blue: $p = 0.15$, $q = 0.85$.
 
-$$P(X = 7) = (0.85)^6(0.15) \approx 0.0566 = 5.7\%$$
+$$P(X = 7) = q^{\,x-1}\,p = (0.85)^6(0.15) \approx 0.0566 = 5.7\%$$
 
 ## Example 3 - the 10th person you meet is the first teacher
 
 4% of a town's residents are teachers: $p = 0.04$, $q = 0.96$.
 
 **(a)**
-$$P(X = 10) = (0.96)^9(0.04) \approx 0.0277 = 2.77\%$$
+$$P(X = 10) = q^{\,x-1}\,p = (0.96)^9(0.04) \approx 0.0277 = 2.77\%$$
 
 **(b) Mean, variance, standard deviation**
-$$\mu = \frac{1}{0.04} = 25, \qquad \sigma^2 = 25(25 - 1) = 600, \qquad \sigma = \sqrt{600} \approx 24.49$$
+$$\mu = \frac1p = \frac{1}{0.04} = 25, \qquad \sigma^2 = \frac1p\left(\frac1p - 1\right) = 25(25 - 1) = 600, \qquad \sigma = \sqrt{\sigma^2} = \sqrt{600} \approx 24.49$$
 
 ---
 
@@ -61,29 +61,29 @@ $$\mu = \frac{1}{0.04} = 25, \qquad \sigma^2 = 25(25 - 1) = 600, \qquad \sigma =
 2% of tires are defective, and a sample of tires is tested one at a time.
 
 **(a) The 8th tire is the first defective one**
-$$P(X = 8) = (0.98)^7(0.02) \approx 0.0174 = 1.7\%$$
+$$P(X = 8) = q^{\,x-1}\,p = (0.98)^7(0.02) \approx 0.0174 = 1.7\%$$
 
 **(b) The first defect is found within the first 5 tires**
 Adding each case:
 $$P(X \le 5) = p + qp + q^2p + q^3p + q^4p = p(1 + q + q^2 + q^3 + q^4) \approx 0.0961$$
 With the cumulative formula, which is much faster:
-$$P(X \le 5) = 1 - (0.98)^5 \approx 0.0961 = 9.6\%$$
+$$P(X \le 5) = 1 - q^x = 1 - (0.98)^5 \approx 0.0961 = 9.6\%$$
 
 **(c) The first defect is found within the first 10**
-$$P(X \le 10) = 1 - (0.98)^{10} \approx 0.1829 = 18.3\%$$
+$$P(X \le 10) = 1 - q^x = 1 - (0.98)^{10} \approx 0.1829 = 18.3\%$$
 
 **(d) How many tires do you expect to test to find the first defect?**
-$$\mu = \frac{1}{0.02} = 50 \text{ tires}$$
+$$\mu = \frac1p = \frac{1}{0.02} = 50 \text{ tires}$$
 
 ---
 
 ## Example 5 - more cumulative questions (same tires)
 
 **(a) First defect before the 7th tire**
-$$P(X < 7) = P(X \le 6) = 1 - (0.98)^6 \approx 0.1142 = 11.4\%$$
+$$P(X < 7) = P(X \le 6) = 1 - q^6 = 1 - (0.98)^6 \approx 0.1142 = 11.4\%$$
 
 **(b) First defect after the 12th tire**
-$$P(X > 12) = (0.98)^{12} \approx 0.7847 = 78.5\%$$
+$$P(X > 12) = q^x = (0.98)^{12} \approx 0.7847 = 78.5\%$$
 
 **(c) First defect on the 18th tire or later**
 $$P(X \ge 18) = P(X > 17) = (0.98)^{17} \approx 0.7093 = 70.9\%$$

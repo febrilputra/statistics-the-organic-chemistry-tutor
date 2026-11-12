@@ -43,15 +43,15 @@ $n$ = number of $(x, y)$ pairs.
 
 $\sum x = 21$, $\;\sum y = 48$, $\;\sum xy = 211$, $\;\sum x^2 = 91$, $\;\sum y^2 = 490$, $\;n = 6$
 
-**Numerator:** $6(211) - 21(48) = 1266 - 1008 = 258$
+**Numerator:** $n\sum xy - \sum x\sum y = 6(211) - 21(48) = 1266 - 1008 = 258$
 
 **Denominator:**
 
-- $6(91) - 21^2 = 546 - 441 = 105$
-- $6(490) - 48^2 = 2940 - 2304 = 636$
+- $n\sum x^2 - \left(\sum x\right)^2 = 6(91) - 21^2 = 546 - 441 = 105$
+- $n\sum y^2 - \left(\sum y\right)^2 = 6(490) - 48^2 = 2940 - 2304 = 636$
 - $\sqrt{105 \times 636} = \sqrt{66{,}780} \approx 258.42$
 
-$$r = \frac{258}{258.42} \approx 0.998$$
+$$r = \frac{n\sum xy - \sum x\sum y}{\sqrt{\left[n\sum x^2 - \left(\sum x\right)^2\right]\left[n\sum y^2 - \left(\sum y\right)^2\right]}} = \frac{258}{258.42} \approx 0.998$$
 
 A **very strong positive** linear relationship: as $x$ increases, $y$ increases almost exactly along a straight line.
 

@@ -27,7 +27,7 @@ Ordinary mean: $\dfrac{170}{10} = 17$
 
 Weighted mean, using frequencies as weights:
 
-$$\bar x_w = \frac{1(10) + 1(12) + 4(16) + 3(20) + 1(24)}{1 + 1 + 4 + 3 + 1} = \frac{170}{10} = 17$$
+$$\bar x_w = \frac{\sum w x}{\sum w} = \frac{1(10) + 1(12) + 4(16) + 3(20) + 1(24)}{1 + 1 + 4 + 3 + 1} = \frac{170}{10} = 17$$
 
 The two give the same answer: a mean computed from a frequency table **is** a weighted mean.
 
@@ -37,7 +37,7 @@ The two give the same answer: a mean computed from a frequency table **is** a we
 
 In a class of 20: 8 students averaged 86, 7 averaged 74, and 5 averaged 98. What is the class average?
 
-$$\bar x_w = \frac{8(86) + 7(74) + 5(98)}{8 + 7 + 5} = \frac{688 + 518 + 490}{20} = \frac{1696}{20} = 84.8$$
+$$\bar x_w = \frac{\sum w x}{\sum w} = \frac{8(86) + 7(74) + 5(98)}{8 + 7 + 5} = \frac{688 + 518 + 490}{20} = \frac{1696}{20} = 84.8$$
 
 > Averaging 86, 74 and 98 directly gives 86, which is wrong because the groups are different sizes.
 
@@ -47,7 +47,7 @@ $$\bar x_w = \frac{8(86) + 7(74) + 5(98)}{8 + 7 + 5} = \frac{688 + 518 + 490}{20
 
 At a college, 20% of students average 140 lb, 35% average 160 lb, 30% average 175 lb, and 15% average 195 lb.
 
-$$\bar x_w = 0.20(140) + 0.35(160) + 0.30(175) + 0.15(195) = 28 + 56 + 52.5 + 29.25 = 165.75 \text{ lb}$$
+$$\bar x_w = \sum w x \;\;(\text{the weights add up to } 1) = 0.20(140) + 0.35(160) + 0.30(175) + 0.15(195) = 28 + 56 + 52.5 + 29.25 = 165.75 \text{ lb}$$
 
 (The weights add to $1$, so there is nothing to divide by.)
 
@@ -84,7 +84,7 @@ Points: A = 4, B = 3, C = 2. Weights = credit hours.
 | English | 3 | B | 3 | 9 |
 | **Total** | **14** | | | **44** |
 
-$$\text{GPA} = \frac{44}{14} \approx 3.14$$
+$$\text{GPA} = \frac{\sum (\text{credits} \times \text{grade points})}{\sum \text{credits}} = \frac{44}{14} \approx 3.14$$
 
 ---
 
@@ -95,7 +95,7 @@ Rachel mixes **5 gal of 20%** antifreeze with **10 gal of 50%** antifreeze. Is t
 - An equal-weight average would be 35%.
 - The 50% solution has more volume, so it carries more weight. The answer must be between 35% and 50%.
 
-$$C = \frac{5(20\%) + 10(50\%)}{5 + 10} = \frac{100 + 500}{15} = \frac{600}{15} = 40\%$$
+$$C = \frac{V_1 C_1 + V_2 C_2}{V_1 + V_2} = \frac{5(20\%) + 10(50\%)}{5 + 10} = \frac{100 + 500}{15} = \frac{600}{15} = 40\%$$
 
 The mixture is **40%**, closer to 50% as predicted. The gallons cancel, leaving a percentage.
 

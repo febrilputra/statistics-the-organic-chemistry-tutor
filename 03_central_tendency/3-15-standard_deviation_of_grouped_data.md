@@ -34,12 +34,12 @@ The scores are whole numbers, so a value like 69.5 can't occur and the classes d
 | **Total** | **37** | | **2930.5** | | | **5443.73** |
 
 **Mean:**
-$$\bar x = \frac{2930.5}{37} \approx 79.2$$
+$$\bar x = \frac{\sum f m}{\sum f} = \frac{2930.5}{37} \approx 79.2$$
 
 This makes sense, since most students scored between 70 and 89.
 
 **Standard deviation:**
-$$s = \sqrt{\frac{5443.73}{37 - 1}} = \sqrt{151.21} \approx 12.3$$
+$$s = \sqrt{\frac{\sum f (m - \bar x)^2}{n - 1}} = \sqrt{\frac{5443.73}{37 - 1}} = \sqrt{151.21} \approx 12.3$$
 
 (The deviations above use the rounded mean 79.2. Using the unrounded mean changes the answer only in later decimals.)
 

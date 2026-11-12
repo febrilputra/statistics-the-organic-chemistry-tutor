@@ -32,7 +32,7 @@ Ten students: five took test A and five took test B.
 
 ### Step 1 - means
 
-$$\bar x_A = \frac{419}{5} = 83.8, \qquad \bar x_B = \frac{389}{5} = 77.8$$
+$$\bar x = \frac{\sum x}{n}: \qquad \bar x_A = \frac{419}{5} = 83.8, \qquad \bar x_B = \frac{389}{5} = 77.8$$
 
 ### Step 2 - standard deviations
 
@@ -47,7 +47,7 @@ $$\bar x_A = \frac{419}{5} = 83.8, \qquad \bar x_B = \frac{389}{5} = 77.8$$
 | 89 | 5.2 | 27.04 |
 | **Sum** | | **62.80** |
 
-$$s_A = \sqrt{\frac{62.8}{4}} = \sqrt{15.7} \approx 3.962$$
+$$s_A = \sqrt{\frac{\sum (x - \bar x_A)^2}{n - 1}} = \sqrt{\frac{62.8}{4}} = \sqrt{15.7} \approx 3.962$$
 
 **Test B:**
 
@@ -60,13 +60,13 @@ $$s_A = \sqrt{\frac{62.8}{4}} = \sqrt{15.7} \approx 3.962$$
 | 78 | 0.2 | 0.04 |
 | **Sum** | | **492.80** |
 
-$$s_B = \sqrt{\frac{492.8}{4}} = \sqrt{123.2} \approx 11.10$$
+$$s_B = \sqrt{\frac{\sum (x - \bar x_B)^2}{n - 1}} = \sqrt{\frac{492.8}{4}} = \sqrt{123.2} \approx 11.10$$
 
 ### Step 3 - coefficients of variation
 
-$$\text{CV}_A = \frac{3.962}{83.8} \times 100\% \approx 4.7\%$$
+$$\text{CV}_A = \frac{s_A}{\bar x_A} \times 100\% = \frac{3.962}{83.8} \times 100\% \approx 4.7\%$$
 
-$$\text{CV}_B = \frac{11.10}{77.8} \times 100\% \approx 14.3\%$$
+$$\text{CV}_B = \frac{s_B}{\bar x_B} \times 100\% = \frac{11.10}{77.8} \times 100\% \approx 14.3\%$$
 
 **Conclusion:** test B's scores vary much more relative to their mean (14.3% vs 4.7%).
 

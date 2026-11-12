@@ -96,7 +96,7 @@ Left: the shaded gap between the curve and 0.25 is $(\hat p - 0.5)^2$, which is 
 
 The mean test score was 84 with standard deviation $\sigma = 15$. The margin of error at 95% confidence was $E = 5.367$. How many students were sampled?
 
-$$n = \frac{(1.96)^2(15)^2}{(5.367)^2} \approx 30.0 \;\Rightarrow\; n = 30 \text{ students}$$
+$$n = \frac{z^2\sigma^2}{E^2} = \frac{(1.96)^2(15)^2}{(5.367)^2} \approx 30.0 \;\Rightarrow\; n = 30 \text{ students}$$
 
 (The mean, 84, isn't needed.)
 
@@ -115,7 +115,7 @@ Sally wants to estimate the proportion of high-school students planning to go to
 | 0.6 | 0.4 | 0.24 |
 | **0.5** | **0.5** | **0.25** (largest) |
 
-$$n = \frac{(1.96)^2(0.5)(0.5)}{(0.05)^2} = \frac{0.9604}{0.0025} = 384.16 \;\Rightarrow\; n = 385$$
+$$n = \frac{z^2\,\hat p(1 - \hat p)}{E^2} = \frac{(1.96)^2(0.5)(0.5)}{(0.05)^2} = \frac{0.9604}{0.0025} = 384.16 \;\Rightarrow\; n = 385$$
 
 Round **up**: 384 students would not quite reach the 5% margin.
 

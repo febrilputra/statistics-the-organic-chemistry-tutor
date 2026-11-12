@@ -15,7 +15,7 @@ The variance is the **square of the standard deviation**, so it is the same calc
 
 Data: 6, 9, 14, 10, 5, 8, 11 → sorted: 5, 6, 8, 9, 10, 11, 14 ($n = 7$)
 
-**Mean:** $\bar x = \dfrac{63}{7} = 9$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{63}{7} = 9$
 
 | $x$ | $x - \bar x$ | $(x - \bar x)^2$ |
 |---:|---:|---:|
@@ -28,7 +28,7 @@ Data: 6, 9, 14, 10, 5, 8, 11 → sorted: 5, 6, 8, 9, 10, 11, 14 ($n = 7$)
 | 14 | 5 | 25 |
 | **Sum** | 0 | **56** |
 
-$$s^2 = \frac{56}{7 - 1} = \frac{56}{6} \approx 9.33$$
+$$s^2 = \frac{\sum (x - \bar x)^2}{n - 1} = \frac{56}{7 - 1} = \frac{56}{6} \approx 9.33$$
 
 ---
 
@@ -53,10 +53,10 @@ Set 2:    •     •     •     •     •
 ```
 
 **Set 1:**
-$$s^2 = \frac{2^2 + 1^2 + 0^2 + 1^2 + 2^2}{4} = \frac{10}{4} = 2.5$$
+$$s^2 = \frac{\sum (x - \bar x)^2}{n - 1} = \frac{2^2 + 1^2 + 0^2 + 1^2 + 2^2}{5 - 1} = \frac{10}{4} = 2.5$$
 
 **Set 2:**
-$$s^2 = \frac{4^2 + 2^2 + 0^2 + 2^2 + 4^2}{4} = \frac{40}{4} = 10$$
+$$s^2 = \frac{\sum (x - \bar x)^2}{n - 1} = \frac{4^2 + 2^2 + 0^2 + 2^2 + 4^2}{5 - 1} = \frac{40}{4} = 10$$
 
 Set 2's variance is four times larger, because its points sit farther from the mean.
 

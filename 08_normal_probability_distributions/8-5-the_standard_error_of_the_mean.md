@@ -20,7 +20,7 @@ The ages of 5 randomly selected college students are 18, 21, 19, 20, 26.
 
 **(a) Sample standard deviation**
 
-Mean: $\bar x = \dfrac{104}{5} = 20.8$
+Mean: $\bar x = \dfrac{\sum x}{n} = \dfrac{104}{5} = 20.8$
 
 | $x$ | $x - 20.8$ | squared |
 |---:|---:|---:|
@@ -31,10 +31,10 @@ Mean: $\bar x = \dfrac{104}{5} = 20.8$
 | 26 | 5.2 | 27.04 |
 | **Sum** | | **38.80** |
 
-$$s = \sqrt{\frac{38.8}{5 - 1}} = \sqrt{9.7} \approx 3.114$$
+$$s = \sqrt{\frac{\sum (x - \bar x)^2}{n - 1}} = \sqrt{\frac{38.8}{5 - 1}} = \sqrt{9.7} \approx 3.114$$
 
 **(b) Standard error**
-$$\text{SE} = \frac{3.114}{\sqrt5} \approx 1.393$$
+$$\text{SE} = \frac{s}{\sqrt n} = \frac{3.114}{\sqrt5} \approx 1.393$$
 
 ---
 
@@ -43,10 +43,10 @@ $$\text{SE} = \frac{3.114}{\sqrt5} \approx 1.393$$
 At a university, student ages have mean 20.5 and **population** SD $\sigma = 0.8$.
 
 **(a) Samples of $n = 25$**
-$$\sigma_{\bar x} = \frac{0.8}{\sqrt{25}} = \frac{0.8}{5} = 0.16$$
+$$\sigma_{\bar x} = \frac{\sigma}{\sqrt n} = \frac{0.8}{\sqrt{25}} = \frac{0.8}{5} = 0.16$$
 
 **(b) Samples of $n = 100$**
-$$\sigma_{\bar x} = \frac{0.8}{\sqrt{100}} = \frac{0.8}{10} = 0.08$$
+$$\sigma_{\bar x} = \frac{\sigma}{\sqrt n} = \frac{0.8}{\sqrt{100}} = \frac{0.8}{10} = 0.08$$
 
 **Quadrupling $n$ halves the standard error**, because $\sqrt 4 = 2$.
 

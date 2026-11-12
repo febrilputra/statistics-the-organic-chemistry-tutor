@@ -24,7 +24,7 @@ $$\frac{\mu_2}{\mu_1} = \frac{t_2}{t_1}$$
 
 A business averages **12 customers per day**. What is the probability of exactly **8** customers in one day?
 
-$$P(X = 8) = \frac{12^8 e^{-12}}{8!} \approx 0.0655 = 6.55\%$$
+$$P(X = 8) = \frac{\mu^x\, e^{-\mu}}{x!} = \frac{12^8 e^{-12}}{8!} \approx 0.0655 = 6.55\%$$
 
 ---
 
@@ -33,18 +33,18 @@ $$P(X = 8) = \frac{12^8 e^{-12}}{8!} \approx 0.0655 = 6.55\%$$
 A student receives on average **7 texts per 2 hours**.
 
 **(a) Exactly 9 texts in 2 hours.** The interval is the same, so $\mu = 7$:
-$$P(X = 9) = \frac{7^9 e^{-7}}{9!} \approx 0.1014 = 10.14\%$$
+$$P(X = 9) = \frac{\mu^x\, e^{-\mu}}{x!} = \frac{7^9 e^{-7}}{9!} \approx 0.1014 = 10.14\%$$
 
 **(b) Exactly 24 texts in 8 hours.** The interval is 4 times longer, so the mean is 4 times larger:
 $$\frac{\mu_2}{7} = \frac{8}{2} \;\Rightarrow\; \mu_2 = 28$$
-$$P(X = 24) = \frac{28^{24} e^{-28}}{24!} \approx 0.0601 = 6.01\%$$
+$$P(X = 24) = \frac{\mu^x\, e^{-\mu}}{x!} = \frac{28^{24} e^{-28}}{24!} \approx 0.0601 = 6.01\%$$
 
 ---
 
 ## Example 3 - phone calls ($\mu = 8$ per hour)
 
 **(a) Exactly 7 calls in one hour**
-$$P(X = 7) = \frac{8^7 e^{-8}}{7!} \approx 0.1396 = 13.96\%$$
+$$P(X = 7) = \frac{\mu^x\, e^{-\mu}}{x!} = \frac{8^7 e^{-8}}{7!} \approx 0.1396 = 13.96\%$$
 
 **(b) At most 5 calls** ($X \le 5$, so $X = 0, 1, \dots, 5$)
 

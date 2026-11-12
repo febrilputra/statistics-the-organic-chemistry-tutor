@@ -25,7 +25,7 @@ $x$: 3, 4, 6, 8, 9 $\qquad$ $y$: 4, 5, 9, 10, 12 $\qquad n = 5$
 
 ## Method 1 - covariance and standard deviations
 
-$\bar x = 30/5 = 6$, $\;\bar y = 40/5 = 8$
+$\bar x = \sum x / n = 30/5 = 6$, $\;\bar y = \sum y / n = 40/5 = 8$
 
 | $x$ | $y$ | $x - \bar x$ | $y - \bar y$ | product | $(x - \bar x)^2$ | $(y - \bar y)^2$ |
 |---:|---:|---:|---:|---:|---:|---:|
@@ -38,9 +38,9 @@ $\bar x = 30/5 = 6$, $\;\bar y = 40/5 = 8$
 
 (The video says "pos 2" for the first product at one point. $(-3)(-4) = 12$, and the column total of 34 is correct.)
 
-$$\text{cov}(x, y) = \frac{34}{4} = 8.5$$
-$$s_x = \sqrt{\frac{26}{4}} = \sqrt{6.5} \approx 2.54951, \qquad s_y = \sqrt{\frac{46}{4}} = \sqrt{11.5} \approx 3.39116$$
-$$r = \frac{8.5}{2.54951 \times 3.39116} \approx 0.9831$$
+$$\text{cov}(x, y) = \frac{\sum (x - \bar x)(y - \bar y)}{n - 1} = \frac{34}{4} = 8.5$$
+$$s_x = \sqrt{\frac{\sum (x - \bar x)^2}{n - 1}} = \sqrt{\frac{26}{4}} = \sqrt{6.5} \approx 2.54951, \qquad s_y = \sqrt{\frac{\sum (y - \bar y)^2}{n - 1}} = \sqrt{\frac{46}{4}} = \sqrt{11.5} \approx 3.39116$$
+$$r = \frac{\text{cov}(x, y)}{s_x\,s_y} = \frac{8.5}{2.54951 \times 3.39116} \approx 0.9831$$
 
 **Mental-math tip:** $34/4 = 32/4 + 2/4 = 8 + 0.5 = 8.5$.
 
@@ -61,11 +61,11 @@ Dividing the covariance by sx and sy is the same as measuring both variables in 
 | 9 | 12 | 108 | 81 | 144 |
 | **30** | **40** | **274** | **206** | **366** |
 
-- Numerator: $5(274) - 30(40) = 1370 - 1200 = 170$
-- $5(206) - 30^2 = 1030 - 900 = 130$
-- $5(366) - 40^2 = 1830 - 1600 = 230$
+- Numerator: $n\sum xy - \sum x\sum y = 5(274) - 30(40) = 1370 - 1200 = 170$
+- $n\sum x^2 - (\sum x)^2 = 5(206) - 30^2 = 1030 - 900 = 130$
+- $n\sum y^2 - (\sum y)^2 = 5(366) - 40^2 = 1830 - 1600 = 230$
 
-$$r = \frac{170}{\sqrt{130 \times 230}} = \frac{170}{\sqrt{29{,}900}} \approx 0.9831 \;✓$$
+$$r = \frac{n\sum xy - \sum x\sum y}{\sqrt{\left[n\sum x^2 - (\sum x)^2\right]\left[n\sum y^2 - (\sum y)^2\right]}} = \frac{170}{\sqrt{130 \times 230}} = \frac{170}{\sqrt{29{,}900}} \approx 0.9831 \;✓$$
 
 (The product is 29,900; the video says "293,900" at one point.)
 

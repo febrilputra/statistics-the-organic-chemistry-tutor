@@ -22,7 +22,7 @@ This lesson is a fast tour of the basic tools of **descriptive statistics**. It 
 
 Data (sorted): 7, 7, 10, 14, 15, 23, 32 ($n = 7$)
 
-- Mean: $\dfrac{7+7+10+14+15+23+32}{7} = \dfrac{108}{7} \approx 15.43$
+- Mean: $\bar x = \dfrac{\sum x}{n} = \dfrac{7+7+10+14+15+23+32}{7} = \dfrac{108}{7} \approx 15.43$
 - Median: cross off values from both ends until one is left → **14**
 - Mode: 7 appears twice → **7**
 - Range: $32 - 7 = 25$
@@ -71,8 +71,8 @@ Sorted: 5, 7, 8, 10, 11, **13**, 14, 16, 16, 17, 27 ($n = 11$)
 - $Q_2 = 13$ (the 6th value)
 - Lower half 5, 7, **8**, 10, 11 → $Q_1 = 8$
 - Upper half 14, 16, **16**, 17, 27 → $Q_3 = 16$
-- $\text{IQR} = 16 - 8 = 8$
-- Fences: $8 - 1.5(8) = -4$ and $16 + 1.5(8) = 28$
+- $\text{IQR} = Q_3 - Q_1 = 16 - 8 = 8$
+- Fences: $Q_1 - 1.5\,\text{IQR} = 8 - 1.5(8) = -4$ and $Q_3 + 1.5\,\text{IQR} = 16 + 1.5(8) = 28$
 
 27 looks far from the rest, but it is inside $[-4, 28]$, so it is **not** an outlier. A value of 29 would have been.
 
@@ -145,8 +145,8 @@ Sorted data: 13, 16, 18 | 18, 22, 23 | 25, 28, 29 | 31, 38, 50
 - $Q_2 = \dfrac{23+25}{2} = 24$
 - Lower half 13, 16, 18, 18, 22, 23 → $Q_1 = \dfrac{18+18}{2} = 18$
 - Upper half 25, 28, 29, 31, 38, 50 → $Q_3 = \dfrac{29+31}{2} = 30$
-- $\text{IQR} = 30 - 18 = 12$
-- Fences: $18 - 1.5(12) = 0$ and $30 + 1.5(12) = 48$
+- $\text{IQR} = Q_3 - Q_1 = 30 - 18 = 12$
+- Fences: $Q_1 - 1.5\,\text{IQR} = 18 - 1.5(12) = 0$ and $Q_3 + 1.5\,\text{IQR} = 30 + 1.5(12) = 48$
 
 So **50 is an outlier**. In the plot, the box runs from 18 to 30 with the median at 24. The left whisker goes down to 13, and the right whisker stops at **38**, the largest value that is not an outlier. 50 is drawn as a separate dot.
 
@@ -168,8 +168,8 @@ Sorted data ($n = 11$): **2**, 15, 17, 18, 19, **20**, 21, 22, 23, 25, 26
 - $Q_2 = 20$
 - Lower half 2, 15, **17**, 18, 19 → $Q_1 = 17$
 - Upper half 21, 22, **23**, 25, 26 → $Q_3 = 23$
-- $\text{IQR} = 23 - 17 = 6$
-- Fences: $17 - 1.5(6) = 8$ and $23 + 1.5(6) = 32$
+- $\text{IQR} = Q_3 - Q_1 = 23 - 17 = 6$
+- Fences: $Q_1 - 1.5\,\text{IQR} = 17 - 1.5(6) = 8$ and $Q_3 + 1.5\,\text{IQR} = 23 + 1.5(6) = 32$
 
 **2 is below 8, so the min is an outlier.** The left whisker stops at **15**, the smallest value that is not an outlier. The max, 26, is inside the fences, so the right whisker reaches it.
 
@@ -298,7 +298,7 @@ $$\bar x = \frac{\sum (x \cdot f)}{\sum f}$$
 | 12 | 1 | 12 |
 | **Total** | **12** | **100** |
 
-$$\bar x = \frac{100}{12} \approx 8.33$$
+$$\bar x = \frac{\sum x f}{\sum f} = \frac{100}{12} \approx 8.33$$
 
 ---
 

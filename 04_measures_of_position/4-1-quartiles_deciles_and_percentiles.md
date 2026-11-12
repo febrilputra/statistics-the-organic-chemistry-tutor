@@ -71,9 +71,9 @@ The video uses a list of 16 numbers shown on screen. The positions that matter a
 | Value | 9 | 11 | 12 | 15 | 16 | 16 | 17 | 19 | 20 |
 
 - **Medians of halves:** $Q_2 = \dfrac{15 + 16}{2} = 15.5$, $\;Q_1 = \dfrac{9 + 11}{2} = 10$, $\;Q_3 = \dfrac{19 + 20}{2} = 19.5$
-- **Formula for $Q_1$:** $L_{25} = \tfrac14(17) = 4.25$, between the 4th and 5th values → $\dfrac{9 + 11}{2} = 10$ ✓
-- **Formula for $Q_3$:** $L_{75} = \tfrac34(17) = 12.75$, between the 12th and 13th values → $\dfrac{19 + 20}{2} = 19.5$ ✓
-- **6th decile ($P_{60}$):** $L_{60} = 0.6(17) = 10.2$, between the 10th (16) and 11th (17) values → $\dfrac{16 + 17}{2} = 16.5$
+- **Formula for $Q_1$:** $L_{25} = \tfrac{k}{100}(n + 1) = \tfrac{25}{100}(17) = 4.25$, between the 4th and 5th values → $\dfrac{9 + 11}{2} = 10$ ✓
+- **Formula for $Q_3$:** $L_{75} = \tfrac{k}{100}(n + 1) = \tfrac{75}{100}(17) = 12.75$, between the 12th and 13th values → $\dfrac{19 + 20}{2} = 19.5$ ✓
+- **6th decile ($P_{60}$):** $L_{60} = \tfrac{k}{100}(n + 1) = \tfrac{60}{100}(17) = 10.2$, between the 10th (16) and 11th (17) values → $\dfrac{16 + 17}{2} = 16.5$
 
 > **About $D_6$:** the location 10.2 is much closer to position 10 than to 11, so the video suggests the true answer should be closer to 16. **Linear interpolation** makes this precise: $16 + 0.2(17 - 16) = 16.2$. With small $n$ these estimates are rough, and they become more accurate as $n$ grows.
 

@@ -56,11 +56,11 @@ The data contains these values and counts:
 | 8 | 5 | 40 |
 | **Total** | **17** | **95** |
 
-- **Range:** still $8 - 3 = 5$.
+- **Range:** still $\text{max} - \text{min} = 8 - 3 = 5$.
 - **Mode:** now only **5** has the highest frequency → **unimodal**, mode = 5.
 - **Median:** $n = 17$, so the median is the 9th value. Counting up: positions 1-2 are 3s, 3-5 are 4s, 6-11 are 5s. The 9th value is **5**.
   - Check by writing it out: 3 3 4 4 4 5 5 5 **5** 5 5 7 8 8 8 8 8
-- **Mean:** $\bar x = \dfrac{95}{17} \approx 5.59$
+- **Mean:** $\bar x = \dfrac{\sum x f}{\sum f} = \dfrac{95}{17} \approx 5.59$
 
 ![Bar charts of the two frequency tables with the mode, median and mean marked](figures/frequency_bar_charts.png)
 
@@ -80,11 +80,11 @@ Each frequency table drawn as a bar chart. The tallest bar (orange) is the mode,
 | 9 | 5 | 45 |
 | **Total** | **19** | **113** |
 
-- **Range:** $9 - 2 = 7$
+- **Range:** $\text{max} - \text{min} = 9 - 2 = 7$
 - **Mode:** 9 (frequency 5, the largest)
 - **Median:** $n = 19$, so the median is the 10th value. Running counts: 4 (2s), 7 (4s), 9 (5s), **10** (6). The 10th value is **6**.
   - Written out: 2 2 2 2 4 4 4 5 5 **6** 8 8 8 8 9 9 9 9 9
-- **Mean:** $\bar x = \dfrac{113}{19} \approx 5.95$
+- **Mean:** $\bar x = \dfrac{\sum x f}{\sum f} = \dfrac{113}{19} \approx 5.95$
 
 ---
 

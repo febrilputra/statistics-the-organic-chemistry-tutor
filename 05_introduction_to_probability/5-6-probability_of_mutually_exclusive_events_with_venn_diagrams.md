@@ -45,7 +45,7 @@ $A = \{1, 2, 3, 4\}$, $\;B = \{3, 4, 5\}$. They share 3 and 4, so they are **not
 
 Venn diagram regions: $A$ only = {1, 2}, both = {3, 4}, $B$ only = {5}, outside both = {6}.
 
-$$P(A \text{ or } B) = \frac46 + \frac36 - \frac26 = \frac56$$
+$$P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B) = \frac46 + \frac36 - \frac26 = \frac56$$
 
 Without subtracting $\tfrac26$ you would get $\tfrac76$, which is more than 1 and therefore impossible. The subtraction removes the double-counted 3 and 4.
 
@@ -61,7 +61,7 @@ Overlapping circles share outcomes, so the overlap must be subtracted once. Sepa
 
 $B = \{3, 4, 5\}$, $\;C = \{6\}$. They share nothing, so they are mutually exclusive and the circles don't overlap.
 
-$$P(B \text{ or } C) = \frac36 + \frac16 - 0 = \frac46 = \frac23$$
+$$P(B \text{ or } C) = P(B) + P(C) - P(B \text{ and } C) = \frac36 + \frac16 - 0 = \frac46 = \frac23$$
 
 ---
 

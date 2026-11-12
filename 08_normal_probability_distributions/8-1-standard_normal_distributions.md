@@ -46,10 +46,10 @@ The total area under the curve is 1 (100%).
 **(a)** $\mu = 50$, $\sigma = 10$.
 
 **(b) Which $x$ has $z = 1.4$?**
-$$x = 50 + 1.4(10) = 64$$
+$$x = \mu + z\sigma = 50 + 1.4(10) = 64$$
 
 **(c) What is the z-score of $x = 30$?**
-$$z = \frac{30 - 50}{10} = -2$$
+$$z = \frac{x - \mu}{\sigma} = \frac{30 - 50}{10} = -2$$
 
 **(d)** Negative z-scores (like −2 for 30) are left of the mean. Positive ones (like 1.4 for 64) are right of it.
 
@@ -93,21 +93,21 @@ When $z$ is not a whole number, such as $z = 1.56$, the empirical rule can't be 
 ## Example 3 - IQ scores, $\mu = 100$, $\sigma = 15$
 
 **(a) P(IQ < 80)**
-$$z = \frac{80 - 100}{15} = -1.33 \;\Rightarrow\; \text{area} = 0.09176 \approx 9.18\%$$
+$$z = \frac{x - \mu}{\sigma} = \frac{80 - 100}{15} = -1.33 \;\Rightarrow\; \text{area} = 0.09176 \approx 9.18\%$$
 
 **(b) P(IQ > 136)**
-$$z = \frac{136 - 100}{15} = 2.40 \;\Rightarrow\; \text{left area} = 0.99180$$
-$$P(X > 136) = 1 - 0.99180 = 0.0082 = 0.82\%$$
+$$z = \frac{x - \mu}{\sigma} = \frac{136 - 100}{15} = 2.40 \;\Rightarrow\; \text{left area} = 0.99180$$
+$$P(X > 136) = 1 - P(X < 136) = 1 - 0.99180 = 0.0082 = 0.82\%$$
 (The video says "eight point two" at one point; the correct value is 0.0082, which is **0.82%**.)
 
 **(c) P(95 < IQ < 110)**
-$$z_{110} = \frac{10}{15} \approx 0.67 \to 0.74857, \qquad z_{95} = \frac{-5}{15} \approx -0.33 \to 0.37070$$
-$$P = 0.74857 - 0.37070 = 0.37787 \approx 37.8\%$$
+$$z = \frac{x - \mu}{\sigma}: \qquad z_{110} = \frac{110 - 100}{15} = \frac{10}{15} \approx 0.67 \to 0.74857, \qquad z_{95} = \frac{95 - 100}{15} = \frac{-5}{15} \approx -0.33 \to 0.37070$$
+$$P(95 < X < 110) = P(z < 0.67) - P(z < -0.33) = 0.74857 - 0.37070 = 0.37787 \approx 37.8\%$$
 
 **(d) IQ at the 90th percentile** (work backwards from the area)
 
 The left area is 0.90. In the table, $z = 1.28$ gives 0.89973 and $z = 1.29$ gives 0.90147. 0.89973 is closer to 0.90, so take $z = 1.28$.
-$$x = 100 + 1.28(15) = 119.2$$
+$$x = \mu + z\sigma = 100 + 1.28(15) = 119.2$$
 
 **(e) Between which two IQs are the middle 30%?**
 
@@ -116,7 +116,7 @@ The middle 30% leaves 15% on each side of the mean, so it runs from the **35th**
 - For an area of 0.65: $z = 0.38$ gives 0.64803 and $z = 0.39$ gives 0.65173. 0.65 is about halfway, so $z \approx 0.385$.
 - By symmetry, the 35th percentile is $z \approx -0.385$.
 
-$$x_2 = 100 + 0.385(15) \approx 105.8, \qquad x_1 = 100 - 0.385(15) \approx 94.2$$
+$$x = \mu + z\sigma: \qquad x_2 = 100 + 0.385(15) \approx 105.8, \qquad x_1 = 100 - 0.385(15) \approx 94.2$$
 
 The middle 30% of IQs lie between about **94.2 and 105.8**.
 
@@ -134,14 +134,14 @@ Each IQ question as a shaded area. A left area comes straight from the z-table, 
 $$\mu = np = 500(0.02) = 10, \qquad \sigma = \sqrt{npq} = \sqrt{500(0.02)(0.98)} = \sqrt{9.8} \approx 3.13$$
 
 **(b) P(fewer than 8 defective)**
-$$z = \frac{8 - 10}{3.13} \approx -0.64 \;\Rightarrow\; P \approx 0.2611 = 26.1\%$$
+$$z = \frac{x - \mu}{\sigma} = \frac{8 - 10}{3.13} \approx -0.64 \;\Rightarrow\; P \approx 0.2611 = 26.1\%$$
 
 **(c) P(more than 15 defective)**
-$$z = \frac{15 - 10}{3.13} \approx 1.60 \;\Rightarrow\; \text{left} = 0.9452,\; P = 1 - 0.9452 = 0.0548 = 5.48\%$$
+$$z = \frac{x - \mu}{\sigma} = \frac{15 - 10}{3.13} \approx 1.60 \;\Rightarrow\; \text{left} = 0.9452,\; P = 1 - 0.9452 = 0.0548 = 5.48\%$$
 
 **(d) P(between 7 and 14 defective)**
-$$z_{14} = \frac{4}{3.13} \approx 1.28 \to 0.89973, \qquad z_7 = \frac{-3}{3.13} \approx -0.96 \to 0.16853$$
-$$P = 0.89973 - 0.16853 = 0.7312 = 73.1\%$$
+$$z = \frac{x - \mu}{\sigma}: \qquad z_{14} = \frac{14 - 10}{3.13} \approx 1.28 \to 0.89973, \qquad z_7 = \frac{7 - 10}{3.13} \approx -0.96 \to 0.16853$$
+$$P(7 < X < 14) = P(z < 1.28) - P(z < -0.96) = 0.89973 - 0.16853 = 0.7312 = 73.1\%$$
 
 > **Note:** the video uses the normal curve directly on the counts. Many textbooks add a **continuity correction** of ±0.5 (e.g. "fewer than 8" → $x < 7.5$) when approximating a discrete binomial with the continuous normal, which gives slightly different, more accurate answers.
 

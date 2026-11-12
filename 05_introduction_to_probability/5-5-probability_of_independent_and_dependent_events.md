@@ -45,7 +45,7 @@ This always holds. $P(B_2 \mid A_1)$ reads "the probability of $B$ on the 2nd dr
 Notation: $R_1$ = red on draw 1, $G_2$ = green on draw 2, and so on.
 
 **(a) P(red)**
-$$P(R) = \frac{8}{25} = 0.32 = 32\%$$
+$$P(R) = \frac{\text{red}}{\text{total}} = \frac{8}{25} = 0.32 = 32\%$$
 
 **(b) Blue, then green, *with* replacement** (independent)
 $$P(B_1 \cap G_2) = P(B_1) \cdot P(G_2) = \frac{7}{25} \cdot \frac{6}{25} = \frac{42}{625} = 0.0672 = 6.72\%$$

@@ -42,7 +42,7 @@ If the classes are written 60-69, 70-79, ..., there is a gap between 69 and 70. 
 
 **Step 3 - substitute.**
 
-$$\text{median} = 69.5 + \left(\frac{19 - 14}{9}\right)(10) = 69.5 + \frac{50}{9} \approx 69.5 + 5.56 = 75.06$$
+$$\text{median} = L + \left(\frac{\frac{n}{2} - C}{f}\right) h = 69.5 + \left(\frac{19 - 14}{9}\right)(10) = 69.5 + \frac{50}{9} \approx 69.5 + 5.56 = 75.06$$
 
 The median is about **75.1**, which is inside the median class 70-79 as it should be.
 

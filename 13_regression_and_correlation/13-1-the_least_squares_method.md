@@ -39,10 +39,10 @@ $n$ = number of data points. Keep $m$ unrounded when you calculate $b$.
 $\sum x = 28$, $\;\sum y = 61.8$, $\;\sum xy = 314.8$, $\;\sum x^2 = 140$, $\;n = 7$
 
 **Slope:**
-$$m = \frac{7(314.8) - 28(61.8)}{7(140) - 28^2} = \frac{2203.6 - 1730.4}{980 - 784} = \frac{473.2}{196} \approx 2.414286$$
+$$m = \frac{n\sum xy - \sum x\sum y}{n\sum x^2 - \left(\sum x\right)^2} = \frac{7(314.8) - 28(61.8)}{7(140) - 28^2} = \frac{2203.6 - 1730.4}{980 - 784} = \frac{473.2}{196} \approx 2.414286$$
 
 **Intercept:**
-$$b = \frac{61.8 - 2.414286(28)}{7} = \frac{61.8 - 67.6}{7} = \frac{-5.8}{7} \approx -0.828571$$
+$$b = \frac{\sum y - m\sum x}{n} = \frac{61.8 - 2.414286(28)}{7} = \frac{61.8 - 67.6}{7} = \frac{-5.8}{7} \approx -0.828571$$
 
 **Line of best fit:**
 $$\boxed{y \approx 2.41x - 0.83}$$

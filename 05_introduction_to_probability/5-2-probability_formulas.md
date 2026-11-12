@@ -16,9 +16,9 @@ The probability of **one** event, regardless of any others:
 
 $$P(A) = \frac{\text{favorable outcomes}}{\text{total outcomes}}$$
 
-- $P(A) = \tfrac49 \approx 0.444$ (44.4%)
-- $P(B) = \tfrac39 = \tfrac13 \approx 0.333$ (33.3%)
-- $P(C) = \tfrac49 \approx 0.444$ (44.4%)
+- $P(A) = \tfrac{n(A)}{n(S)} = \tfrac49 \approx 0.444$ (44.4%)
+- $P(B) = \tfrac{n(B)}{n(S)} = \tfrac39 = \tfrac13 \approx 0.333$ (33.3%)
+- $P(C) = \tfrac{n(C)}{n(S)} = \tfrac49 \approx 0.444$ (44.4%)
 
 ---
 
@@ -53,7 +53,7 @@ $$\begin{aligned}
 
 **Example - $A \cup B$ (mutually exclusive):** $A \cup B = \{1, 2, 3, 4, 6, 7, 8\}$
 
-$$P(A \cup B) = \frac79 \approx 0.778 \quad\left(= \tfrac49 + \tfrac39\right)$$
+$$P(A \cup B) = P(A) + P(B) = \frac49 + \frac39 = \frac79 \approx 0.778$$
 
 **Example - $B \cup C$ (they overlap at 7 and 8):** $B \cap C = \{7, 8\}$, so $P(B \cap C) = \tfrac29$
 
@@ -143,8 +143,8 @@ $$\begin{aligned}
 
 $P(A')$ is read "the probability of **not** $A$". The complement is also written $A^c$ (the most common form in textbooks), $\bar A$ or $\sim A$.
 
-- $P(A') = 1 - \tfrac49 = \tfrac59$. Check: $S$ has 5 elements outside $A$ (5, 6, 7, 8, 9) ✓
-- If $P(B) = 0.35$, then $P(B') = 1 - 0.35 = 0.65$, a 65% chance that $B$ does not occur.
+- $P(A') = 1 - P(A) = 1 - \tfrac49 = \tfrac59$. Check: $S$ has 5 elements outside $A$ (5, 6, 7, 8, 9) ✓
+- If $P(B) = 0.35$, then $P(B') = 1 - P(B) = 1 - 0.35 = 0.65$, a 65% chance that $B$ does not occur.
 
 This works because the total probability of all outcomes is 1.
 

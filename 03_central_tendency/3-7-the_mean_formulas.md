@@ -107,18 +107,18 @@ A car drives **400 mi** from A to B at **80 mph**, then returns **400 mi** at **
 
 **Physics method (total distance ÷ total time):**
 
-- Time out: $\dfrac{400}{80} = 5$ h. Time back: $\dfrac{400}{50} = 8$ h.
-- $\bar v = \dfrac{800}{13} \approx 61.54$ mph
+- Time $= \dfrac{\text{distance}}{\text{speed}}$. Time out: $\dfrac{400}{80} = 5$ h. Time back: $\dfrac{400}{50} = 8$ h.
+- $\bar v = \dfrac{\text{total distance}}{\text{total time}} = \dfrac{800}{13} \approx 61.54$ mph
 
 **Weighted-mean method (weights = time spent at each speed):**
 
-$$\bar v = \frac{80(5) + 50(8)}{5 + 8} = \frac{800}{13} \approx 61.54 \text{ mph}$$
+$$\bar v = \frac{v_1 t_1 + v_2 t_2}{t_1 + t_2} = \frac{80(5) + 50(8)}{5 + 8} = \frac{800}{13} \approx 61.54 \text{ mph}$$
 
 Or using time fractions: $80\left(\tfrac{5}{13}\right) + 50\left(\tfrac{8}{13}\right) = 80(0.3846) + 50(0.6154) \approx 61.54$ mph. The car spends about 38.5% of the time at 80 mph and about 61.5% at 50 mph.
 
 **Harmonic-mean method:**
 
-$$\bar v = \frac{2}{\frac{1}{80} + \frac{1}{50}} = \frac{2(80)(50)}{80 + 50} = \frac{8000}{130} = \frac{800}{13} \approx 61.54 \text{ mph}$$
+$$\bar v = H = \frac{2}{\frac{1}{a} + \frac{1}{b}} = \frac{2}{\frac{1}{80} + \frac{1}{50}} = \frac{2(80)(50)}{80 + 50} = \frac{8000}{130} = \frac{800}{13} \approx 61.54 \text{ mph}$$
 
 The arithmetic mean (65 mph) is **wrong** here. The car spends **more time** at the slower speed, so the true average is closer to 50.
 
@@ -138,7 +138,7 @@ $$x_{\text{RMS}} = \sqrt{\frac{x_1^2 + x_2^2 + \dots + x_n^2}{n}}$$
 
 **Example.** 5, 8, 12, 16, 21
 
-$$\sqrt{\frac{25 + 64 + 144 + 256 + 441}{5}} = \sqrt{\frac{930}{5}} = \sqrt{186} \approx 13.64$$
+$$x_{\text{RMS}} = \sqrt{\frac{\sum x^2}{n}} = \sqrt{\frac{25 + 64 + 144 + 256 + 441}{5}} = \sqrt{\frac{930}{5}} = \sqrt{186} \approx 13.64$$
 
 ---
 

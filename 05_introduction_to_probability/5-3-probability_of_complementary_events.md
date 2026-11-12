@@ -15,23 +15,23 @@
 
 $A \cap B = \{3, 4\}$ (the outcomes in **both** sets)
 
-$$P(A \text{ and } B) = \frac26 = \frac13 \approx 0.33$$
+$$P(A \text{ and } B) = \frac{n(A \cap B)}{n(S)} = \frac26 = \frac13 \approx 0.33$$
 
 ## 2. $P(A \text{ or } B)$ - union
 
 $A \cup B = \{1, 2, 3, 4, 5\}$ (the outcomes in **either** set; only 6 is missing)
 
-$$P(A \text{ or } B) = \frac56 \approx 0.833 = 83.3\%$$
+$$P(A \text{ or } B) = \frac{n(A \cup B)}{n(S)} = \frac56 \approx 0.833 = 83.3\%$$
 
 ## 3. $P(A')$ - complement
 
 The **complement** $A'$ is everything in $S$ that is **not** in $A$: $A' = \{5, 6\}$
 
-$$P(A') = \frac26 = \frac13$$
+$$P(A') = \frac{n(A')}{n(S)} = \frac26 = \frac13$$
 
 ## 4. $P(A)$ and the complement rule
 
-$$P(A) = \frac46 = \frac23$$
+$$P(A) = \frac{n(A)}{n(S)} = \frac46 = \frac23$$
 
 $$P(A) + P(A') = \frac23 + \frac13 = 1$$
 
@@ -49,7 +49,7 @@ The same two events shaded three ways. The complement A' is everything in S outs
 
 The probability of drawing a **red** marble from a bag is 35%. What is the probability of drawing a marble that is **not red**?
 
-$$P(\text{not red}) = 1 - 0.35 = 0.65 = 65\%$$
+$$P(\text{not red}) = 1 - P(\text{red}) = 1 - 0.35 = 0.65 = 65\%$$
 
 ---
 

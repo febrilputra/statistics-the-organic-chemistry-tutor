@@ -30,7 +30,7 @@ $$\text{mode} = L + h\left(\frac{f_m - f_1}{2f_m - f_1 - f_2}\right)$$
 
 **Values.** $L = 69.5$ (halfway between 69 and 70), $h = 79.5 - 69.5 = 10$, $f_m = 9$, $f_1 = 6$, $f_2 = 8$.
 
-$$\text{mode} = 69.5 + 10\left(\frac{9 - 6}{2(9) - 6 - 8}\right) = 69.5 + 10\left(\frac{3}{4}\right) = 69.5 + 7.5 = 77$$
+$$\text{mode} = L + h\left(\frac{f_m - f_1}{2f_m - f_1 - f_2}\right) = 69.5 + 10\left(\frac{9 - 6}{2(9) - 6 - 8}\right) = 69.5 + 10\left(\frac{3}{4}\right) = 69.5 + 7.5 = 77$$
 
 **Does it make sense?** 77 lies in the modal class 70-79, and it is nearer 79 than 70. The class after the modal class has a higher frequency (8) than the class before it (6), so the mode is pulled toward the upper end.
 

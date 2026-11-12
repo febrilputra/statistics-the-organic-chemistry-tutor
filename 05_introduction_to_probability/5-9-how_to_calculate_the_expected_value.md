@@ -28,7 +28,7 @@ Lisa wins **\$500** with probability 20%, and otherwise loses **\$100**.
 | Lose | −100 | 0.80 | −80 |
 | **Total** | | **1.00** | **+20** |
 
-$$E(X) = 500(0.20) + (-100)(0.80) = 100 - 80 = \$20 \text{ per game}$$
+$$E(X) = \sum x\,P(x) = 500(0.20) + (-100)(0.80) = 100 - 80 = \$20 \text{ per game}$$
 
 - Over 10 games: $10 \times 20 = \$200$ expected.
 - Over 100 games: $100 \times 20 = \$2{,}000$ expected.
@@ -51,7 +51,7 @@ Company XYZ earns **\$40** on each working laptop it sells and loses **\$500** o
 | Defective | −500 | 0.03 | −15.00 |
 | **Total** | | **1.00** | **+23.80** |
 
-$$E(X) = 40(0.97) + (-500)(0.03) = 38.80 - 15.00 = \$23.80 \text{ per laptop}$$
+$$E(X) = \sum x\,P(x) = 40(0.97) + (-500)(0.03) = 38.80 - 15.00 = \$23.80 \text{ per laptop}$$
 
 Selling 100 laptops is expected to earn $100 \times 23.80 = \$2{,}380$.
 

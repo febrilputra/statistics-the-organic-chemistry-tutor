@@ -37,7 +37,7 @@ The needed score (orange) has to make up for the scores below the target line an
 
 Jim's first six exam scores are **76, 83, 69, 78, 85, 84**. What does he need on the seventh exam to average **80**?
 
-$$x_7 = 7(80) - (76 + 83 + 69 + 78 + 85 + 84) = 560 - 475 = 85$$
+$$x_n = n\,\bar x - (x_1 + \dots + x_{n-1}) \;\Rightarrow\; x_7 = 7(80) - (76 + 83 + 69 + 78 + 85 + 84) = 560 - 475 = 85$$
 
 He needs an **85**.
 

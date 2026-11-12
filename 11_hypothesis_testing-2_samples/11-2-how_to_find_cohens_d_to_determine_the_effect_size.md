@@ -73,12 +73,12 @@ $$s_{\text{pooled}} = \sqrt{\frac{s_1^2 + s_2^2}{2}}$$
 | $s$ | 3 | 4 |
 
 **Pooled SD (general formula):**
-$$s_p = \sqrt{\frac{19(3^2) + 19(4^2)}{20 + 20 - 2}} = \sqrt{\frac{171 + 304}{38}} = \sqrt{\frac{475}{38}} = \sqrt{12.5} \approx 3.5355$$
+$$s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}} = \sqrt{\frac{19(3^2) + 19(4^2)}{20 + 20 - 2}} = \sqrt{\frac{171 + 304}{38}} = \sqrt{\frac{475}{38}} = \sqrt{12.5} \approx 3.5355$$
 
-**Shortcut (equal $n$):** $\sqrt{\dfrac{9 + 16}{2}} = \sqrt{12.5} \approx 3.5355$, the same answer ✓
+**Shortcut (equal $n$):** $\sqrt{\dfrac{s_1^2 + s_2^2}{2}} = \sqrt{\dfrac{9 + 16}{2}} = \sqrt{12.5} \approx 3.5355$, the same answer ✓
 
 **Cohen's d:**
-$$d = \frac{88 - 85}{3.5355} \approx 0.85 \;\Rightarrow\; \textbf{large effect}$$
+$$d = \frac{|\bar x_1 - \bar x_2|}{s_{\text{pooled}}} = \frac{88 - 85}{3.5355} \approx 0.85 \;\Rightarrow\; \textbf{large effect}$$
 
 ---
 
@@ -91,12 +91,12 @@ $$d = \frac{88 - 85}{3.5355} \approx 0.85 \;\Rightarrow\; \textbf{large effect}$
 | $s$ (lb) | 5 | 8 |
 
 **Pooled SD** (must use the general formula, because the sizes differ):
-$$s_p = \sqrt{\frac{24(5^2) + 49(8^2)}{25 + 50 - 2}} = \sqrt{\frac{600 + 3136}{73}} = \sqrt{\frac{3736}{73}} \approx 7.154$$
+$$s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}} = \sqrt{\frac{24(5^2) + 49(8^2)}{25 + 50 - 2}} = \sqrt{\frac{600 + 3136}{73}} = \sqrt{\frac{3736}{73}} \approx 7.154$$
 
 The shortcut would give $\sqrt{(25 + 64)/2} \approx 6.671$, which is **wrong** here. Group 2 is twice as large, so its SD (8) should carry more weight, and the correct pooled SD (7.15) is closer to 8.
 
 **Cohen's d:**
-$$d = \frac{|168 - 172|}{7.154} = \frac{4}{7.154} \approx 0.56 \;\Rightarrow\; \textbf{medium effect}$$
+$$d = \frac{|\bar x_1 - \bar x_2|}{s_{\text{pooled}}} = \frac{|168 - 172|}{7.154} = \frac{4}{7.154} \approx 0.56 \;\Rightarrow\; \textbf{medium effect}$$
 
 ---
 

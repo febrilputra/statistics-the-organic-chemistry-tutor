@@ -68,18 +68,18 @@ Then use the z-table (left area); right area = 1 − left area. To go from a per
 ## Example 1 - entrance exam scores: normal, $\mu = 74$, $\sigma = 6.8$
 
 **(a) One student scores below 65** ($n = 1$, so use the population distribution)
-$$z = \frac{65 - 74}{6.8} \approx -1.32 \;\Rightarrow\; P = 0.09342 \approx 9.34\%$$
+$$z = \frac{x - \mu}{\sigma} = \frac{65 - 74}{6.8} \approx -1.32 \;\Rightarrow\; P = 0.09342 \approx 9.34\%$$
 
 **(b) The mean of 50 students is above 75**
-$$\sigma_{\bar x} = \frac{6.8}{\sqrt{50}} \approx 0.9617, \qquad z = \frac{75 - 74}{0.9617} \approx 1.04$$
-$$P(\bar X > 75) = 1 - 0.85083 = 0.14917 \approx 14.9\%$$
+$$\sigma_{\bar x} = \frac{\sigma}{\sqrt n} = \frac{6.8}{\sqrt{50}} \approx 0.9617, \qquad z = \frac{\bar x - \mu}{\sigma_{\bar x}} = \frac{75 - 74}{0.9617} \approx 1.04$$
+$$P(\bar X > 75) = 1 - P(z < 1.04) = 1 - 0.85083 = 0.14917 \approx 14.9\%$$
 
 **(c) Distribution of the mean of 50 scores**
 $$\bar X \sim N(74,\; 0.9617)$$
 
 **(d) 80th percentile of the mean score**
 A left area of 0.80 gives $z \approx 0.84$ (table value 0.79955):
-$$\bar x = 74 + 0.84(0.9617) \approx 74.81$$
+$$\bar x = \mu + z\,\sigma_{\bar x} = 74 + 0.84(0.9617) \approx 74.81$$
 
 ![Wide normal curve for one score next to a narrow curve for the mean of 50 scores](figures/one_value_vs_sample_mean.png)
 
@@ -90,22 +90,22 @@ Example 1 on a shared axis. A question about one student uses σ = 6.8. A questi
 ## Example 2 - carbs in a snack bar: uniform from 21 g to 29 g, $n = 100$
 
 **(a) One bar**
-$$X \sim U(21, 29), \qquad \mu = \frac{21 + 29}{2} = 25, \qquad \sigma = \frac{29 - 21}{\sqrt{12}} \approx 2.3094$$
+$$X \sim U(21, 29), \qquad \mu = \frac{a + b}{2} = \frac{21 + 29}{2} = 25, \qquad \sigma = \frac{b - a}{\sqrt{12}} = \frac{29 - 21}{\sqrt{12}} \approx 2.3094$$
 
 **(b) Mean of 100 bars.** By the CLT ($n \ge 30$) it is **normal**, even though one bar is uniform:
-$$\bar X \sim N\!\left(25,\; \frac{2.3094}{\sqrt{100}}\right) = N(25,\; 0.23094)$$
+$$\bar X \sim N\!\left(\mu,\; \frac{\sigma}{\sqrt n}\right) = N\!\left(25,\; \frac{2.3094}{\sqrt{100}}\right) = N(25,\; 0.23094)$$
 
 **(c) One bar has 24-26 g** (uniform, so base × height)
-$$P(24 < X < 26) = (26 - 24) \times \frac18 = 0.25$$
+$$P(24 < X < 26) = \text{width} \times \frac{1}{b - a} = (26 - 24) \times \frac18 = 0.25$$
 
 **(d) The mean of 100 bars is between 24.9 g and 25.1 g** (normal)
-$$z = \frac{\pm 0.1}{0.23094} \approx \pm 0.43 \;\Rightarrow\; P = 0.66640 - 0.33360 = 0.3328$$
+$$z = \frac{\bar x - \mu}{\sigma_{\bar x}} = \frac{25 \pm 0.1 - 25}{0.23094} = \frac{\pm 0.1}{0.23094} \approx \pm 0.43 \;\Rightarrow\; P = 0.66640 - 0.33360 = 0.3328$$
 
 **(e) Distribution of the total carbs in 100 bars**
 $$\sum X \sim N\big(n\mu,\; \sqrt n\,\sigma\big) = N\big(100 \cdot 25,\; 10 \cdot 2.3094\big) = N(2500,\; 23.094)$$
 
 **(f) The total is more than 2,540 g**
-$$z = \frac{2540 - 2500}{23.094} \approx 1.73 \;\Rightarrow\; P = 1 - 0.95818 = 0.04182 \approx 4.2\%$$
+$$z = \frac{\sum x - n\mu}{\sqrt n\,\sigma} = \frac{2540 - 2500}{23.094} \approx 1.73 \;\Rightarrow\; P = 1 - 0.95818 = 0.04182 \approx 4.2\%$$
 
 ---
 
@@ -115,10 +115,10 @@ $$z = \frac{2540 - 2500}{23.094} \approx 1.73 \;\Rightarrow\; P = 1 - 0.95818 = 
 $$\lambda = \frac17 \text{ per year}, \qquad \sigma = \mu = 7 \text{ years}$$
 
 **(b) Distribution of the mean lifetime of 40 cars** (CLT: normal)
-$$\sigma_{\bar x} = \frac{7}{\sqrt{40}} \approx 1.1068, \qquad \bar X \sim N(7,\; 1.1068)$$
+$$\sigma_{\bar x} = \frac{\sigma}{\sqrt n} = \frac{7}{\sqrt{40}} \approx 1.1068, \qquad \bar X \sim N(7,\; 1.1068)$$
 
 **(c) P(sample mean < 6.5 years)**
-$$z = \frac{6.5 - 7}{1.1068} \approx -0.45 \;\Rightarrow\; P = 0.32636 \approx 32.6\%$$
+$$z = \frac{\bar x - \mu}{\sigma_{\bar x}} = \frac{6.5 - 7}{1.1068} \approx -0.45 \;\Rightarrow\; P = 0.32636 \approx 32.6\%$$
 
 **(d) IQR of the sample mean**
 

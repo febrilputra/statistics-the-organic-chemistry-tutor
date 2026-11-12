@@ -91,7 +91,7 @@ The three steps for 95%. Left: the confidence level is the middle area, and the 
 
 A z-table gives the area to the **left** of a z-score. The area to the left of $+z$ is the middle 95% plus the left tail 2.5%:
 
-$$0.95 + 0.025 = 0.975$$
+$$\text{CL} + \frac{1 - \text{CL}}{2} = 0.95 + 0.025 = 0.975$$
 
 **The shortcut formula** gives the same answer without the picture:
 
@@ -131,7 +131,7 @@ For why $\hat p\hat q$ appears here, see "The logic behind the formulas" in Less
 
 **Find $\hat p$ and $\hat q$.**
 
-$$\hat p = \frac{x}{n} = \frac{584}{800} = 0.73 \qquad \hat q = 1 - 0.73 = 0.27$$
+$$\hat p = \frac{x}{n} = \frac{584}{800} = 0.73 \qquad \hat q = 1 - \hat p = 1 - 0.73 = 0.27$$
 
 So 73% of the sample said yes and 27% said no.
 
@@ -149,9 +149,9 @@ $$n\hat p\hat q = 800(0.73)(0.27) = 157.68 \ge 10 \;✓$$
 
 $$\frac{\hat p\,\hat q}{n} = \frac{0.73 \times 0.27}{800} = \frac{0.1971}{800} = 2.46375 \times 10^{-4}$$
 
-$$\sqrt{2.46375 \times 10^{-4}} = 0.015696$$
+$$\sqrt{\frac{\hat p\,\hat q}{n}} = \sqrt{2.46375 \times 10^{-4}} = 0.015696$$
 
-$$E = 1.96 \times 0.015696 = 0.0307648 \approx 0.0308$$
+$$E = z\sqrt{\frac{\hat p\,\hat q}{n}} = 1.96 \times 0.015696 = 0.0307648 \approx 0.0308$$
 
 **Build the interval.**
 
@@ -194,7 +194,7 @@ $$n = \frac{z^2\,\hat p\,\hat q}{E^2}$$
 
 **Plug in.** Don't forget to square **both** $z$ and $E$:
 
-$$n = \frac{(1.645)^2(0.73)(0.27)}{(0.02)^2} = \frac{2.706025 \times 0.1971}{0.0004} = \frac{0.53336}{0.0004} \approx 1333.39$$
+$$n = \frac{z^2\,\hat p\,\hat q}{E^2} = \frac{(1.645)^2(0.73)(0.27)}{(0.02)^2} = \frac{2.706025 \times 0.1971}{0.0004} = \frac{0.53336}{0.0004} \approx 1333.39$$
 
 **Round up**, even though normal rounding would give 1333:
 
@@ -214,7 +214,7 @@ The three intervals from the lesson. The dot is p̂, the midpoint, and each arm 
 
 **Write down what you know and find $\hat p$, $\hat q$.**
 
-$$n = 500, \quad x = 405, \quad \hat p = \frac{405}{500} = 0.81, \quad \hat q = 1 - 0.81 = 0.19$$
+$$n = 500, \quad x = 405, \quad \hat p = \frac{x}{n} = \frac{405}{500} = 0.81, \quad \hat q = 1 - \hat p = 1 - 0.81 = 0.19$$
 
 So 81% of the sample own a car.
 
@@ -226,13 +226,13 @@ $$z = \frac{2.57 + 2.58}{2} = 2.575$$
 
 **Find the margin of error.**
 
-$$\frac{0.81 \times 0.19}{500} = \frac{0.1539}{500} = 0.0003078 \qquad \sqrt{0.0003078} = 0.01754$$
+$$\frac{\hat p\,\hat q}{n} = \frac{0.81 \times 0.19}{500} = \frac{0.1539}{500} = 0.0003078 \qquad \sqrt{\frac{\hat p\,\hat q}{n}} = \sqrt{0.0003078} = 0.01754$$
 
-$$E = 2.575 \times 0.01754 \approx 0.0452$$
+$$E = z\sqrt{\frac{\hat p\,\hat q}{n}} = 2.575 \times 0.01754 \approx 0.0452$$
 
 **Build the interval.**
 
-$$0.81 - 0.0452 = 0.7648 \qquad 0.81 + 0.0452 = 0.8552$$
+$$\hat p - E = 0.81 - 0.0452 = 0.7648 \qquad \hat p + E = 0.81 + 0.0452 = 0.8552$$
 
 $$\boxed{0.7648 < p < 0.8552}$$
 
@@ -246,7 +246,7 @@ $$\boxed{0.7648 < p < 0.8552}$$
 
 **Plug in**, with $E = 3\% = 0.03$:
 
-$$n = \frac{(2.33)^2(0.81)(0.19)}{(0.03)^2} = \frac{5.4289 \times 0.1539}{0.0009} = \frac{0.83551}{0.0009} \approx 928.34$$
+$$n = \frac{z^2\,\hat p\,\hat q}{E^2} = \frac{(2.33)^2(0.81)(0.19)}{(0.03)^2} = \frac{5.4289 \times 0.1539}{0.0009} = \frac{0.83551}{0.0009} \approx 928.34$$
 
 **Round up:** $n = 929$ residents.
 
@@ -276,7 +276,7 @@ $$\hat p = \frac{\text{lower} + \text{upper}}{2} = \frac{0.62383 + 0.67217}{2} =
 
 **Method 1: upper end minus the middle.**
 
-$$E = 0.67217 - 0.648 = 0.02417$$
+$$E = \text{upper} - \hat p = 0.67217 - 0.648 = 0.02417$$
 
 **Method 2: half the width of the interval.** The full width is 2E, so
 
@@ -286,9 +286,9 @@ Both methods give the same answer.
 
 ### (c) How many people were surveyed?
 
-That's $n$, so use the sample-size formula. At 95% confidence $z = 1.96$, and $\hat q = 1 - 0.648 = 0.352$:
+That's $n$, so use the sample-size formula. At 95% confidence $z = 1.96$, and $\hat q = 1 - \hat p = 1 - 0.648 = 0.352$:
 
-$$n = \frac{(1.96)^2(0.648)(0.352)}{(0.02417)^2} = \frac{3.8416 \times 0.228096}{0.000584189} = \frac{0.87625}{0.000584189} \approx 1499.95$$
+$$n = \frac{z^2\,\hat p\,\hat q}{E^2} = \frac{(1.96)^2(0.648)(0.352)}{(0.02417)^2} = \frac{3.8416 \times 0.228096}{0.000584189} = \frac{0.87625}{0.000584189} \approx 1499.95$$
 
 So about **1500 people** were surveyed.
 

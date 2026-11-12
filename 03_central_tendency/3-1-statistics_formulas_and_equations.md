@@ -32,7 +32,7 @@ The example data as a dot plot with the median (7), mode (5), mean (6.78) and ra
 
 $$\bar x = \frac{\sum x}{n} = \frac{x_1 + x_2 + \dots + x_n}{n}$$
 
-Example: $\bar x = \dfrac{2+3+5+5+7+8+9+10+12}{9} = \dfrac{61}{9} \approx 6.78$
+Example: $\bar x = \dfrac{\sum x}{n} = \dfrac{2+3+5+5+7+8+9+10+12}{9} = \dfrac{61}{9} \approx 6.78$
 
 ---
 

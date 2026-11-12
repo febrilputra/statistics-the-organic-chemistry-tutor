@@ -32,10 +32,10 @@ For 90%, the table has 0.94950 at $z = 1.64$ and 0.95053 at $z = 1.65$. 0.95 is 
 
 $\sigma = 5.4$, $n = 50$, $\bar x = 79$
 
-1. $z$: left area $= (0.95 + 1)/2 = 0.975$ → $z = 1.96$
-2. Standard error: $\dfrac{5.4}{\sqrt{50}} \approx 0.76368$
-3. **(b) Margin of error:** $\text{EBM} = 1.96 \times 0.76368 \approx 1.4968$
-4. **(a) Interval:** $79 \pm 1.4968$
+1. $z$: left area $= \dfrac{\text{CL} + 1}{2} = \dfrac{0.95 + 1}{2} = 0.975$ → $z = 1.96$
+2. Standard error: $\dfrac{\sigma}{\sqrt n} = \dfrac{5.4}{\sqrt{50}} \approx 0.76368$
+3. **(b) Margin of error:** $\text{EBM} = z\,\dfrac{\sigma}{\sqrt n} = 1.96 \times 0.76368 \approx 1.4968$
+4. **(a) Interval:** $\bar x \pm \text{EBM} = 79 \pm 1.4968$
 
 $$77.5032 < \mu < 80.4968$$
 
@@ -45,9 +45,9 @@ We are 95% confident that the mean score of the whole class lies between about *
 
 $\sigma = 6.5$, $n = 100$, $\bar x = 82$
 
-1. $z$: left area $= (0.90 + 1)/2 = 0.95$ → $z = 1.645$
-2. **(b) Margin of error:** $\text{EBM} = 1.645 \times \dfrac{6.5}{\sqrt{100}} = 1.645 \times 0.65 = 1.06925$
-3. **(a) Interval:** $82 \pm 1.06925$
+1. $z$: left area $= \dfrac{\text{CL} + 1}{2} = \dfrac{0.90 + 1}{2} = 0.95$ → $z = 1.645$
+2. **(b) Margin of error:** $\text{EBM} = z\,\dfrac{\sigma}{\sqrt n} = 1.645 \times \dfrac{6.5}{\sqrt{100}} = 1.645 \times 0.65 = 1.06925$
+3. **(a) Interval:** $\bar x \pm \text{EBM} = 82 \pm 1.06925$
 
 $$80.93075 < \mu < 83.06925$$
 

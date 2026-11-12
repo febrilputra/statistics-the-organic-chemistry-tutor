@@ -23,7 +23,7 @@ Once $B$ is known to have happened, $B$ becomes the new sample space.
 $S = \{1, \dots, 6\}$, $\;A$ = odd = $\{1, 3, 5\}$, $\;B = \{3, 4, 5\}$
 
 **Shortcut:** of the 3 outcomes in $B$, two (3 and 5) are in $A$:
-$$P(A \mid B) = \frac23$$
+$$P(A \mid B) = \frac{n(A \cap B)}{n(B)} = \frac23$$
 
 **Formula:**
 $$P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{2/6}{3/6} = \frac23 \;✓$$
@@ -45,16 +45,16 @@ The four regions of the Venn diagram (two overlapping circles inside a box of 50
 | **Total** | **500** |
 
 **(a) P(taking algebra)**
-$$P(A) = \frac{150}{500} = \frac{3}{10} = 0.30$$
+$$P(A) = \frac{n(A)}{n(S)} = \frac{150}{500} = \frac{3}{10} = 0.30$$
 
 **(b) P(chemistry | algebra)**: "how much of $A$ is also $C$?"
-$$P(C \mid A) = \frac{30}{150} = \frac15 = 0.20$$
+$$P(C \mid A) = \frac{n(C \cap A)}{n(A)} = \frac{30}{150} = \frac15 = 0.20$$
 20% of the 150 algebra students also take chemistry: $0.20 \times 150 = 30$ ✓.
 
 Formula check: $\dfrac{P(C \cap A)}{P(A)} = \dfrac{30/500}{150/500} = \dfrac{30}{150}$ ✓
 
 **(c) P(algebra | chemistry)**: "how much of $C$ is also $A$?"
-$$P(A \mid C) = \frac{30}{80} = \frac38 = 0.375$$
+$$P(A \mid C) = \frac{n(A \cap C)}{n(C)} = \frac{30}{80} = \frac38 = 0.375$$
 
 > $P(C \mid A) \ne P(A \mid C)$. The order matters, because the denominator is the "given" group.
 
@@ -75,20 +75,20 @@ The given group shrinks the sample space. P(chemistry | algebra) only looks at t
 | **Total** | **30** | **170** | **200** |
 
 **(a) P(female)**
-$$\frac{110}{200} = \frac{11}{20} = 0.55$$
+$$P(F) = \frac{\text{females}}{\text{total}} = \frac{110}{200} = \frac{11}{20} = 0.55$$
 
 **(b) P(male *and* brown eyes)**: a joint probability, not a conditional one
-$$\frac{70}{200} = 0.35$$
+$$P(M \text{ and } Br) = \frac{\text{brown-eyed males}}{\text{total}} = \frac{70}{200} = 0.35$$
 
 **(c) P(female | brown eyes)**: restrict to the 170 brown-eyed birds
-$$\frac{100}{170} = \frac{10}{17} \approx 0.588$$
+$$P(F \mid Br) = \frac{n(F \text{ and } Br)}{n(Br)} = \frac{100}{170} = \frac{10}{17} \approx 0.588$$
 So 58.8% of the brown-eyed birds are female.
 
 **(d) P(male | blue eyes)**: restrict to the 30 blue-eyed birds
-$$\frac{20}{30} = \frac23 \approx 0.667$$
+$$P(M \mid Bl) = \frac{n(M \text{ and } Bl)}{n(Bl)} = \frac{20}{30} = \frac23 \approx 0.667$$
 
 **(e) P(blue eyes | female)**: restrict to the 110 female birds
-$$\frac{10}{110} = \frac{1}{11} \approx 0.091 = 9.1\%$$
+$$P(Bl \mid F) = \frac{n(Bl \text{ and } F)}{n(F)} = \frac{10}{110} = \frac{1}{11} \approx 0.091 = 9.1\%$$
 
 > **Correction:** the video says 99.1% when converting this answer. $1/11 \approx 0.091$, which is **9.1%**.
 

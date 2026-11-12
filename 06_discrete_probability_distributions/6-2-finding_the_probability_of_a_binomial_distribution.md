@@ -27,10 +27,10 @@ A die is rolled **12** times. What is the probability of getting a **4 exactly f
 - $n = 12$, $x = 5$, $p = \tfrac16$ (one face out of six), $q = \tfrac56$
 
 **Combination by hand:**
-$${}_{12}C_5 = \frac{12!}{7!\,5!} = \frac{12 \cdot 11 \cdot 10 \cdot 9 \cdot 8}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 11 \cdot 9 \cdot 8 = 792$$
+$${}_{12}C_5 = \frac{n!}{(n - x)!\,x!} = \frac{12!}{7!\,5!} = \frac{12 \cdot 11 \cdot 10 \cdot 9 \cdot 8}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 11 \cdot 9 \cdot 8 = 792$$
 
 **Probability:**
-$$P(X = 5) = 792 \left(\tfrac16\right)^5 \left(\tfrac56\right)^7 \approx 0.0284 = 2.84\%$$
+$$P(X = 5) = {}_nC_x\, p^x\, q^{\,n-x} = 792 \left(\tfrac16\right)^5 \left(\tfrac56\right)^7 \approx 0.0284 = 2.84\%$$
 
 ---
 
@@ -40,9 +40,9 @@ A test has **20** questions, each with 4 choices (A-D) and one correct answer. A
 
 - $n = 20$, $x = 6$, $p = \tfrac14 = 0.25$, $q = 0.75$
 
-$${}_{20}C_6 = \frac{20!}{14!\,6!} = \frac{20 \cdot 19 \cdot 18 \cdot 17 \cdot 16 \cdot 15}{6!} = 38{,}760$$
+$${}_{20}C_6 = \frac{n!}{(n - x)!\,x!} = \frac{20!}{14!\,6!} = \frac{20 \cdot 19 \cdot 18 \cdot 17 \cdot 16 \cdot 15}{6!} = 38{,}760$$
 
-$$P(X = 6) = 38{,}760\,(0.25)^6(0.75)^{14} \approx 0.1686 = 16.86\%$$
+$$P(X = 6) = {}_nC_x\, p^x\, q^{\,n-x} = 38{,}760\,(0.25)^6(0.75)^{14} \approx 0.1686 = 16.86\%$$
 
 (With 5 answer choices instead, $p = 0.20$ and $q = 0.80$.)
 
@@ -55,7 +55,7 @@ $$P(X = 6) = 38{,}760\,(0.25)^6(0.75)^{14} \approx 0.1686 = 16.86\%$$
 - $n = 30$, $p = 0.25$, $q = 0.75$
 
 **(a) P(exactly 7 take algebra)**
-$$P(X = 7) = {}_{30}C_7\,(0.25)^7(0.75)^{23} = 2{,}035{,}800\,(0.25)^7(0.75)^{23} \approx 0.1662 = 16.6\%$$
+$$P(X = 7) = {}_nC_x\, p^x\, q^{\,n-x} = {}_{30}C_7\,(0.25)^7(0.75)^{23} = 2{,}035{,}800\,(0.25)^7(0.75)^{23} \approx 0.1662 = 16.6\%$$
 
 **(b) P(fewer than 5 take algebra)**, so $X < 5$, meaning $X = 0, 1, 2, 3, 4$ (5 is not included):
 

@@ -20,13 +20,13 @@ Let $H$ = highest value and $L$ = lowest value.
 In the given data set, the lowest value is $L = 5$ and the highest is $H = 45$.
 
 **(a) Range**
-$$45 - 5 = 40$$
+$$\text{range} = H - L = 45 - 5 = 40$$
 
 **(b) Midrange**
-$$\frac{45 + 5}{2} = \frac{50}{2} = 25$$
+$$\text{midrange} = \frac{H + L}{2} = \frac{45 + 5}{2} = \frac{50}{2} = 25$$
 
 **(c) Coefficient of range**
-$$\text{CR} = \frac{45 - 5}{45 + 5} = \frac{40}{50} = \frac{4}{5} = 0.8$$
+$$\text{CR} = \frac{H - L}{H + L} = \frac{45 - 5}{45 + 5} = \frac{40}{50} = \frac{4}{5} = 0.8$$
 
 ![Number line showing the lowest and highest values, the range and the midrange](figures/range_midrange.png)
 

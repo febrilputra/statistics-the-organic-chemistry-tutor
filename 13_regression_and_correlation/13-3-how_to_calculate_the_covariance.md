@@ -30,9 +30,9 @@ For a **population**, divide by $N$ instead of $n - 1$.
 | 10 | 17 | 4 | 6.8 | 27.2 |
 | **Sum 30** | **Sum 51** | 0 | 0 | **70** |
 
-$\bar x = 30/5 = 6$, $\;\bar y = 51/5 = 10.2$
+$\bar x = \sum x / n = 30/5 = 6$, $\;\bar y = \sum y / n = 51/5 = 10.2$
 
-$$\text{cov}(x, y) = \frac{70}{5 - 1} = 17.5$$
+$$\text{cov}(x, y) = \frac{\sum (x - \bar x)(y - \bar y)}{n - 1} = \frac{70}{5 - 1} = 17.5$$
 
 ---
 
@@ -47,9 +47,9 @@ $$\text{cov}(x, y) = \frac{70}{5 - 1} = 17.5$$
 | 15 | 4 | 6 | −8.6 | −51.6 |
 | **Sum 45** | **Sum 63** | 0 | 0 | **−120** |
 
-$\bar x = 45/5 = 9$, $\;\bar y = 63/5 = 12.6$
+$\bar x = \sum x / n = 45/5 = 9$, $\;\bar y = \sum y / n = 63/5 = 12.6$
 
-$$\text{cov}(x, y) = \frac{-120}{5 - 1} = -30$$
+$$\text{cov}(x, y) = \frac{\sum (x - \bar x)(y - \bar y)}{n - 1} = \frac{-120}{5 - 1} = -30$$
 
 (The video has a few slips while adding up this column, such as "−1.8" and "−20", but its final answer, −30, is correct.)
 

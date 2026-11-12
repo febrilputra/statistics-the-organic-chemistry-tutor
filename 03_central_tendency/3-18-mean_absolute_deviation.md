@@ -22,7 +22,7 @@ $$\text{MAD} = \frac{\sum |x - \bar x|}{n}$$
 
 Data: 7, 11, 14, 19, 22, 29
 
-**Mean:** $\bar x = \dfrac{102}{6} = 17$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{102}{6} = 17$
 
 | $x$ | $x - \bar x$ | $\lvert x - \bar x \rvert$ |
 |---:|---:|---:|
@@ -34,7 +34,7 @@ Data: 7, 11, 14, 19, 22, 29
 | 29 | 12 | 12 |
 | **Sum** | 0 | **38** |
 
-$$\text{MAD} = \frac{38}{6} = 6\tfrac{1}{3} \approx 6.33$$
+$$\text{MAD} = \frac{\sum |x - \bar x|}{n} = \frac{38}{6} = 6\tfrac{1}{3} \approx 6.33$$
 
 ![Distances of each value from the mean drawn as bars](figures/mean_absolute_deviation.png)
 
@@ -46,9 +46,9 @@ Each bar is the distance of one value from the mean of 12. The mean absolute dev
 
 Data: 5, 9, 12, 16, 18
 
-**Mean:** $\bar x = \dfrac{60}{5} = 12$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{60}{5} = 12$
 
-$$\text{MAD} = \frac{|5-12| + |9-12| + |12-12| + |16-12| + |18-12|}{5} = \frac{7 + 3 + 0 + 4 + 6}{5} = \frac{20}{5} = 4$$
+$$\text{MAD} = \frac{\sum |x - \bar x|}{n} = \frac{|5-12| + |9-12| + |12-12| + |16-12| + |18-12|}{5} = \frac{7 + 3 + 0 + 4 + 6}{5} = \frac{20}{5} = 4$$
 
 ### What it means
 

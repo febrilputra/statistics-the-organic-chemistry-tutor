@@ -11,11 +11,11 @@ Lesson 11.1 compared two **separate** groups of people. Here the two columns of 
 
 **2. People differ much more than the program does.** Before the program, weights range from 168 to 256 lb, with an SD of about 28 lb. The program changes weight by only about 13 lb. If we treat before and after as two separate groups (Lesson 11.1), that 28 lb person-to-person spread goes into the standard error and hides the effect:
 
-$$SE = \sqrt{\frac{28.0^2}{10} + \frac{19.2^2}{10}} = 10.7, \qquad t = \frac{-13.1}{10.7} = -1.22 \;\Rightarrow\; \text{fail to reject } {\color{#0072B2}H_0}$$
+$$SE = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} = \sqrt{\frac{28.0^2}{10} + \frac{19.2^2}{10}} = 10.7, \qquad t = \frac{\bar x_{\text{after}} - \bar x_{\text{before}}}{SE} = \frac{-13.1}{10.7} = -1.22 \;\Rightarrow\; \text{fail to reject } {\color{#0072B2}H_0}$$
 
 **3. Subtract each person from themself.** Taking $x_d = \text{after} - \text{before}$ cancels out who is heavy and who is light, leaving only each person's **change**. The differences vary much less (SD ≈ 13 lb):
 
-$$SE = \frac{13.0}{\sqrt{10}} = 4.12, \qquad t = \frac{-13.1}{4.12} = -3.18 \;\Rightarrow\; \text{reject } {\color{#0072B2}H_0}$$
+$$SE = \frac{s_d}{\sqrt n} = \frac{13.0}{\sqrt{10}} = 4.12, \qquad t = \frac{\bar x_d}{SE} = \frac{-13.1}{4.12} = -3.18 \;\Rightarrow\; \text{reject } {\color{#0072B2}H_0}$$
 
 ![Left: before and after weights plotted as two separate groups overlap heavily; the independent test gives t = −1.22, fail to reject H0. Right: the ten differences cluster below 0; the paired test gives t = −3.18, reject H0](figures/why_pairing_helps.png)
 
@@ -78,22 +78,22 @@ A negative difference means the subject lost weight.
 $${\color{#0072B2}H_0}: \mu_d \ge 0 \qquad {\color{#D55E00}H_a}: \mu_d < 0 \quad\text{(left-tailed)}$$
 
 **Sample statistics:**
-$$\bar x_d = \frac{-131}{10} = -13.1, \qquad s_d = \sqrt{\frac{1526.9}{9}} \approx 13.025$$
+$$\bar x_d = \frac{\sum x_d}{n} = \frac{-131}{10} = -13.1, \qquad s_d = \sqrt{\frac{\sum (x_d - \bar x_d)^2}{n - 1}} = \sqrt{\frac{1526.9}{9}} \approx 13.025$$
 
 **Critical value:** left-tailed, df $= 9$, $\alpha = 0.05$ gives $t = -1.833$.
 
 **Test statistic:**
-$$t = \frac{-13.1 - 0}{13.025/\sqrt{10}} = \frac{-13.1}{4.119} \approx -3.18$$
+$$t = \frac{\bar x_d - \mu_d}{s_d/\sqrt n} = \frac{-13.1 - 0}{13.025/\sqrt{10}} = \frac{-13.1}{4.119} \approx -3.18$$
 
 $-3.18 < -1.833$, which is in the rejection region. **Reject ${\color{#0072B2}H_0}$.** There is sufficient evidence at the 5% level that the program reduces weight.
 
 ### Confidence interval for $\mu_d$
 
 **Using $t = 1.833$ (as in the video):**
-$$-13.1 \pm 1.833\,(4.119) = -13.1 \pm 7.55 \;\Rightarrow\; (-20.65,\; -5.55)$$
+$$\bar x_d \pm t\,\frac{s_d}{\sqrt n} = -13.1 \pm 1.833\,(4.119) = -13.1 \pm 7.55 \;\Rightarrow\; (-20.65,\; -5.55)$$
 
 > **Correction:** 1.833 is the critical value with **5% in one tail**, so a two-sided interval built from it is a **90%** confidence interval, not 95%.
-> For a **95%** interval, use $t_{0.025,\,9} = 2.262$: $\;-13.1 \pm 2.262(4.119) = -13.1 \pm 9.32 \Rightarrow (-22.42,\; -3.78)$.
+> For a **95%** interval, use $t_{0.025,\,9} = 2.262$: $\;\bar x_d \pm t\,\frac{s_d}{\sqrt n} = -13.1 \pm 2.262(4.119) = -13.1 \pm 9.32 \Rightarrow (-22.42,\; -3.78)$.
 
 Either way, the whole interval is **below 0**: there are no zero or positive values, which supports rejecting ${\color{#0072B2}H_0}$. The margin of error is 7.55 for the 90% interval, or 9.32 for 95%.
 

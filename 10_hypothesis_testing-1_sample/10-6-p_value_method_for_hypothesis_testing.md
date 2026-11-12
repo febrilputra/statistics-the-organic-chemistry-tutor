@@ -32,14 +32,14 @@ $${\color{#0072B2}H_0}: \mu = 168 \qquad {\color{#D55E00}H_a}: \mu \ne 168$$
 
 **(b) Test at 95% confidence** ($\alpha = 0.05$), two-tailed, $n \ge 30$ so use $z$:
 
-$$z = \frac{169.5 - 168}{3.9/\sqrt{36}} = \frac{1.5}{0.65} \approx 2.31$$
+$$z = \frac{\bar x - \mu}{s/\sqrt n} = \frac{169.5 - 168}{3.9/\sqrt{36}} = \frac{1.5}{0.65} \approx 2.31$$
 
 **Traditional method:** the critical values are $\pm 1.96$ (left area 0.975). $2.31 > 1.96$, so it is in the rejection region → **reject ${\color{#0072B2}H_0}$**.
 
 **P-value method:**
 - The table gives a left area of 0.98956 for $z = 2.31$.
-- Right tail: $1 - 0.98956 = 0.01044$.
-- Two-tailed p-value: $2 \times 0.01044 = 0.02088$.
+- Right tail: $P(z > 2.31) = 1 - P(z < 2.31) = 1 - 0.98956 = 0.01044$.
+- Two-tailed p-value: $2 \times P(z > |z_c|) = 2 \times 0.01044 = 0.02088$.
 
 $0.02088 < 0.05$ → **reject ${\color{#0072B2}H_0}$**. At the 5% level there is enough evidence that the mean weight is not 168 lb.
 
@@ -60,7 +60,7 @@ $${\color{#0072B2}H_0}: \mu \ge 5 \qquad {\color{#D55E00}H_a}: \mu < 5$$
 
 This is left-tailed (shade the left only), and $n = 40 \ge 30$ so use $z$:
 
-$$z = \frac{4.8 - 5}{0.5/\sqrt{40}} = \frac{-0.2}{0.07906} \approx -2.53$$
+$$z = \frac{\bar x - \mu}{s/\sqrt n} = \frac{4.8 - 5}{0.5/\sqrt{40}} = \frac{-0.2}{0.07906} \approx -2.53$$
 
 The p-value is the area to the left of −2.53 = **0.0057**.
 

@@ -32,7 +32,7 @@ Venn regions: $A$ only = {1, 2, 3}; both = {4, 5}; $B$ only = {6, 7, 8, 9}.
 - $P(B \mid A)$: of $A$'s 5 numbers, 2 are in $B$, so $\tfrac25$
 
 **Using Bayes:**
-$$P(A \mid B) = \frac{\frac25 \cdot \frac59}{\frac69} = \frac{2/9}{6/9} = \frac26 = \frac13$$
+$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)} = \frac{\frac25 \cdot \frac59}{\frac69} = \frac{2/9}{6/9} = \frac26 = \frac13$$
 
 **Check with the direct formula:**
 $$P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{2/9}{6/9} = \frac13 \;✓$$
@@ -79,7 +79,7 @@ A man with a positive test has about a **68.3%** chance of having cancer, so abo
 | No cancer (88%) | 528 | 8,272 | 8,800 |
 | **Total** | **1,668** | 8,332 | 10,000 |
 
-$$P(C \mid +) = \frac{1140}{1140 + 528} = \frac{1140}{1668} \approx 0.683 \;✓$$
+$$P(C \mid +) = \frac{\text{cancer and positive}}{\text{all positive}} = \frac{1140}{1140 + 528} = \frac{1140}{1668} \approx 0.683 \;✓$$
 
 The choice of 10,000 doesn't matter, because only the ratio counts.
 

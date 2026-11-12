@@ -42,13 +42,13 @@ The top chart is the histogram. Its bars touch, and the modal class 80-89 is sho
 Let $S$ be a student's score.
 
 **1. How many students scored *at most* 69?** "At most 69" means $S \le 69$, so 69 is the maximum.
-$$1 + 1 + 2 = 4 \text{ students}$$
+$$\#(S \le 69) = \text{sum of the frequencies of every class up to } 69 = 1 + 1 + 2 = 4 \text{ students}$$
 
 **2. How many scored *at least* 80?** "At least 80" means $S \ge 80$, so 80 is the minimum.
-$$5 + 4 = 9 \text{ students}$$
+$$\#(S \ge 80) = \text{sum of the frequencies of every class from } 80 \text{ up} = 5 + 4 = 9 \text{ students}$$
 
 **3. How many scored between 60 and 89, inclusive?** "Inclusive" means 60 and 89 are counted.
-$$2 + 4 + 5 = 11 \text{ students}$$
+$$\#(60 \le S \le 89) = \text{sum of the frequencies of the classes from } 60 \text{ to } 89 = 2 + 4 + 5 = 11 \text{ students}$$
 
 > "Between 60 and 89" **exclusive** would mean 61 to 88. Check whether a question says inclusive or exclusive.
 

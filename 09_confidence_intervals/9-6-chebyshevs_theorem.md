@@ -84,17 +84,17 @@ Mean weight $\mu = 170$ lb, $\sigma = 10$ lb, distribution shape unknown.
 **(a) Minimum percentage of people weighing between 145 and 195 lb**
 
 Both ends are 25 lb from the mean, so
-$$k = \frac{195 - 170}{10} = 2.5$$
-$$1 - \frac{1}{2.5^2} = 1 - \frac{1}{6.25} = 0.84$$
+$$k = \frac{x - \mu}{\sigma} = \frac{195 - 170}{10} = 2.5$$
+$$1 - \frac{1}{k^2} = 1 - \frac{1}{2.5^2} = 1 - \frac{1}{6.25} = 0.84$$
 
 **At least 84%** of residents weigh between 145 and 195 lb. The real figure could be 86%, 89%, 95%, ...
 
 **(b) The city has 200,000 residents. What is the minimum number weighing between 140 and 200 lb?**
 
 Both ends are 30 lb from the mean, so
-$$k = \frac{200 - 170}{10} = 3, \qquad 1 - \frac19 = \frac89 \approx 0.889$$
+$$k = \frac{x - \mu}{\sigma} = \frac{200 - 170}{10} = 3, \qquad 1 - \frac{1}{k^2} = 1 - \frac19 = \frac89 \approx 0.889$$
 
-$$\frac89 \times 200{,}000 \approx 177{,}778 \text{ people}$$
+$$\left(1 - \frac{1}{k^2}\right) \times N = \frac89 \times 200{,}000 \approx 177{,}778 \text{ people}$$
 
 (The video rounds to 0.889 first and gets 177,800.)
 

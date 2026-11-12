@@ -43,7 +43,7 @@ $$P(A \text{ and } B) = P(A)\,P(B)$$
 $$P(A \text{ and } B) = P(A \mid B)\,P(B) = 0.40 \times 0.70 = 0.28 = 28\%$$
 
 **(b) P(algebra *or* biology)** - addition rule
-$$P(A \text{ or } B) = 0.30 + 0.70 - 0.28 = 0.72 = 72\%$$
+$$P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B) = 0.30 + 0.70 - 0.28 = 0.72 = 72\%$$
 
 **(c) Are the events independent?**
 $P(A \mid B) = 0.40$ but $P(A) = 0.30$. They are not equal, so the events are **not independent**: taking biology makes algebra more likely.

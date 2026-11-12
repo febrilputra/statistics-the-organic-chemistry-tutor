@@ -18,8 +18,8 @@ $$\text{test statistic} = \frac{\text{what we got} - \text{what } {\color{#0072B
 
 **3. Why divide by the standard error?** Because a 2 g gap can be ordinary or shocking, depending on how much sample means normally wobble.
 
-- With $n = 25$ bags ($\sigma = 10$): $SE = 10/\sqrt{25} = 2$, so $z = -2/2 = -1.0$. That's a normal wobble → fail to reject.
-- With $n = 400$ bags: $SE = 10/\sqrt{400} = 0.5$, so $z = -2/0.5 = -4.0$. That's way out in the tail → reject.
+- With $n = 25$ bags ($\sigma = 10$): $SE = \sigma/\sqrt n = 10/\sqrt{25} = 2$, so $z = \dfrac{\bar x - \mu}{SE} = -2/2 = -1.0$. That's a normal wobble → fail to reject.
+- With $n = 400$ bags: $SE = \sigma/\sqrt n = 10/\sqrt{400} = 0.5$, so $z = \dfrac{\bar x - \mu}{SE} = -2/0.5 = -4.0$. That's way out in the tail → reject.
 
 Same gap, different verdict. Bigger samples wobble less ($\sqrt n$ is in the denominator), so the same gap becomes more convincing.
 

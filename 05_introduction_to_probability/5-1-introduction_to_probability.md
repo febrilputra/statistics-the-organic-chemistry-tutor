@@ -55,15 +55,15 @@ $S = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\}$, so $2^3 = 8$ outcomes.
 
 **(a) Two coins: P(at least one head)?**
 Favorable: $\{HH, HT, TH\}$, which is 3 of 4 outcomes.
-$$P = \frac34 = 0.75 = 75\%$$
+$$P = \frac{\text{favorable outcomes}}{\text{total outcomes}} = \frac34 = 0.75 = 75\%$$
 
 **(b) Three coins: P(at least two tails)?**
 Favorable: $\{HTT, THT, TTH, TTT\}$, which is 4 of 8.
-$$P = \frac48 = \frac12 = 50\%$$
+$$P = \frac{\text{favorable outcomes}}{\text{total outcomes}} = \frac48 = \frac12 = 50\%$$
 
 **(c) Three coins: P(exactly one tail)?**
 Favorable: $\{HHT, HTH, THH\}$, which is 3 of 8.
-$$P = \frac38 = 0.375 = 37.5\%$$
+$$P = \frac{\text{favorable outcomes}}{\text{total outcomes}} = \frac38 = 0.375 = 37.5\%$$
 
 ![Tree diagram of three coin flips with the 8 outcomes and which ones count for each question](figures/three_coin_tree.png)
 
@@ -75,7 +75,7 @@ Every path through the tree is one of the 8 equally likely outcomes. Count the t
 
 $S = \{1, 2, 3, 4, 5, 6\}$
 
-| Event | Favorable outcomes | Probability |
+| Event | Favorable outcomes | Probability $= \frac{\text{favorable}}{6}$ |
 |---|---|---|
 | (a) a 2 | {2} | $\tfrac16 \approx 0.167$ (16.7%) |
 | (b) a 3 or a 5 | {3, 5} | $\tfrac26 = \tfrac13 \approx 33.3\%$ |

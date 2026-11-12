@@ -25,7 +25,7 @@ $${\color{#0072B2}H_0}: \mu = 80 \qquad {\color{#D55E00}H_a}: \mu \ne 80$$
 - ${\color{#D55E00}H_a}$ uses $\ne$, so this is **two-tailed**: 0.025 in each tail, critical values $z = \pm 1.96$.
 - $n = 40 \ge 30$, so use $z$ (with $s$ in place of $\sigma$).
 
-$$z = \frac{78 - 80}{2.5/\sqrt{40}} = \frac{-2}{0.39528} \approx -5.06$$
+$$z = \frac{\bar x - \mu}{s/\sqrt n} = \frac{78 - 80}{2.5/\sqrt{40}} = \frac{-2}{0.39528} \approx -5.06$$
 
 $-5.06 < -1.96$, so the statistic is far into the left rejection region. **Reject ${\color{#0072B2}H_0}$.** At the 5% significance level there is strong evidence that the machine does not dispense 80 mL on average.
 
@@ -48,7 +48,7 @@ $${\color{#0072B2}H_0}: \mu \ge 2 \qquad {\color{#D55E00}H_a}: \mu < 2$$
 - $n = 10 < 30$ and $\sigma$ is unknown, so use the **t-distribution** with df $= 10 - 1 = 9$.
 - One-tail t-table, df = 9, $\alpha = 0.01$: $t = 2.821$, so the critical value is **$-2.821$** (left side).
 
-$$t = \frac{1.8 - 2}{0.15/\sqrt{10}} = \frac{-0.2}{0.047434} \approx -4.22$$
+$$t = \frac{\bar x - \mu}{s/\sqrt n} = \frac{1.8 - 2}{0.15/\sqrt{10}} = \frac{-0.2}{0.047434} \approx -4.22$$
 
 $-4.22 < -2.821$, which is in the rejection region. **Reject ${\color{#0072B2}H_0}$.** At the 1% significance level there is enough evidence that the mean battery life is less than 2 years.
 

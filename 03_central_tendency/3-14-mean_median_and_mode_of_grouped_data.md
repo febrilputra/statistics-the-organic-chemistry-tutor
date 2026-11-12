@@ -31,7 +31,7 @@ $$\bar x \approx \frac{\sum f\,m}{\sum f}$$
 - Midpoint example: $(40 + 49)/2 = 44.5$. The last class is $(90 + 100)/2 = 95$.
 
 **Mean:**
-$$\bar x \approx \frac{2804.5}{38} \approx 73.8$$
+$$\bar x \approx \frac{\sum f m}{\sum f} = \frac{2804.5}{38} \approx 73.8$$
 
 This is reasonable: the most common class is 70-79, and the estimate lands there.
 
@@ -57,7 +57,7 @@ The estimated mean (red triangle) is computed from class midpoints. In both exam
 | **Total** | **36** | | **5963.5** | |
 
 **Mean:**
-$$\bar x \approx \frac{5963.5}{36} \approx 165.7 \text{ lb}$$
+$$\bar x \approx \frac{\sum f m}{\sum f} = \frac{5963.5}{36} \approx 165.7 \text{ lb}$$
 
 The mean is in the 160-179 class but nearer 160, because more of the data lies on the lower (left) side.
 

@@ -40,10 +40,10 @@ The confidence level is the middle area, and each tail gets half of what is left
 ## Practice
 
 **97% confidence**
-$$\text{left area} = \frac{1 + 0.97}{2} = 0.985 \;\Rightarrow\; \text{row } 2.1,\ \text{column } 0.07 \;\Rightarrow\; z = 2.17$$
+$$\text{left area} = \frac{1 + \text{CL}}{2} = \frac{1 + 0.97}{2} = 0.985 \;\Rightarrow\; \text{row } 2.1,\ \text{column } 0.07 \;\Rightarrow\; z = 2.17$$
 
 **92% confidence**
-$$\text{left area} = \frac{1 + 0.92}{2} = 0.96$$
+$$\text{left area} = \frac{1 + \text{CL}}{2} = \frac{1 + 0.92}{2} = 0.96$$
 The closest table entry is 0.95994, in row **1.7**, column **0.05**, so $z = 1.75$.
 
 ---

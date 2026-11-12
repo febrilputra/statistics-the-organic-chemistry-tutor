@@ -17,7 +17,7 @@ Compare it with the **mean absolute deviation** (Lesson 3.18), which uses $|x - 
 
 Data: 8, 12, 15, 18, 19, 23, 31
 
-**Mean:** $\bar x = \dfrac{126}{7} = 18$
+**Mean:** $\bar x = \dfrac{\sum x}{n} = \dfrac{126}{7} = 18$
 
 **Deviations:**
 
@@ -25,7 +25,7 @@ Data: 8, 12, 15, 18, 19, 23, 31
 |---|---:|---:|---:|---:|---:|---:|---:|
 | $x - 18$ | −10 | −6 | −3 | 0 | 1 | 5 | 13 |
 
-$$A = \frac{-10 - 6 - 3 + 0 + 1 + 5 + 13}{7} = \frac{0}{7} = 0$$
+$$A = \frac{\sum (x - \bar x)}{n} = \frac{-10 - 6 - 3 + 0 + 1 + 5 + 13}{7} = \frac{0}{7} = 0$$
 
 The positives and negatives cancel: $-6$ with $1 + 5$, and $-10 - 3 = -13$ with $+13$.
 

@@ -121,12 +121,12 @@ Do two teachers' classes score differently? $\alpha = 0.05$.
 - $s_1^2/n_1 = 5.76/15 = 0.384$ and $s_2^2/n_2 = 2.89/12 = 0.24083$
 - Numerator: $(0.384 + 0.24083)^2 = (0.62483)^2 = 0.390417$
 - Denominator: $\dfrac{0.384^2}{14} + \dfrac{0.24083^2}{11} = 0.010533 + 0.005273 = 0.015805$
-- $\text{df} = 0.390417 / 0.015805 \approx 24.7$
+- $\text{df} = \dfrac{\text{numerator}}{\text{denominator}} = 0.390417 / 0.015805 \approx 24.7$
 
 The video rounds this to **25**, giving $t_{0.025,\,25} = 2.0595$. Many textbooks round df **down** to be conservative ($24 \to t = 2.064$). Both give the same decision here.
 
 **Test statistic:**
-$$t = \frac{82 - 84 - 0}{\sqrt{0.384 + 0.24083}} = \frac{-2}{0.79046} \approx -2.53$$
+$$t = \frac{(\bar x_1 - \bar x_2) - 0}{\sqrt{\dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2}}} = \frac{82 - 84 - 0}{\sqrt{0.384 + 0.24083}} = \frac{-2}{0.79046} \approx -2.53$$
 
 $-2.53 < -2.0595$, which is in the rejection region. **Reject ${\color{#0072B2}H_0}$.** At the 5% level there is a significant difference between the two teachers' class means.
 
@@ -150,7 +150,7 @@ Is there a difference in refining rate (liters per second)? $\alpha = 0.10$.
 
 **Both samples are large → z-test.** The confidence level is 90%, so the left area for the critical value is 0.95: $z = \pm 1.645$.
 
-$$z = \frac{3.1 - 3.8}{\sqrt{\dfrac{1^2}{40} + \dfrac{1.5^2}{36}}} = \frac{-0.7}{\sqrt{0.025 + 0.0625}} = \frac{-0.7}{0.2958} \approx -2.37$$
+$$z = \frac{(\bar x_1 - \bar x_2) - 0}{\sqrt{\dfrac{s_1^2}{n_1} + \dfrac{s_2^2}{n_2}}} = \frac{3.1 - 3.8}{\sqrt{\dfrac{1^2}{40} + \dfrac{1.5^2}{36}}} = \frac{-0.7}{\sqrt{0.025 + 0.0625}} = \frac{-0.7}{0.2958} \approx -2.37$$
 
 $-2.37 < -1.645$ → **reject ${\color{#0072B2}H_0}$**. At the 10% level there is a significant difference between the factories; the new one refines faster.
 

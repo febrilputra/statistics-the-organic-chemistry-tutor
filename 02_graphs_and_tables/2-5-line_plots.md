@@ -44,15 +44,17 @@ A survey asked everyone in a 55-and-older community how many cars they own. The 
 **(a) How many people own exactly one car?** Count the X's above 1 → **8**.
 
 **(b) How many own *at least* two cars ($x \ge 2$)?** Add everything from 2 upward:
-$$6 + 5 + 3 + 4 + 3 + 2 + 1 = 24$$
+$$\#(x \ge 2) = f_2 + f_3 + \dots + f_8 = 6 + 5 + 3 + 4 + 3 + 2 + 1 = 24$$
 
 **(c) How many own *at most* three cars ($x \le 3$)?** Add 0 through 3, including 3:
-$$7 + 8 + 6 + 5 = 26$$
+$$\#(x \le 3) = f_0 + f_1 + f_2 + f_3 = 7 + 8 + 6 + 5 = 26$$
 
-**(d) How many own four or five cars?** $3 + 4 = 7$
+**(d) How many own four or five cars?** $f_4 + f_5 = 3 + 4 = 7$
 
 **(e) How many people live in the community?** Assuming everyone answered, add all the X's:
-$$7 + 8 + 6 + 5 + 3 + 4 + 3 + 2 + 1 = 39$$
+$$n = \sum f = 7 + 8 + 6 + 5 + 3 + 4 + 3 + 2 + 1 = 39$$
+
+Here $f_k$ is the number of X's above $k$ cars.
 
 **(f) How many cars are there in total?** Multiply each number of cars by how many people own that many, then add:
 
