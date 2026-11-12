@@ -3,6 +3,37 @@
 > **Video:** [How to find Cohen's D to determine the Effect Size Using Pooled Standard Deviation](https://www.youtube.com/watch?v=GDe4M0xEghs) by The Organic Chemistry Tutor
 > **Chapter:** [11 - Hypothesis Testing - 2 Samples](https://www.video-tutor.net/hypothesis-testing-with-two-samples.html)
 
+## The big picture: is the difference big, not just real?
+
+Lesson 11.1 asked **whether** two means differ. This lesson asks **how much** they differ, and why that is a separate question.
+
+**1. A test answers "real or luck?", not "big or small?".** Rejecting ${\color{#0072B2}H_0}$ means the gap is too large to blame on chance. It doesn't say the gap is large enough to matter.
+
+**2. Significance depends on sample size.** Lesson 10.4 showed that the same gap gives a bigger test statistic with a bigger sample, because the standard error shrinks like $1/\sqrt n$. So:
+
+- With **huge** samples, even a tiny, unimportant difference becomes "significant".
+- With **small** samples, even a large, important difference can fail to reach significance.
+
+**3. Cohen's $d$ removes the sample size.** It divides by the **standard deviation** (how much individual people vary), not the **standard error** (how much sample means vary):
+
+| | Test statistic (Lesson 11.1) | Cohen's $d$ (this lesson) |
+|---|---|---|
+| Divides the gap by | standard **error**, $\approx s\sqrt{1/n_1 + 1/n_2}$ | standard **deviation**, $s_{\text{pooled}}$ |
+| Gets bigger with more data? | **Yes**, because the SE shrinks | **No**, because the SD stays about the same |
+| Answers | Is there a difference? | How big is the difference? |
+
+![Two studies. Study A: n = 2000 per group, d = 0.1, the curves almost fully overlap, yet z = 3.16 is significant. Study B: n = 8 per group, d = 0.9, the curves are clearly apart, yet t = 1.80 is not significant](figures/significant_vs_big.png)
+
+Study A has a tiny effect ($d = 0.1$), but with 2000 people per group it is still significant. Study B has a large effect ($d = 0.9$), but with only 8 people per group it misses significance. The test and Cohen's $d$ answer different questions.
+
+**4. Why "standard deviation units"?** Raw gaps depend on the units: 3 points on a test, 4 pounds of weight. Dividing by the SD makes $d$ **unitless**, so you can compare effects across different studies and measurements. $d = 0.5$ means the same thing everywhere: the averages are half a standard deviation apart.
+
+**5. Why pool the standard deviations?** $d$ needs **one** SD to divide by, but each group has its own $s$. Assuming both groups vary about the same amount, we combine them into a single best estimate, giving the bigger group more weight.
+
+> **Report both.** A full answer says whether the difference is real (test or p-value) **and** how big it is (Cohen's $d$). For example: "significant at the 5% level, with a large effect, $d = 0.85$."
+
+---
+
 ## What Cohen's d measures
 
 Cohen's $d$ expresses the difference between two means **in standard-deviation units**:
@@ -75,3 +106,4 @@ $$d = \frac{|168 - 172|}{7.154} = \frac{4}{7.154} \approx 0.56 \;\Rightarrow\; \
 - Benchmarks: 0.2 small, 0.5 medium, 0.8+ large.
 - Use the weighted pooled-SD formula unless the sample sizes are equal.
 - A hypothesis test asks *whether* there is a difference. Cohen's $d$ asks *how large* it is.
+- The test divides by the SE, which shrinks as $n$ grows. $d$ divides by the SD, which doesn't. So "significant" doesn't mean "big", and "not significant" doesn't mean "small".

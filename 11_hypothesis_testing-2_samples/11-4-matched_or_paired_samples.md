@@ -3,6 +3,41 @@
 > **Video:** [Matched or Paired Samples T-Test - Hypothesis Testing](https://www.youtube.com/watch?v=JiQR0lHLe74) by The Organic Chemistry Tutor
 > **Chapter:** [11 - Hypothesis Testing - 2 Samples](https://www.video-tutor.net/hypothesis-testing-with-two-samples.html)
 
+## The big picture: why pairing helps
+
+Lesson 11.1 compared two **separate** groups of people. Here the two columns of numbers come from the **same** people, weighed before and after a program. This is a different kind of data and needs a different test.
+
+**1. The two columns are linked.** A heavy person before the program is still heavy after it. Row 7 (256 → 228) and row 6 (168 → 171) are different people, but each row is the same person measured twice. The data come in **pairs**.
+
+**2. People differ much more than the program does.** Before the program, weights range from 168 to 256 lb, with an SD of about 28 lb. The program changes weight by only about 13 lb. If we treat before and after as two separate groups (Lesson 11.1), that 28 lb person-to-person spread goes into the standard error and hides the effect:
+
+$$SE = \sqrt{\frac{28.0^2}{10} + \frac{19.2^2}{10}} = 10.7, \qquad t = \frac{-13.1}{10.7} = -1.22 \;\Rightarrow\; \text{fail to reject } {\color{#0072B2}H_0}$$
+
+**3. Subtract each person from themself.** Taking $x_d = \text{after} - \text{before}$ cancels out who is heavy and who is light, leaving only each person's **change**. The differences vary much less (SD ≈ 13 lb):
+
+$$SE = \frac{13.0}{\sqrt{10}} = 4.12, \qquad t = \frac{-13.1}{4.12} = -3.18 \;\Rightarrow\; \text{reject } {\color{#0072B2}H_0}$$
+
+![Left: before and after weights plotted as two separate groups overlap heavily; the independent test gives t = −1.22, fail to reject H0. Right: the ten differences cluster below 0; the paired test gives t = −3.18, reject H0](figures/why_pairing_helps.png)
+
+Same 10 people and the same average change of −13.1 lb. Only the noise in the denominator is different. Treating the data as two separate groups lets person-to-person differences drown out the effect. Pairing removes them.
+
+**4. A paired test is just a one-sample test on the differences.** Once you have the column of differences, the original pairs are no longer needed. Run the Lesson 10.4 t-test on $x_d$:
+
+- ${\color{#0072B2}H_0}$: $\mu_d = 0$ (no change on average), or $\mu_d \ge 0$ for a one-sided claim.
+- $n$ = the number of **pairs**, so df $= n - 1$.
+
+**5. How to spot paired data.** Ask: *does each value in group 1 have a specific partner in group 2?*
+
+| Paired (this lesson) | Independent (Lesson 11.1) |
+|---|---|
+| Same people before and after | Two different groups of people |
+| Same subject under two conditions (left hand vs right hand) | Treatment group vs a separate control group |
+| Twins, or deliberately matched pairs | Two classes, two factories, two batches |
+
+> **Using the wrong test matters.** Running an independent test on paired data ignores the pairing and usually misses real effects, as in step 2. Running a paired test on independent data is meaningless, because there are no real partners to subtract.
+
+---
+
 ## When samples are paired
 
 A **matched (paired) sample** measures the **same subjects twice**, for example before and after a treatment. Instead of comparing two separate groups, analyze the **difference** for each subject:
@@ -71,6 +106,7 @@ Top left: most subjects lost weight. Top right: the ten differences, with the 90
 ## Key takeaways
 
 - Paired data → work with the **differences** $x_d$ and run a one-sample t-test on them.
+- Pairing removes person-to-person variation, so the SE is smaller and real effects are easier to detect (here $t = -3.18$ paired vs $-1.22$ if wrongly treated as independent).
 - df $= n - 1$, where $n$ is the number of **pairs**.
 - Choose the direction of ${\color{#D55E00}H_a}$ to match the claim (e.g. "reduces" → $\mu_d < 0$ when $x_d$ = after − before).
 - Match the CI's $t$ to its confidence level: two-sided 95% uses $\alpha/2 = 0.025$.
