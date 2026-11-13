@@ -58,6 +58,10 @@ $$\chi^2 = \frac{(n - 1)\,s^2}{\sigma_0^2}, \qquad \text{df} = n - 1$$
 - $s^2$ = sample variance
 - $\sigma_0^2$ = the variance claimed in ${\color{#0072B2}H_0}$
 
+![Left: the chi-square curve for df = 19 drawn over two aligned scales, χ² on top and the ratio s²/σ0² below; ratio 1 lines up with χ² = 19, our ratio 0.64 with χ² = 12.23, and the critical ratio 0.53 with χ² = 10.117, which cuts off the lowest 5%. Right: 20 bars, one squared z-score ((x − x̄)/σ0)² per score, which add up to 12.23; the deviations sum to 0, so only 19 are free and df = n − 1. A box shows χ² = (n − 1)s²/σ0² = 19 × 6.9²/8.6² = 12.23, which is above 10.117, so we fail to reject H0](figures/variance_test_formula.png)
+
+Two ways to read the formula. Left: $\chi^2 = \text{df} \times \dfrac{s^2}{\sigma_0^2}$, the spread ratio stretched by df. A ratio of 1 (what ${\color{#0072B2}H_0}$ expects) becomes χ² = df = 19. Our ratio of 0.64 becomes 12.23, which is not below the critical value 10.117 (ratio 0.53). Right: multiplying by $n - 1$ turns $s^2$ back into a sum of squared deviations, so χ² is a sum of squared z-scores. That's why it follows the χ² distribution, with df $= n - 1$.
+
 | ${\color{#D55E00}H_a}$ | Test | Rejection region |
 |---|---|---|
 | $\sigma^2 < \sigma_0^2$ | Left-tailed | $\chi^2 <$ critical value, with area $\alpha$ on the left (look up right-tail area $1 - \alpha$) |

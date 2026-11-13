@@ -39,6 +39,40 @@ The five gaps cancel out, so they are squared and scaled by $E$ before being add
 - It starts at 0 and is skewed right, because squares are never negative.
 - Its shape depends on the **degrees of freedom**. On average, χ² is about **df** when ${\color{#0072B2}H_0}$ is true. Here df = 4 and we got 6.3, a bit more than average but not unusual.
 
+**The chi-square distribution formula.** If $Z_1, \dots, Z_k$ are independent standard normal variables, then
+
+$$\chi^2 = Z_1^2 + Z_2^2 + \dots + Z_k^2$$
+
+follows a chi-square distribution with $k$ degrees of freedom. Its curve (probability density function) is
+
+$$f(x) = \frac{x^{\,k/2 - 1}\, e^{-x/2}}{2^{k/2}\,\Gamma\!\left(\frac{k}{2}\right)}, \qquad x > 0$$
+
+| Quantity | Formula |
+|---|---|
+| Mean | $\mu = k$ |
+| Variance | $\sigma^2 = 2k$ |
+| Standard deviation | $\sigma = \sqrt{2k}$ |
+
+- $k$ is the degrees of freedom (df).
+- $\Gamma$ is the gamma function, which extends the factorial: $\Gamma(n) = (n - 1)!$ for whole numbers, and $\Gamma\!\left(\frac12\right) = \sqrt\pi$.
+- $x > 0$ only, because a sum of squares can't be negative. That is why the curve starts at 0.
+- The mean $\mu = k$ is why χ² "averages about df" when ${\color{#0072B2}H_0}$ is true.
+
+**Example: df = 4.** Here $\Gamma(2) = 1! = 1$ and $2^{4/2} = 4$, so the curve is
+
+$$f(x) = \frac{x^{\,4/2 - 1}\, e^{-x/2}}{2^{4/2}\,\Gamma(2)} = \frac{x\, e^{-x/2}}{4}$$
+
+For df = 4 the right-tail area also has a short closed form, $P(\chi^2 > x) = e^{-x/2}\left(1 + \frac{x}{2}\right)$. This checks the table and gives the p-value:
+
+- At the critical value: $P(\chi^2 > 9.49) = e^{-4.745}(1 + 4.745) \approx 0.0087 \times 5.745 \approx 0.050$ ✓. That is exactly the 5% the table promises.
+- At our value: $P(\chi^2 > 6.3) = e^{-3.15}(1 + 3.15) \approx 0.0429 \times 4.15 \approx 0.178$. The p-value is about 0.18, which is greater than 0.05, so we fail to reject ${\color{#0072B2}H_0}$.
+
+![Left: chi-square curves for df = 1, 2, 4 and 10, each with a dot at its mean μ = k; with more df the curve moves right and spreads out. Right: the df = 4 curve f(x) = x e^(−x/2)/4, peaking at x = 2 with mean 4; the area beyond our χ² = 6.3 is about 0.178 (the p-value) and the area beyond the critical value 9.49 is 0.05. A box gives the density formula, mean k, variance 2k and the df = 4 tail formula](figures/chi_square_distribution_formula.png)
+
+Left: each df has its own curve. The mean sits at $k$, so the curve slides right and spreads out as df grows. Right: the df = 4 curve from the absences example. The p-value (light red, about 0.178) is the area beyond our 6.3. The darker tail beyond 9.49 is the 5% rejection region.
+
+You won't usually compute $f(x)$ by hand. The χ² table (or software) already lists the areas. The formula explains the curve's shape: it starts at 0, rises, then has a long right tail.
+
 **6. Why df $= k - 1$.** The counts must add up to the total. Once you know 4 of the 5 days, the 5th is forced: $100 - 23 - 16 - 14 - 19 = 28$. Only $k - 1$ counts are free to vary.
 
 The 5 steps are the same as in Chapters 10 and 11:
