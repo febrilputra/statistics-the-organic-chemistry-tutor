@@ -5,9 +5,13 @@
 
 ## The big picture: testing counts, not averages
 
-Chapters 10 and 11 tested **one number**: a mean, a proportion, or a difference. Many questions are about **how counts are spread across several categories**: absences on each weekday, M&M colors in a bag, votes for 4 candidates. There is no single average to test. We need a way to compare a **whole table of counts** with what $H_0$ predicts.
+Chapters 10 and 11 tested **one number**: a mean, a proportion, or a difference. Many questions are about **how counts are spread across several categories**: absences on each weekday, M&M colors in a bag, votes for 4 candidates. There is no single average to test. We need a way to compare a **whole table of counts** with what ${\color{#0072B2}H_0}$ predicts.
 
-**1. $H_0$ gives the expected counts.** $H_0$ says what share each category should get. Multiply by the sample size:
+![Left: chapters 10 and 11 compare one number, a sample mean of 98 g, with the H0 claim of 100 g; one gap gives one test statistic. Right: chapter 12 compares five observed counts of teacher absences (23, 16, 14, 19, 28) with the 20 per day that H0 expects; five gaps and no single average to test, so we need one number for the total mismatch, χ²](figures/one_number_vs_table_of_counts.png)
+
+Left: one sample number and one claim give one gap, which becomes z or t. Right: a table of counts has a gap in every category. Chapter 12 combines all those gaps into one number, χ².
+
+**1. ${\color{#0072B2}H_0}$ gives the expected counts.** ${\color{#0072B2}H_0}$ says what share each category should get. Multiply by the sample size:
 
 $$E = n \times p$$
 
@@ -28,22 +32,22 @@ $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
 
 The five gaps cancel out, so they are squared and scaled by $E$ before being added. The total, 6.3, is then compared with the χ² curve to see whether it is unusually large.
 
-**4. Why the test is always right-tailed.** χ² can't be negative, and $\chi^2 = 0$ means a perfect fit. Only a **large** χ² is evidence against $H_0$, so the rejection region is always the right tail. A χ² near 0 just means the data fit very well.
+**4. Why the test is always right-tailed.** χ² can't be negative, and $\chi^2 = 0$ means a perfect fit. Only a **large** χ² is evidence against ${\color{#0072B2}H_0}$, so the rejection region is always the right tail. A χ² near 0 just means the data fit very well.
 
 **5. Where the χ² curve comes from.** Each piece $\frac{O - E}{\sqrt E}$ behaves roughly like a z-score, so χ² is roughly a **sum of squared z-scores**. That sum has its own distribution, the **chi-square distribution**:
 
 - It starts at 0 and is skewed right, because squares are never negative.
-- Its shape depends on the **degrees of freedom**. On average, χ² is about **df** when $H_0$ is true. Here df = 4 and we got 6.3, a bit more than average but not unusual.
+- Its shape depends on the **degrees of freedom**. On average, χ² is about **df** when ${\color{#0072B2}H_0}$ is true. Here df = 4 and we got 6.3, a bit more than average but not unusual.
 
 **6. Why df $= k - 1$.** The counts must add up to the total. Once you know 4 of the 5 days, the 5th is forced: $100 - 23 - 16 - 14 - 19 = 28$. Only $k - 1$ counts are free to vary.
 
 The 5 steps are the same as in Chapters 10 and 11:
 
-1. Write $H_0$ (the expected distribution) and $H_a$ (it doesn't fit).
+1. Write ${\color{#0072B2}H_0}$ (the expected distribution) and ${\color{#D55E00}H_a}$ (it doesn't fit).
 2. Choose $\alpha$.
 3. Find the critical value from the χ² table, with df $= k - 1$ and right-tail area $\alpha$.
 4. **Compute** $\chi^2 = \sum (O - E)^2/E$. ← this lesson
-5. $\chi^2$ greater than the critical value → reject $H_0$. Otherwise → fail to reject $H_0$.
+5. $\chi^2$ greater than the critical value → reject ${\color{#0072B2}H_0}$. Otherwise → fail to reject ${\color{#0072B2}H_0}$.
 
 ---
 
@@ -59,7 +63,7 @@ $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
 
 **The chi-square distribution** is **not symmetric**; it is skewed to the right. The critical value $\chi^2_\alpha$ cuts off area $\alpha$ in the right tail:
 
-- calculated $\chi^2$ > critical value → **rejection region** → reject $H_0$
+- calculated $\chi^2$ > critical value → **rejection region** → reject ${\color{#0072B2}H_0}$
 - calculated $\chi^2$ ≤ critical value → **do-not-reject region**
 
 ---
@@ -77,8 +81,8 @@ A principal expects absences to be spread **equally** over the 5-day school week
 
 **Hypotheses:**
 
-- $H_0$: absences happen with **equal frequencies** (a uniform distribution)
-- $H_a$: absences do **not** happen with equal frequencies
+- ${\color{#0072B2}H_0}$: absences happen with **equal frequencies** (a uniform distribution)
+- ${\color{#D55E00}H_a}$: absences do **not** happen with equal frequencies
 
 **Critical value:** df $= k - 1 = 5 - 1 = 4$. In the χ² table with right-tail area 0.05: $\chi^2_{0.05,\,4} = 9.49$.
 
@@ -97,7 +101,7 @@ $$\chi^2 = \sum \frac{(O - E)^2}{E} = \frac{9 + 16 + 36 + 1 + 64}{20} = \frac{12
 
 (Every $E$ is 20 here, so you can add the squares first and divide once.)
 
-$6.3 < 9.49$, which is in the do-not-reject region. **Fail to reject $H_0$.** The variation between days is not large enough to say that absences are unevenly spread across the week.
+$6.3 < 9.49$, which is in the do-not-reject region. **Fail to reject ${\color{#0072B2}H_0}$.** The variation between days is not large enough to say that absences are unevenly spread across the week.
 
 ![Bar chart of observed absences by weekday against 20 expected, and the chi-square curve with df 4](figures/goodness_of_fit.png)
 
@@ -110,4 +114,4 @@ Left: Friday and Wednesday are furthest from the expected 20, so they contribute
 - The gaps $O - E$ always add up to 0, so they are squared and divided by $E$ before being added.
 - $\chi^2 = \sum (O - E)^2/E$ measures how far the observed counts are from the expected ones.
 - Goodness of fit: df = number of categories − 1. It is always right-tailed.
-- Large $\chi^2$ (beyond the critical value) → reject $H_0$ (the data don't fit the expected distribution).
+- Large $\chi^2$ (beyond the critical value) → reject ${\color{#0072B2}H_0}$ (the data don't fit the expected distribution).

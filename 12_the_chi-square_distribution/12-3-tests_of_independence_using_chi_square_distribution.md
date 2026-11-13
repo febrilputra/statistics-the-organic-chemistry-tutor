@@ -5,7 +5,7 @@
 
 ## The big picture: are two categories related?
 
-Lesson 12.1 compared **one** categorical variable with a distribution that $H_0$ stated in advance. Here there are **two** categorical variables measured on the same people, for example student type (freshman or senior) and daily study time (0-2, 2-4 or 4-6 hours). The question: **does knowing one tell you anything about the other?**
+Lesson 12.1 compared **one** categorical variable with a distribution that ${\color{#0072B2}H_0}$ stated in advance. Here there are **two** categorical variables measured on the same people, for example student type (freshman or senior) and daily study time (0-2, 2-4 or 4-6 hours). The question: **does knowing one tell you anything about the other?**
 
 **1. Count the combinations in a table.** Each student falls into one row and one column. The result is a **contingency table** of counts, with row totals, column totals and a grand total.
 
@@ -21,7 +21,7 @@ To turn a probability into a count, multiply by $N$:
 
 $$E = N \times \frac{\text{row total}}{N} \times \frac{\text{column total}}{N} = \frac{\text{row total} \times \text{column total}}{N}$$
 
-So $H_0$ (independence) gives us every expected count, built from the table's own totals.
+So ${\color{#0072B2}H_0}$ (independence) gives us every expected count, built from the table's own totals.
 
 **4. Then it's the same χ² as Lesson 12.1.** Compare each observed count with its expected count, and add up $\frac{(O - E)^2}{E}$ over **every cell** of the table. A large χ² means the real table is far from the "independent" table.
 
@@ -31,14 +31,14 @@ Left: in the real data the freshman and senior rows look different. Middle: unde
 
 **5. Why df $= (r - 1)(c - 1)$.** The row and column totals are fixed. In each row, the last cell is forced by the row total, which leaves $c - 1$ free cells per row. The last row is forced by the column totals, which leaves $r - 1$ free rows. Here that is $(2 - 1)(3 - 1) = 2$ free cells.
 
-**6. Related, not "causes".** Rejecting $H_0$ says the variables are **associated**. It doesn't say why. Seniors might study less for many reasons, and the test can't tell which.
+**6. Related, not "causes".** Rejecting ${\color{#0072B2}H_0}$ says the variables are **associated**. It doesn't say why. Seniors might study less for many reasons, and the test can't tell which.
 
 **How this compares with Lesson 12.1:**
 
 | | Goodness of fit (12.1) | Independence (this lesson) |
 |---|---|---|
 | Variables | one | two |
-| Expected counts come from | the proportions that $H_0$ states | the table's own row and column totals |
+| Expected counts come from | the proportions that ${\color{#0072B2}H_0}$ states | the table's own row and column totals |
 | df | $k - 1$ | $(r - 1)(c - 1)$ |
 | Test statistic | $\sum (O - E)^2/E$ | $\sum (O - E)^2/E$ over all cells |
 
@@ -50,13 +50,13 @@ A **test of independence** checks whether two categorical variables in a **conti
 
 | | Formula |
 |---|---|
-| $H_0$ | the variables are **independent** |
-| $H_a$ | the variables are **dependent** (related) |
+| ${\color{#0072B2}H_0}$ | the variables are **independent** |
+| ${\color{#D55E00}H_a}$ | the variables are **dependent** (related) |
 | Expected count for each cell | $E = \dfrac{\text{row total} \times \text{column total}}{\text{grand total}}$ |
 | Test statistic | $\chi^2 = \sum \dfrac{(O - E)^2}{E}$ over **all** cells |
 | Degrees of freedom | $(r - 1)(c - 1)$, where $r$ = rows and $c$ = columns |
 
-It is a **right-tailed** test: reject $H_0$ if $\chi^2$ exceeds the critical value.
+It is a **right-tailed** test: reject ${\color{#0072B2}H_0}$ if $\chi^2$ exceeds the critical value.
 
 ---
 
@@ -74,8 +74,8 @@ Is the number of hours spent studying each day related to whether a student is a
 
 ### Step 2 - hypotheses and critical value
 
-- $H_0$: study hours are **independent** of student type
-- $H_a$: study hours **depend** on student type
+- ${\color{#0072B2}H_0}$: study hours are **independent** of student type
+- ${\color{#D55E00}H_a}$: study hours **depend** on student type
 - df $= (r - 1)(c - 1) = (2 - 1)(3 - 1) = 2$, right-tail area 0.05: $\chi^2_{\text{crit}} = 5.99$
 
 ### Step 3 - expected counts
@@ -109,7 +109,7 @@ $$\chi^2 = \sum_{\text{all cells}} \frac{(O - E)^2}{E}, \qquad \text{for example
 
 ### Step 5 - decision
 
-$32.3 > 5.99$, which is in the rejection region. **Reject $H_0$.** There is strong evidence that study time **depends** on student type. In the data, seniors are much more likely than freshmen to study only 0-2 hours a day.
+$32.3 > 5.99$, which is in the rejection region. **Reject ${\color{#0072B2}H_0}$.** There is strong evidence that study time **depends** on student type. In the data, seniors are much more likely than freshmen to study only 0-2 hours a day.
 
 ![Observed and expected counts for freshmen and seniors by study time, and the chi-square curve with df 2](figures/test_of_independence.png)
 

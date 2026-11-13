@@ -75,5 +75,5 @@
 <text x="500.0" y="388.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">E = (row total × column total) / grand total</text>
 <text x="500.0" y="412.0" font-size="12.5" fill="#555555" text-anchor="middle">Freshmen, 0–2 h:  E = 310 × 223 / 630 = 109.7   (the same as 35.4% of 310)</text>
 <text x="500.0" y="436.0" font-size="12.5" fill="#555555" text-anchor="middle">Then χ² = Σ (O − E)² / E over all 6 cells measures how far the real table is from the “independent” table.</text>
-<text x="500.0" y="462.0" font-size="13" fill="#C0392B" text-anchor="middle" font-weight="bold">χ² ≈ 32.3, far beyond 5.99 (df 2) → reject H0: study time depends on student type</text>
+<text x="500.0" y="462.0" font-size="13" fill="#C0392B" text-anchor="middle" font-weight="bold">χ² ≈ 32.3, far beyond 5.99 (df 2) → reject <tspan fill="#0072B2">H0</tspan>: study time depends on student type</text>
 </svg>

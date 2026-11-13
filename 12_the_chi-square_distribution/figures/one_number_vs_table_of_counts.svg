@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="438" viewBox="0 0 1000 438" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222222"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="500.0" y="32.0" font-size="20" fill="#222222" text-anchor="middle" font-weight="bold">From testing one number to testing a whole table of counts</text>
+<text x="500.0" y="54.0" font-size="13" fill="#555555" text-anchor="middle">Chapters 10–11 compared one sample number with <tspan fill="#0072B2">H0</tspan>. Chapter 12 compares many counts at once.</text>
+<text x="250.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Chapters 10–11: one number</text>
+<text x="250.0" y="117.0" font-size="12" fill="#555555" text-anchor="middle">e.g. average weight of chip bags</text>
+<line x1="70.0" y1="260.0" x2="430.0" y2="260.0" stroke="#555555" stroke-width="1.4"/>
+<line x1="70.0" y1="260.0" x2="70.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="70.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">94</text>
+<line x1="130.0" y1="260.0" x2="130.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="130.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">96</text>
+<line x1="190.0" y1="260.0" x2="190.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="190.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">98</text>
+<line x1="250.0" y1="260.0" x2="250.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="250.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">100</text>
+<line x1="310.0" y1="260.0" x2="310.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="310.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">102</text>
+<line x1="370.0" y1="260.0" x2="370.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="370.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">104</text>
+<line x1="430.0" y1="260.0" x2="430.0" y2="265.0" stroke="#555555" stroke-width="1"/>
+<text x="430.0" y="279.0" font-size="11" fill="#555555" text-anchor="middle">106</text>
+<text x="250.0" y="297.0" font-size="11.5" fill="#555555" text-anchor="middle">grams</text>
+<line x1="250.0" y1="165.0" x2="250.0" y2="260.0" stroke="#0072B2" stroke-width="2.2" stroke-dasharray="5 4"/>
+<text x="250.0" y="157.0" font-size="12.5" fill="#0072B2" text-anchor="middle" font-weight="bold"><tspan fill="#0072B2">H0</tspan> claim: μ = 100</text>
+<circle cx="190.0" cy="260.0" r="7" fill="#1F4E79" stroke="#ffffff" stroke-width="1.5"/>
+<text x="190.0" y="244.0" font-size="12.5" fill="#1F4E79" text-anchor="middle" font-weight="bold">sample: x̄ = 98</text>
+<line x1="190.0" y1="205.0" x2="250.0" y2="205.0" stroke="#222222" stroke-width="1.3" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="220.0" y="198.0" font-size="11.5" fill="#222222" text-anchor="middle">one gap</text>
+<rect x="60.0" y="320.0" width="380.0" height="66.0" rx="8" fill="#F7F9FB" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="250.0" y="345.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">one gap → one test statistic</text>
+<text x="250.0" y="368.0" font-size="12.5" fill="#555555" text-anchor="middle">z = (98 − 100) / SE, then compare with ±1.96</text>
+<text x="750.0" y="98.0" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">Chapter 12: a whole table of counts</text>
+<text x="750.0" y="117.0" font-size="12" fill="#555555" text-anchor="middle">e.g. which weekday has the most teacher absences</text>
+<line x1="560.0" y1="290.0" x2="945.0" y2="290.0" stroke="#555555" stroke-width="1.4"/>
+<rect x="580.0" y="198.0" width="44" height="92.0" fill="#1F4E79"/>
+<rect x="577.0" y="210.0" width="44" height="80.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="602.0" y="217.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">23</text>
+<text x="602.0" y="307.0" font-size="11.5" fill="#555555" text-anchor="middle">Mon</text>
+<rect x="654.0" y="226.0" width="44" height="64.0" fill="#1F4E79"/>
+<rect x="651.0" y="210.0" width="44" height="80.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="676.0" y="245.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">16</text>
+<text x="676.0" y="307.0" font-size="11.5" fill="#555555" text-anchor="middle">Tue</text>
+<rect x="728.0" y="234.0" width="44" height="56.0" fill="#1F4E79"/>
+<rect x="725.0" y="210.0" width="44" height="80.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="750.0" y="253.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">14</text>
+<text x="750.0" y="307.0" font-size="11.5" fill="#555555" text-anchor="middle">Wed</text>
+<rect x="802.0" y="214.0" width="44" height="76.0" fill="#1F4E79"/>
+<rect x="799.0" y="210.0" width="44" height="80.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="824.0" y="233.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">19</text>
+<text x="824.0" y="307.0" font-size="11.5" fill="#555555" text-anchor="middle">Thu</text>
+<rect x="876.0" y="178.0" width="44" height="112.0" fill="#1F4E79"/>
+<rect x="873.0" y="210.0" width="44" height="80.0" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="898.0" y="197.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">28</text>
+<text x="898.0" y="307.0" font-size="11.5" fill="#555555" text-anchor="middle">Fri</text>
+<rect x="600" y="137" width="16" height="12" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="4 2"/>
+<text x="622.0" y="147.0" font-size="11.5" fill="#0072B2" text-anchor="start" font-weight="bold"><tspan fill="#0072B2">H0</tspan> expects 20 each</text>
+<rect x="790" y="137" width="16" height="12" fill="#1F4E79"/>
+<text x="812.0" y="147.0" font-size="11.5" fill="#1F4E79" text-anchor="start" font-weight="bold">observed</text>
+<rect x="560.0" y="320.0" width="385.0" height="66.0" rx="8" fill="#F7F9FB" stroke="#C0392B" stroke-width="1.5"/>
+<text x="752.0" y="345.0" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">five gaps, no single average to test</text>
+<text x="752.0" y="368.0" font-size="12.5" fill="#555555" text-anchor="middle">need one number for the total mismatch → χ²</text>
+<line x1="500.0" y1="85.0" x2="500.0" y2="390.0" stroke="#E1E4E8" stroke-width="1"/>
+<text x="500.0" y="418.0" font-size="12.5" fill="#555555" text-anchor="middle">Other count questions like this: M&amp;M colors in a bag, votes for 4 candidates, blood types in a sample.</text>
+</svg>
